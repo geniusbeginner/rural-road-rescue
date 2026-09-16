@@ -1,0 +1,302 @@
+[
+  {
+    "rank": 1,
+    "way_id": 1349602615,
+    "max_score": 0.35171566887569633,
+    "highway": "primary",
+    "length_m": 39.172442925759356,
+    "n_edges": 2,
+    "sample_lat": 11.740588,
+    "sample_lon": 76.0732089
+  },
+  {
+    "rank": 2,
+    "way_id": 387007016,
+    "max_score": 0.35169748449384375,
+    "highway": "primary",
+    "length_m": 75.49924932836926,
+    "n_edges": 1,
+    "sample_lat": 11.740928,
+    "sample_lon": 76.0731151
+  },
+  {
+    "rank": 3,
+    "way_id": 1349602626,
+    "max_score": 0.351696414824323,
+    "highway": "primary",
+    "length_m": 1847.108994394459,
+    "n_edges": 47,
+    "sample_lat": 11.7486243,
+    "sample_lon": 76.0681944
+  },
+  {
+    "rank": 4,
+    "way_id": 387007017,
+    "max_score": 0.32627578349240616,
+    "highway": "primary",
+    "length_m": 6271.66559867802,
+    "n_edges": 200,
+    "sample_lat": 11.6333245,
+    "sample_lon": 76.0894364
+  },
+  {
+    "rank": 5,
+    "way_id": 1349602622,
+    "max_score": 0.3188277880692951,
+    "highway": "primary",
+    "length_m": 2581.3953944493255,
+    "n_edges": 54,
+    "sample_lat": 11.681863,
+    "sample_lon": 76.075313
+  },
+  {
+    "rank": 6,
+    "way_id": 1349602621,
+    "max_score": 0.31430888814336166,
+    "highway": "primary",
+    "length_m": 5397.499698670662,
+    "n_edges": 162,
+    "sample_lat": 11.69592,
+    "sample_lon": 76.0806537
+  },
+  {
+    "rank": 7,
+    "way_id": 1349602618,
+    "max_score": 0.30685419918218904,
+    "highway": "primary",
+    "length_m": 176.02773498955327,
+    "n_edges": 4,
+    "sample_lat": 11.7396335,
+    "sample_lon": 76.0728372
+  },
+  {
+    "rank": 8,
+    "way_id": 1349602620,
+    "max_score": 0.30677998680740926,
+    "highway": "primary",
+    "length_m": 140.87981464414037,
+    "n_edges": 4,
+    "sample_lat": 11.7378244,
+    "sample_lon": 76.072914
+  },
+  {
+    "rank": 9,
+    "way_id": 1349602619,
+    "max_score": 0.30677650227790987,
+    "highway": "primary",
+    "length_m": 18.490175915887917,
+    "n_edges": 3,
+    "sample_lat": 11.7390608,
+    "sample_lon": 76.0731078
+  },
+  {
+    "rank": 10,
+    "way_id": 34377084,
+    "max_score": 0.28435632636589503,
+    "highway": "primary",
+    "length_m": 3603.8559287062817,
+    "n_edges": 122,
+    "sample_lat": 11.7546919,
+    "sample_lon": 76.0625951
+  },
+  {
+    "rank": 11,
+    "way_id": 1349602625,
+    "max_score": 0.28347603697166834,
+    "highway": "primary",
+    "length_m": 1259.8872544468525,
+    "n_edges": 57,
+    "sample_lat": 11.7546075,
+    "sample_lon": 76.0269892
+  },
+  {
+    "rank": 12,
+    "way_id": 1349602624,
+    "max_score": 0.28058614648313734,
+    "highway": "primary",
+    "length_m": 2714.307233635746,
+    "n_edges": 61,
+    "sample_lat": 11.7557687,
+    "sample_lon": 76.0072776
+  },
+  {
+    "rank": 13,
+    "way_id": 810265157,
+    "max_score": 0.2744629205543481,
+    "highway": "trunk",
+    "length_m": 1449.4060513887475,
+    "n_edges": 86,
+    "sample_lat": 11.6336417,
+    "sample_lon": 76.0898564
+  },
+  {
+    "rank": 14,
+    "way_id": 1347518181,
+    "max_score": 0.2723783291437944,
+    "highway": "trunk",
+    "length_m": 1454.368280566123,
+    "n_edges": 73,
+    "sample_lat": 11.6369532,
+    "sample_lon": 76.1004268
+  },
+  {
+    "rank": 15,
+    "way_id": 1347518182,
+    "max_score": 0.26620636842335577,
+    "highway": "trunk",
+    "length_m": 63.072480576233936,
+    "n_edges": 6,
+    "sample_lat": 11.6414952,
+    "sample_lon": 76.1102986
+  },
+  {
+    "rank": 16,
+    "way_id": 1347518178,
+    "max_score": 0.26519919353400984,
+    "highway": "trunk",
+    "length_m": 236.47407861310634,
+    "n_edges": 18,
+    "sample_lat": 11.6308308,
+    "sample_lon": 76.089592
+  },
+  {
+    "rank": 17,
+    "way_id": 822074645,
+    "max_score": 0.25190360656906746,
+    "highway": "trunk",
+    "length_m": 1046.946422853186,
+    "n_edges": 54,
+    "sample_lat": 11.6424179,
+    "sample_lon": 76.1110282
+  },
+  {
+    "rank": 18,
+    "way_id": 810265155,
+    "max_score": 0.2512639604027792,
+    "highway": "trunk",
+    "length_m": 42.08349531502109,
+    "n_edges": 3,
+    "sample_lat": 11.6418647,
+    "sample_lon": 76.1106245
+  },
+  {
+    "rank": 19,
+    "way_id": 1347522907,
+    "max_score": 0.251247623631917,
+    "highway": "trunk",
+    "length_m": 30.23204568019807,
+    "n_edges": 3,
+    "sample_lat": 11.6423697,
+    "sample_lon": 76.110993
+  },
+  {
+    "rank": 20,
+    "way_id": 822074644,
+    "max_score": 0.25044658702490874,
+    "highway": "trunk",
+    "length_m": 23.27195546831418,
+    "n_edges": 1,
+    "sample_lat": 11.6475248,
+    "sample_lon": 76.1188173
+  },
+  {
+    "rank": 21,
+    "way_id": 1353732880,
+    "max_score": 0.25044438285741144,
+    "highway": "trunk",
+    "length_m": 298.5014893393283,
+    "n_edges": 13,
+    "sample_lat": 11.6475248,
+    "sample_lon": 76.1188173
+  },
+  {
+    "rank": 22,
+    "way_id": 837528872,
+    "max_score": 0.23910766872010802,
+    "highway": "trunk",
+    "length_m": 709.7565436742284,
+    "n_edges": 17,
+    "sample_lat": 11.6480814,
+    "sample_lon": 76.1221762
+  },
+  {
+    "rank": 23,
+    "way_id": 837528873,
+    "max_score": 0.23886328164884696,
+    "highway": "trunk",
+    "length_m": 33.771082830913564,
+    "n_edges": 1,
+    "sample_lat": 11.6489323,
+    "sample_lon": 76.1279146
+  },
+  {
+    "rank": 24,
+    "way_id": 837528874,
+    "max_score": 0.23886075333907067,
+    "highway": "trunk",
+    "length_m": 44.229922614583025,
+    "n_edges": 2,
+    "sample_lat": 11.6489569,
+    "sample_lon": 76.1285196
+  },
+  {
+    "rank": 25,
+    "way_id": 837528875,
+    "max_score": 0.23876720587734782,
+    "highway": "trunk",
+    "length_m": 12.357794298601515,
+    "n_edges": 1,
+    "sample_lat": 11.64896,
+    "sample_lon": 76.1287434
+  },
+  {
+    "rank": 26,
+    "way_id": 837528876,
+    "max_score": 0.2387318095404797,
+    "highway": "trunk",
+    "length_m": 216.65896044268052,
+    "n_edges": 4,
+    "sample_lat": 11.648978,
+    "sample_lon": 76.1289794
+  },
+  {
+    "rank": 27,
+    "way_id": 837528877,
+    "max_score": 0.23870788784028862,
+    "highway": "trunk",
+    "length_m": 32.369505903542446,
+    "n_edges": 1,
+    "sample_lat": 11.6490671,
+    "sample_lon": 76.1307296
+  },
+  {
+    "rank": 28,
+    "way_id": 837528878,
+    "max_score": 0.23870535953051233,
+    "highway": "trunk",
+    "length_m": 429.21455566489277,
+    "n_edges": 15,
+    "sample_lat": 11.6491233,
+    "sample_lon": 76.1320814
+  },
+  {
+    "rank": 29,
+    "way_id": 837528879,
+    "max_score": 0.23706920275585766,
+    "highway": "trunk",
+    "length_m": 52.06743589862337,
+    "n_edges": 1,
+    "sample_lat": 11.6492899,
+    "sample_lon": 76.1349593
+  },
+  {
+    "rank": 30,
+    "way_id": 810265152,
+    "max_score": 0.23706677168876508,
+    "highway": "trunk",
+    "length_m": 494.535411092653,
+    "n_edges": 25,
+    "sample_lat": 11.6493342,
+    "sample_lon": 76.1360763
+  }
+]

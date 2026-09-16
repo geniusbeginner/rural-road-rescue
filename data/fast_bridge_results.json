@@ -1,0 +1,4664 @@
+[
+  {
+    "edge": [
+      290209227,
+      290209232
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 85
+  },
+  {
+    "edge": [
+      411458544,
+      12498671848
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 306
+  },
+  {
+    "edge": [
+      660597553,
+      660597554
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Boy's Town"
+    ],
+    "isolated_side_size": 453
+  },
+  {
+    "edge": [
+      2487151764,
+      5839779948
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 474
+  },
+  {
+    "edge": [
+      2625625792,
+      8269402312
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 128
+  },
+  {
+    "edge": [
+      3129716941,
+      12070867707
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chundale"
+    ],
+    "isolated_side_size": 1
+  },
+  {
+    "edge": [
+      3249489501,
+      5870049103
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4536
+  },
+  {
+    "edge": [
+      3842231567,
+      3842231572
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 22
+  },
+  {
+    "edge": [
+      5234365965,
+      5234365966
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 89
+  },
+  {
+    "edge": [
+      5575532300,
+      5870322302
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 10
+  },
+  {
+    "edge": [
+      5870059731,
+      5870061550
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kottoor"
+    ],
+    "isolated_side_size": 6
+  },
+  {
+    "edge": [
+      5870338598,
+      5870338599
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 46
+  },
+  {
+    "edge": [
+      5871743515,
+      7705108523
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Melmury"
+    ],
+    "isolated_side_size": 37
+  },
+  {
+    "edge": [
+      5871889608,
+      5871890587
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Edamana st colony 2"
+    ],
+    "isolated_side_size": 15
+  },
+  {
+    "edge": [
+      5882978584,
+      5882978585
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Sultan Bathery"
+    ],
+    "isolated_side_size": 1
+  },
+  {
+    "edge": [
+      7057388399,
+      7057388400
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Meenangadi"
+    ],
+    "isolated_side_size": 1
+  },
+  {
+    "edge": [
+      8010432147,
+      8010432148
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Choyimoola"
+    ],
+    "isolated_side_size": 9
+  },
+  {
+    "edge": [
+      8676016300,
+      8676016301
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Pilacheri"
+    ],
+    "isolated_side_size": 6
+  },
+  {
+    "edge": [
+      12069562744,
+      12069562745
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thinapuram"
+    ],
+    "isolated_side_size": 6
+  },
+  {
+    "edge": [
+      12069562745,
+      12069562746
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thinapuram"
+    ],
+    "isolated_side_size": 5
+  },
+  {
+    "edge": [
+      8010432148,
+      8010432149
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Choyimoola"
+    ],
+    "isolated_side_size": 8
+  },
+  {
+    "edge": [
+      5871890587,
+      5871890856
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Edamana st colony 2"
+    ],
+    "isolated_side_size": 14
+  },
+  {
+    "edge": [
+      7705108523,
+      7705108524
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Melmury"
+    ],
+    "isolated_side_size": 36
+  },
+  {
+    "edge": [
+      7705108524,
+      7705108525
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Melmury"
+    ],
+    "isolated_side_size": 35
+  },
+  {
+    "edge": [
+      7705108525,
+      7705108526
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Melmury"
+    ],
+    "isolated_side_size": 34
+  },
+  {
+    "edge": [
+      7705108526,
+      7705108527
+    ],
+    "highway": "track",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Melmury"
+    ],
+    "isolated_side_size": 33
+  },
+  {
+    "edge": [
+      5870338599,
+      5870338600
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 45
+  },
+  {
+    "edge": [
+      5870338600,
+      5870338601
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 44
+  },
+  {
+    "edge": [
+      5870338601,
+      5870338602
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 43
+  },
+  {
+    "edge": [
+      5870338602,
+      5870422307
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 42
+  },
+  {
+    "edge": [
+      5870338603,
+      5870422307
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 41
+  },
+  {
+    "edge": [
+      5870338603,
+      5870338605
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 40
+  },
+  {
+    "edge": [
+      5870338605,
+      5870338606
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 39
+  },
+  {
+    "edge": [
+      5870338606,
+      5870338608
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 38
+  },
+  {
+    "edge": [
+      5870338608,
+      5870338610
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 37
+  },
+  {
+    "edge": [
+      5870338610,
+      5870338611
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 36
+  },
+  {
+    "edge": [
+      5870338611,
+      5870338613
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 35
+  },
+  {
+    "edge": [
+      5870338613,
+      5870338614
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 34
+  },
+  {
+    "edge": [
+      5870338614,
+      5870422310
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 33
+  },
+  {
+    "edge": [
+      5870338616,
+      5870422310
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 32
+  },
+  {
+    "edge": [
+      5870338616,
+      5870338617
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 31
+  },
+  {
+    "edge": [
+      5870338617,
+      7441979687
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 30
+  },
+  {
+    "edge": [
+      5870338618,
+      7441979687
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 29
+  },
+  {
+    "edge": [
+      5870338618,
+      5870338619
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 28
+  },
+  {
+    "edge": [
+      5870338619,
+      5921501264
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 27
+  },
+  {
+    "edge": [
+      5921501263,
+      5921501264
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 26
+  },
+  {
+    "edge": [
+      5921501263,
+      12067246662
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 25
+  },
+  {
+    "edge": [
+      12067246660,
+      12067246662
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 19
+  },
+  {
+    "edge": [
+      5921501262,
+      12067246660
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 17
+  },
+  {
+    "edge": [
+      5921501261,
+      5921501262
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 16
+  },
+  {
+    "edge": [
+      5921501260,
+      5921501261
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 15
+  },
+  {
+    "edge": [
+      5921501259,
+      5921501260
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 14
+  },
+  {
+    "edge": [
+      5921501258,
+      5921501259
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 13
+  },
+  {
+    "edge": [
+      5921501258,
+      12067246648
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 12
+  },
+  {
+    "edge": [
+      12067246648,
+      12067246649
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 11
+  },
+  {
+    "edge": [
+      12067246649,
+      12067246650
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Churuli"
+    ],
+    "isolated_side_size": 10
+  },
+  {
+    "edge": [
+      5870061549,
+      5870061550
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kottoor"
+    ],
+    "isolated_side_size": 5
+  },
+  {
+    "edge": [
+      5870061548,
+      5870061549
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kottoor"
+    ],
+    "isolated_side_size": 4
+  },
+  {
+    "edge": [
+      5575532300,
+      9817301457
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 9
+  },
+  {
+    "edge": [
+      9817301456,
+      9817301457
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 8
+  },
+  {
+    "edge": [
+      290208735,
+      9817301456
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 7
+  },
+  {
+    "edge": [
+      290208734,
+      290208735
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 6
+  },
+  {
+    "edge": [
+      290208734,
+      11758340434
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 5
+  },
+  {
+    "edge": [
+      5575532301,
+      11758340434
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 4
+  },
+  {
+    "edge": [
+      290208732,
+      5575532301
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 3
+  },
+  {
+    "edge": [
+      290208731,
+      290208732
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 2
+  },
+  {
+    "edge": [
+      290208731,
+      9852371643
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Bavali"
+    ],
+    "isolated_side_size": 1
+  },
+  {
+    "edge": [
+      5234365966,
+      5234365967
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 88
+  },
+  {
+    "edge": [
+      5234365967,
+      5234365968
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 87
+  },
+  {
+    "edge": [
+      5234365968,
+      5234365969
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 86
+  },
+  {
+    "edge": [
+      5234365969,
+      5234365970
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 85
+  },
+  {
+    "edge": [
+      5234365970,
+      5234365971
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 84
+  },
+  {
+    "edge": [
+      5234365971,
+      7577383584
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 83
+  },
+  {
+    "edge": [
+      5234365972,
+      7577383584
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 82
+  },
+  {
+    "edge": [
+      5234365972,
+      5234365973
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 81
+  },
+  {
+    "edge": [
+      5234365973,
+      5234365974
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 80
+  },
+  {
+    "edge": [
+      5234365974,
+      5234365975
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 79
+  },
+  {
+    "edge": [
+      5234365975,
+      5234365976
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 78
+  },
+  {
+    "edge": [
+      5234365976,
+      5234365977
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 77
+  },
+  {
+    "edge": [
+      5234365977,
+      5234365978
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 76
+  },
+  {
+    "edge": [
+      5234365978,
+      5234365979
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 75
+  },
+  {
+    "edge": [
+      5234365979,
+      5234365980
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 74
+  },
+  {
+    "edge": [
+      5234365980,
+      5234365981
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 73
+  },
+  {
+    "edge": [
+      5234365981,
+      5234365982
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 72
+  },
+  {
+    "edge": [
+      5234365982,
+      5870346646
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 71
+  },
+  {
+    "edge": [
+      5870346645,
+      5870346646
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 70
+  },
+  {
+    "edge": [
+      5234365983,
+      5870346645
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 69
+  },
+  {
+    "edge": [
+      5234365983,
+      5234365984
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 47
+  },
+  {
+    "edge": [
+      5234365984,
+      5234365985
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kallumukku"
+    ],
+    "isolated_side_size": 46
+  },
+  {
+    "edge": [
+      3842231558,
+      3842231567
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 21
+  },
+  {
+    "edge": [
+      3842231554,
+      3842231558
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 20
+  },
+  {
+    "edge": [
+      3842231551,
+      3842231554
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 19
+  },
+  {
+    "edge": [
+      3842231551,
+      3842231555
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 18
+  },
+  {
+    "edge": [
+      3842231555,
+      7913072867
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 17
+  },
+  {
+    "edge": [
+      7913072867,
+      7913072868
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 14
+  },
+  {
+    "edge": [
+      7913072868,
+      7913072869
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 13
+  },
+  {
+    "edge": [
+      7913072869,
+      7913072870
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 12
+  },
+  {
+    "edge": [
+      7913072870,
+      7913072871
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Nellimunda"
+    ],
+    "isolated_side_size": 11
+  },
+  {
+    "edge": [
+      3249489501,
+      3842231041
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4535
+  },
+  {
+    "edge": [
+      3249489497,
+      3842231041
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4534
+  },
+  {
+    "edge": [
+      3249489497,
+      9833189816
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4524
+  },
+  {
+    "edge": [
+      3842231040,
+      9833189816
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4523
+  },
+  {
+    "edge": [
+      3842231040,
+      5870049104
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4522
+  },
+  {
+    "edge": [
+      3249489495,
+      5870049104
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4521
+  },
+  {
+    "edge": [
+      3249489495,
+      3249489498
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4520
+  },
+  {
+    "edge": [
+      3249489498,
+      3249489500
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4519
+  },
+  {
+    "edge": [
+      3249489499,
+      3249489500
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4518
+  },
+  {
+    "edge": [
+      3249489499,
+      9833217217
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4517
+  },
+  {
+    "edge": [
+      3249489496,
+      9833217217
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4516
+  },
+  {
+    "edge": [
+      3249489494,
+      3249489496
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4515
+  },
+  {
+    "edge": [
+      3249489493,
+      3249489494
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4514
+  },
+  {
+    "edge": [
+      3249489492,
+      3249489493
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4513
+  },
+  {
+    "edge": [
+      3249489491,
+      3249489492
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4512
+  },
+  {
+    "edge": [
+      3249489490,
+      3249489491
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4511
+  },
+  {
+    "edge": [
+      3249489489,
+      3249489490
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4510
+  },
+  {
+    "edge": [
+      3249489488,
+      3249489489
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4509
+  },
+  {
+    "edge": [
+      3249489488,
+      9833217218
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4508
+  },
+  {
+    "edge": [
+      3249489487,
+      9833217218
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4507
+  },
+  {
+    "edge": [
+      3249489487,
+      9833217219
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4506
+  },
+  {
+    "edge": [
+      9833217219,
+      9833217220
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4505
+  },
+  {
+    "edge": [
+      3249489485,
+      9833217220
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4504
+  },
+  {
+    "edge": [
+      3249489485,
+      3249489486
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4498
+  },
+  {
+    "edge": [
+      3249489484,
+      3249489486
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4497
+  },
+  {
+    "edge": [
+      3249489484,
+      3842231039
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4496
+  },
+  {
+    "edge": [
+      3249489483,
+      3842231039
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4495
+  },
+  {
+    "edge": [
+      3249489482,
+      3249489483
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4494
+  },
+  {
+    "edge": [
+      3249489482,
+      12465434094
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4493
+  },
+  {
+    "edge": [
+      5870047657,
+      12465434094
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4492
+  },
+  {
+    "edge": [
+      3842231038,
+      5870047657
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4464
+  },
+  {
+    "edge": [
+      3249489481,
+      3842231038
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4463
+  },
+  {
+    "edge": [
+      3249489481,
+      13681439351
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4462
+  },
+  {
+    "edge": [
+      3842231037,
+      13681439351
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4461
+  },
+  {
+    "edge": [
+      3249489480,
+      3842231037
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4444
+  },
+  {
+    "edge": [
+      3249489472,
+      3249489480
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4443
+  },
+  {
+    "edge": [
+      3249489469,
+      3249489472
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4442
+  },
+  {
+    "edge": [
+      3249489466,
+      3249489469
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4441
+  },
+  {
+    "edge": [
+      3249489466,
+      3249489467
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4440
+  },
+  {
+    "edge": [
+      3249489467,
+      3249489468
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4439
+  },
+  {
+    "edge": [
+      3249489468,
+      9837911660
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4438
+  },
+  {
+    "edge": [
+      3249489470,
+      9837911660
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4437
+  },
+  {
+    "edge": [
+      3249489470,
+      3249489473
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4436
+  },
+  {
+    "edge": [
+      3249489473,
+      3249489478
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4435
+  },
+  {
+    "edge": [
+      3249489478,
+      9837911661
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4434
+  },
+  {
+    "edge": [
+      3842231036,
+      9837911661
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4433
+  },
+  {
+    "edge": [
+      3249489479,
+      3842231036
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4432
+  },
+  {
+    "edge": [
+      3249489476,
+      3249489479
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4431
+  },
+  {
+    "edge": [
+      3249489476,
+      3842231034
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4430
+  },
+  {
+    "edge": [
+      3249489474,
+      3842231034
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4429
+  },
+  {
+    "edge": [
+      3249489474,
+      9837911659
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4428
+  },
+  {
+    "edge": [
+      3249489477,
+      9837911659
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4427
+  },
+  {
+    "edge": [
+      3249489477,
+      3842231035
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4426
+  },
+  {
+    "edge": [
+      3249489475,
+      3842231035
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4425
+  },
+  {
+    "edge": [
+      3249489475,
+      3842231033
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4424
+  },
+  {
+    "edge": [
+      3249489471,
+      3842231033
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4423
+  },
+  {
+    "edge": [
+      3249489471,
+      3842231032
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4422
+  },
+  {
+    "edge": [
+      3249489465,
+      3842231032
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4421
+  },
+  {
+    "edge": [
+      3249489464,
+      3249489465
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4420
+  },
+  {
+    "edge": [
+      3249489463,
+      3249489464
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4419
+  },
+  {
+    "edge": [
+      3249489463,
+      3842231031
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4418
+  },
+  {
+    "edge": [
+      3249489462,
+      3842231031
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4417
+  },
+  {
+    "edge": [
+      3249489462,
+      3842231030
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4416
+  },
+  {
+    "edge": [
+      3249489461,
+      3842231030
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4415
+  },
+  {
+    "edge": [
+      3249489460,
+      3249489461
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4414
+  },
+  {
+    "edge": [
+      3249489460,
+      9837911662
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4413
+  },
+  {
+    "edge": [
+      3842231029,
+      9837911662
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4412
+  },
+  {
+    "edge": [
+      3842231029,
+      9837911663
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4411
+  },
+  {
+    "edge": [
+      3249489459,
+      9837911663
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4410
+  },
+  {
+    "edge": [
+      3249489459,
+      9837911664
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4409
+  },
+  {
+    "edge": [
+      3249489458,
+      9837911664
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4408
+  },
+  {
+    "edge": [
+      3249489457,
+      3249489458
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4407
+  },
+  {
+    "edge": [
+      3249489456,
+      3249489457
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4406
+  },
+  {
+    "edge": [
+      3249489455,
+      3249489456
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4405
+  },
+  {
+    "edge": [
+      3249489454,
+      3249489455
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4404
+  },
+  {
+    "edge": [
+      3249489453,
+      3249489454
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4403
+  },
+  {
+    "edge": [
+      3249489452,
+      3249489453
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4402
+  },
+  {
+    "edge": [
+      3249489452,
+      11306506139
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4401
+  },
+  {
+    "edge": [
+      3249489451,
+      11306506139
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4389
+  },
+  {
+    "edge": [
+      3249489451,
+      9837911666
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4388
+  },
+  {
+    "edge": [
+      3249489450,
+      9837911666
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4387
+  },
+  {
+    "edge": [
+      3249489450,
+      9837911665
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4386
+  },
+  {
+    "edge": [
+      9837911665,
+      9837911667
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4385
+  },
+  {
+    "edge": [
+      3249489449,
+      9837911667
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4384
+  },
+  {
+    "edge": [
+      3249489448,
+      3249489449
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4383
+  },
+  {
+    "edge": [
+      3249489447,
+      3249489448
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4382
+  },
+  {
+    "edge": [
+      3249489447,
+      3842231028
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4381
+  },
+  {
+    "edge": [
+      3249489446,
+      3842231028
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4380
+  },
+  {
+    "edge": [
+      3249489445,
+      3249489446
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4379
+  },
+  {
+    "edge": [
+      3249489444,
+      3249489445
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4378
+  },
+  {
+    "edge": [
+      3249489443,
+      3249489444
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4377
+  },
+  {
+    "edge": [
+      3249489442,
+      3249489443
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4376
+  },
+  {
+    "edge": [
+      3249489441,
+      3249489442
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4375
+  },
+  {
+    "edge": [
+      3249489441,
+      3842231027
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4374
+  },
+  {
+    "edge": [
+      3249489440,
+      3842231027
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4373
+  },
+  {
+    "edge": [
+      3249489440,
+      8008895250
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4372
+  },
+  {
+    "edge": [
+      3249489439,
+      8008895250
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4357
+  },
+  {
+    "edge": [
+      3249489438,
+      3249489439
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4356
+  },
+  {
+    "edge": [
+      3249489437,
+      3249489438
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4355
+  },
+  {
+    "edge": [
+      3249489437,
+      3842231026
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4354
+  },
+  {
+    "edge": [
+      3249489436,
+      3842231026
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4353
+  },
+  {
+    "edge": [
+      3249489435,
+      3249489436
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4352
+  },
+  {
+    "edge": [
+      3249489434,
+      3249489435
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4351
+  },
+  {
+    "edge": [
+      3249489433,
+      3249489434
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4350
+  },
+  {
+    "edge": [
+      3249489432,
+      3249489433
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4349
+  },
+  {
+    "edge": [
+      3249489431,
+      3249489432
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4348
+  },
+  {
+    "edge": [
+      3249489431,
+      3842231025
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4347
+  },
+  {
+    "edge": [
+      3249489428,
+      3842231025
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4346
+  },
+  {
+    "edge": [
+      3249489428,
+      3842231022
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4345
+  },
+  {
+    "edge": [
+      3842231021,
+      3842231022
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4344
+  },
+  {
+    "edge": [
+      3249489426,
+      3842231021
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4343
+  },
+  {
+    "edge": [
+      3249489426,
+      3249489429
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4342
+  },
+  {
+    "edge": [
+      3249489429,
+      3842231024
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4341
+  },
+  {
+    "edge": [
+      3249489430,
+      3842231024
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4340
+  },
+  {
+    "edge": [
+      3249489430,
+      3842231023
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4339
+  },
+  {
+    "edge": [
+      3249489427,
+      3842231023
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4338
+  },
+  {
+    "edge": [
+      3249489427,
+      3842231020
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4337
+  },
+  {
+    "edge": [
+      3249489425,
+      3842231020
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4336
+  },
+  {
+    "edge": [
+      3249489425,
+      3842231019
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4335
+  },
+  {
+    "edge": [
+      3249489424,
+      3842231019
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4334
+  },
+  {
+    "edge": [
+      3249489423,
+      3249489424
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4333
+  },
+  {
+    "edge": [
+      3249489423,
+      3842231018
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4332
+  },
+  {
+    "edge": [
+      3249489422,
+      3842231018
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4331
+  },
+  {
+    "edge": [
+      3249489420,
+      3249489422
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4330
+  },
+  {
+    "edge": [
+      3249489420,
+      5883093049
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4263
+  },
+  {
+    "edge": [
+      3249489418,
+      5883093049
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4262
+  },
+  {
+    "edge": [
+      3249489418,
+      5883091359
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 4261
+  },
+  {
+    "edge": [
+      3249489415,
+      5883091359
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3945
+  },
+  {
+    "edge": [
+      3249489415,
+      5883093050
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3944
+  },
+  {
+    "edge": [
+      3842231015,
+      5883093050
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3916
+  },
+  {
+    "edge": [
+      3249489413,
+      3842231015
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3915
+  },
+  {
+    "edge": [
+      3249489411,
+      3249489413
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3914
+  },
+  {
+    "edge": [
+      3249489410,
+      3249489411
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3913
+  },
+  {
+    "edge": [
+      3249489408,
+      3249489410
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3912
+  },
+  {
+    "edge": [
+      3249489405,
+      3249489408
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3911
+  },
+  {
+    "edge": [
+      3249489405,
+      13115327287
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3910
+  },
+  {
+    "edge": [
+      3249489403,
+      13115327287
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3898
+  },
+  {
+    "edge": [
+      3249489403,
+      9837911668
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3897
+  },
+  {
+    "edge": [
+      3842231012,
+      9837911668
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3896
+  },
+  {
+    "edge": [
+      3249489400,
+      3842231012
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Kalladi",
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3895
+  },
+  {
+    "edge": [
+      3249489400,
+      3842231008
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3894
+  },
+  {
+    "edge": [
+      3249489386,
+      3842231008
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3792
+  },
+  {
+    "edge": [
+      3249489379,
+      3249489386
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3791
+  },
+  {
+    "edge": [
+      3249489379,
+      3249489382
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3790
+  },
+  {
+    "edge": [
+      3249489378,
+      3249489382
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3789
+  },
+  {
+    "edge": [
+      3249489373,
+      3249489378
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3788
+  },
+  {
+    "edge": [
+      3249489365,
+      3249489373
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3787
+  },
+  {
+    "edge": [
+      3249489359,
+      3249489365
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3786
+  },
+  {
+    "edge": [
+      3249489358,
+      3249489359
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3785
+  },
+  {
+    "edge": [
+      3249489357,
+      3249489358
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3784
+  },
+  {
+    "edge": [
+      3249489357,
+      3249489360
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3783
+  },
+  {
+    "edge": [
+      3249489360,
+      3249489361
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3782
+  },
+  {
+    "edge": [
+      3249489361,
+      3249489364
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3781
+  },
+  {
+    "edge": [
+      3249489364,
+      3249489367
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3780
+  },
+  {
+    "edge": [
+      3249489367,
+      3249489370
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3779
+  },
+  {
+    "edge": [
+      3249489370,
+      3249489374
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3778
+  },
+  {
+    "edge": [
+      3249489374,
+      3249489384
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3777
+  },
+  {
+    "edge": [
+      3249489384,
+      3249489396
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3776
+  },
+  {
+    "edge": [
+      3249489396,
+      3249489399
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3775
+  },
+  {
+    "edge": [
+      3249489399,
+      3842231011
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3774
+  },
+  {
+    "edge": [
+      3249489398,
+      3842231011
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3773
+  },
+  {
+    "edge": [
+      3249489395,
+      3249489398
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3772
+  },
+  {
+    "edge": [
+      3249489395,
+      3842231007
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3771
+  },
+  {
+    "edge": [
+      3249489385,
+      3842231007
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3770
+  },
+  {
+    "edge": [
+      3249489383,
+      3249489385
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3769
+  },
+  {
+    "edge": [
+      3249489383,
+      3249489387
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3768
+  },
+  {
+    "edge": [
+      3249489387,
+      3249489393
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3767
+  },
+  {
+    "edge": [
+      3249489393,
+      3842231010
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3766
+  },
+  {
+    "edge": [
+      3249489397,
+      3842231010
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3765
+  },
+  {
+    "edge": [
+      3249489391,
+      3249489397
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3764
+  },
+  {
+    "edge": [
+      3249489389,
+      3249489391
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3763
+  },
+  {
+    "edge": [
+      3249489389,
+      3249489394
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3762
+  },
+  {
+    "edge": [
+      3249489394,
+      3842231009
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3761
+  },
+  {
+    "edge": [
+      3249489392,
+      3842231009
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3760
+  },
+  {
+    "edge": [
+      3249489380,
+      3249489392
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3759
+  },
+  {
+    "edge": [
+      3249489380,
+      5883093024
+    ],
+    "highway": "primary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Chooralmala",
+      "Mundakai"
+    ],
+    "isolated_side_size": 3758
+  },
+  {
+    "edge": [
+      3842228241,
+      3842228242
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 752
+  },
+  {
+    "edge": [
+      3842228240,
+      3842228241
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 751
+  },
+  {
+    "edge": [
+      3842228239,
+      3842228240
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 750
+  },
+  {
+    "edge": [
+      3842228238,
+      3842228239
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 749
+  },
+  {
+    "edge": [
+      3842228237,
+      3842228238
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 748
+  },
+  {
+    "edge": [
+      3842228236,
+      3842228237
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 747
+  },
+  {
+    "edge": [
+      3842228235,
+      3842228236
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 746
+  },
+  {
+    "edge": [
+      3842228234,
+      3842228235
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 745
+  },
+  {
+    "edge": [
+      3842228233,
+      3842228234
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 744
+  },
+  {
+    "edge": [
+      3842228232,
+      3842228233
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 743
+  },
+  {
+    "edge": [
+      3842228232,
+      5883092920
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 742
+  },
+  {
+    "edge": [
+      3842228231,
+      5883092920
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 741
+  },
+  {
+    "edge": [
+      3842228230,
+      3842228231
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 740
+  },
+  {
+    "edge": [
+      3842228229,
+      3842228230
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 739
+  },
+  {
+    "edge": [
+      3842228228,
+      3842228229
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 738
+  },
+  {
+    "edge": [
+      3842228227,
+      3842228228
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 737
+  },
+  {
+    "edge": [
+      3842228226,
+      3842228227
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 736
+  },
+  {
+    "edge": [
+      3842228225,
+      3842228226
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 735
+  },
+  {
+    "edge": [
+      3842228225,
+      6894943729
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 734
+  },
+  {
+    "edge": [
+      3842228224,
+      6894943729
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Mundakai"
+    ],
+    "isolated_side_size": 733
+  },
+  {
+    "edge": [
+      2625625792,
+      2625625793
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 127
+  },
+  {
+    "edge": [
+      2625625793,
+      2625625794
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 126
+  },
+  {
+    "edge": [
+      2625625794,
+      2625625795
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 125
+  },
+  {
+    "edge": [
+      2625625795,
+      8600996718
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 124
+  },
+  {
+    "edge": [
+      2625625796,
+      8600996718
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 101
+  },
+  {
+    "edge": [
+      2625625796,
+      7911977065
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 100
+  },
+  {
+    "edge": [
+      7911977065,
+      8600966711
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 54
+  },
+  {
+    "edge": [
+      8600966711,
+      8600966712
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 12
+  },
+  {
+    "edge": [
+      8600966712,
+      8600966713
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 11
+  },
+  {
+    "edge": [
+      8600966713,
+      8600966714
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 10
+  },
+  {
+    "edge": [
+      8600966714,
+      8600966715
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 9
+  },
+  {
+    "edge": [
+      8600966715,
+      8600966716
+    ],
+    "highway": "unclassified",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Jessy"
+    ],
+    "isolated_side_size": 8
+  },
+  {
+    "edge": [
+      2487151763,
+      2487151764
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 473
+  },
+  {
+    "edge": [
+      2487151762,
+      2487151763
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 472
+  },
+  {
+    "edge": [
+      2487151761,
+      2487151762
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 471
+  },
+  {
+    "edge": [
+      2487151761,
+      7994245289
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 470
+  },
+  {
+    "edge": [
+      7994245289,
+      12069154635
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 469
+  },
+  {
+    "edge": [
+      2487151760,
+      12069154635
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 448
+  },
+  {
+    "edge": [
+      2487151759,
+      2487151760
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 447
+  },
+  {
+    "edge": [
+      2487151758,
+      2487151759
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 446
+  },
+  {
+    "edge": [
+      2487151757,
+      2487151758
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 445
+  },
+  {
+    "edge": [
+      2487151756,
+      2487151757
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 444
+  },
+  {
+    "edge": [
+      2487151755,
+      2487151756
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 443
+  },
+  {
+    "edge": [
+      2487151755,
+      10035592074
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 442
+  },
+  {
+    "edge": [
+      2487151754,
+      10035592074
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 441
+  },
+  {
+    "edge": [
+      2487151754,
+      7861941315
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 440
+  },
+  {
+    "edge": [
+      2487151753,
+      7861941315
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 423
+  },
+  {
+    "edge": [
+      2487151753,
+      11553391889
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 422
+  },
+  {
+    "edge": [
+      2487151752,
+      11553391889
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 414
+  },
+  {
+    "edge": [
+      2487151752,
+      12521022016
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 413
+  },
+  {
+    "edge": [
+      2487151751,
+      12521022016
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 412
+  },
+  {
+    "edge": [
+      2487151750,
+      2487151751
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 411
+  },
+  {
+    "edge": [
+      2487151750,
+      11553391897
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 410
+  },
+  {
+    "edge": [
+      2487151749,
+      11553391897
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 409
+  },
+  {
+    "edge": [
+      2487151748,
+      2487151749
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 408
+  },
+  {
+    "edge": [
+      2487151748,
+      12521022033
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 407
+  },
+  {
+    "edge": [
+      2487151747,
+      12521022033
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 406
+  },
+  {
+    "edge": [
+      2487151747,
+      11553417673
+    ],
+    "highway": "trunk",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 405
+  },
+  {
+    "edge": [
+      11553417673,
+      11553417674
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 22
+  },
+  {
+    "edge": [
+      11553417674,
+      11553417675
+    ],
+    "highway": "residential",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Lakkidi"
+    ],
+    "isolated_side_size": 21
+  },
+  {
+    "edge": [
+      12498671848,
+      12498671849
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 305
+  },
+  {
+    "edge": [
+      5870095961,
+      12498671849
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 304
+  },
+  {
+    "edge": [
+      5870095961,
+      12498671859
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 303
+  },
+  {
+    "edge": [
+      12498671847,
+      12498671859
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 302
+  },
+  {
+    "edge": [
+      5870095962,
+      12498671847
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 301
+  },
+  {
+    "edge": [
+      5870095962,
+      12498671853
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 300
+  },
+  {
+    "edge": [
+      5870095960,
+      12498671853
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 299
+  },
+  {
+    "edge": [
+      411458547,
+      5870095960
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 278
+  },
+  {
+    "edge": [
+      411458547,
+      12498671831
+    ],
+    "highway": "secondary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Thaloor"
+    ],
+    "isolated_side_size": 277
+  },
+  {
+    "edge": [
+      290209232,
+      290209233
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 84
+  },
+  {
+    "edge": [
+      290209233,
+      290209234
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 83
+  },
+  {
+    "edge": [
+      290209234,
+      290209235
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 82
+  },
+  {
+    "edge": [
+      290209235,
+      290209236
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 81
+  },
+  {
+    "edge": [
+      290209236,
+      290209237
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 80
+  },
+  {
+    "edge": [
+      290209237,
+      5877268558
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 79
+  },
+  {
+    "edge": [
+      290209238,
+      5877268558
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 77
+  },
+  {
+    "edge": [
+      290209238,
+      290209239
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 76
+  },
+  {
+    "edge": [
+      290209239,
+      290209240
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 75
+  },
+  {
+    "edge": [
+      290209240,
+      290209241
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 74
+  },
+  {
+    "edge": [
+      290209241,
+      5877268559
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 73
+  },
+  {
+    "edge": [
+      290209242,
+      5877268559
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 72
+  },
+  {
+    "edge": [
+      290209242,
+      290209243
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 71
+  },
+  {
+    "edge": [
+      290209243,
+      5877267990
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 70
+  },
+  {
+    "edge": [
+      290209244,
+      5877267990
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 67
+  },
+  {
+    "edge": [
+      290209244,
+      290209249
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 66
+  },
+  {
+    "edge": [
+      290209249,
+      5877267292
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 65
+  },
+  {
+    "edge": [
+      290209250,
+      5877267292
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 62
+  },
+  {
+    "edge": [
+      290209250,
+      5877267998
+    ],
+    "highway": "tertiary",
+    "isolated_facilities": 0,
+    "isolated_villages": [
+      "Palvelicham"
+    ],
+    "isolated_side_size": 61
+  }
+]

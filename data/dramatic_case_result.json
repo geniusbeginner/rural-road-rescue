@@ -1,0 +1,42 @@
+{
+  "target_edge": [
+    3249489501,
+    5870049103
+  ],
+  "edge_attrs": {
+    "length_m": 11.390124768208606,
+    "highway": "primary",
+    "speed_kmh": 45.0,
+    "speed_source": "osm_maxspeed_tag",
+    "time_min": 0.015186833024278139,
+    "way_id": 380928374
+  },
+  "before": {
+    "Chooralmala": {
+      "time_min": 17.714038556506146,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Kalladi": {
+      "time_min": 11.66185738447002,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Mundakai": {
+      "time_min": 21.13465272739552,
+      "facility": "Community Health Center Meppadi"
+    }
+  },
+  "after": {
+    "Chooralmala": {
+      "time_min": null,
+      "facility": null
+    },
+    "Kalladi": {
+      "time_min": null,
+      "facility": null
+    },
+    "Mundakai": {
+      "time_min": null,
+      "facility": null
+    }
+  }
+}

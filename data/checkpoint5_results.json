@@ -1,0 +1,1164 @@
+{
+  "before": {
+    "Kalpetta": {
+      "time_min": 0.0564741024703138,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Periya": {
+      "time_min": 0.3545101681322502,
+      "facility": "Community Health Centre Peria"
+    },
+    "Bavali": {
+      "time_min": 8.738922551582672,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Vythiri": {
+      "time_min": 1.2170244749096448,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Meppadi": {
+      "time_min": 1.1245286327973314,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Sultan Bathery": {
+      "time_min": 1.7275459546192362,
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery"
+    },
+    "Vaduvanchal": {
+      "time_min": 3.9983809375143182,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Makkiyad": {
+      "time_min": 14.892624226522567,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Vellmunda": {
+      "time_min": 8.578728245392583,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Mananthavady": {
+      "time_min": 1.5814130194846177,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Naalam Mile": {
+      "time_min": 0.6372730568503046,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pallikkal": {
+      "time_min": 0.314319702048535,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kammom": {
+      "time_min": 1.9600838181103364,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kallody": {
+      "time_min": 3.5259626903506347,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Mazhuvannur": {
+      "time_min": 3.3203476179070983,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kellur": {
+      "time_min": 0.6848061123128674,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Peechamcode": {
+      "time_min": 0.3748301488004788,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Ancham Mile": {
+      "time_min": 1.465351161163158,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pozhuthana": {
+      "time_min": 9.603821971449495,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Thariode": {
+      "time_min": 3.536561110658695,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "Kaavumannam": {
+      "time_min": 3.416164464737274,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "Vengappally": {
+      "time_min": 5.832138603173765,
+      "facility": "Urban Primary health Centre, Munderi"
+    },
+    "Tholpetty": {
+      "time_min": 16.347939097089107,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Dwaraka": {
+      "time_min": 0.9750005285775828,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Meenangadi": {
+      "time_min": 8.077712170084009,
+      "facility": "Primary Health Centre Vazhavatta"
+    },
+    "Eachome": {
+      "time_min": 9.068079823032022,
+      "facility": "Family Health Centre Kottathara"
+    },
+    "Tharuvana": {
+      "time_min": 3.226213858459325,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Thonichal": {
+      "time_min": 2.085379595284732,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kattikkulam": {
+      "time_min": 0.7133991394788044,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Anaappara": {
+      "time_min": 9.111493879126208,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Pannichal": {
+      "time_min": 1.7042918606931772,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Orappu": {
+      "time_min": 7.129701882061916,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Ellumannam": {
+      "time_min": 4.325261954523676,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Veettichal": {
+      "time_min": 1.1250849379722407,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "54": {
+      "time_min": 5.580172902948494,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Ancham Peedika": {
+      "time_min": 7.564340444142899,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Thettamala": {
+      "time_min": 9.896468942104198,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Chettapalam": {
+      "time_min": 3.2233929786556526,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Ondayangadi": {
+      "time_min": 6.086555797992666,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Thrissilery": {
+      "time_min": 6.703012073875584,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Appapara": {
+      "time_min": 3.108446576142687,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Thirunelli": {
+      "time_min": 12.772266700529677,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Thalappuzha": {
+      "time_min": 7.494237241351292,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Panamaram": {
+      "time_min": 0.9580002628875213,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Koyilery": {
+      "time_min": 9.500477817042654,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Cherukattoor": {
+      "time_min": 4.9274850449711876,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Kappunchal": {
+      "time_min": 3.1501245066364905,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Anjukunnu": {
+      "time_min": 3.3522124607399726,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Aaraam Mile (6th mile)": {
+      "time_min": 2.4421603061043125,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Vilambukandam": {
+      "time_min": 8.751516230149349,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Pachilakkadu": {
+      "time_min": 3.42547504814386,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Varummal kadavu": {
+      "time_min": 9.354775791107308,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Peruvaka": {
+      "time_min": 4.385645933088389,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Boy's Town": {
+      "time_min": 8.24731880700704,
+      "facility": "Community Health Centre Peria"
+    },
+    "Kunjome": {
+      "time_min": 10.618768168908797,
+      "facility": "Primary Health Center Valad"
+    },
+    "Payyampalli": {
+      "time_min": 4.200402373121707,
+      "facility": "Primary Health Centre Kurukanmoola"
+    },
+    "Kammana": {
+      "time_min": 5.556766069229909,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Kambalakkad": {
+      "time_min": 6.585290220135921,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Nadakkal": {
+      "time_min": 1.4557621809749024,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kokkadavu": {
+      "time_min": 4.806035357999667,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Arattuthara": {
+      "time_min": 5.281327443630488,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Muthireri": {
+      "time_min": 9.734590953354115,
+      "facility": "Primary Health Center Valad"
+    },
+    "Pathirachal": {
+      "time_min": 4.567932133830014,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Pulinjal": {
+      "time_min": 5.121341290422641,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Changadakkadavu": {
+      "time_min": 2.479531038090964,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Thannikkal": {
+      "time_min": 7.568449157236532,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Moolithodu": {
+      "time_min": 6.614522999232308,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Puthusseri": {
+      "time_min": 6.876616289196469,
+      "facility": "Primary Health Center Valad"
+    },
+    "Kanhirangad": {
+      "time_min": 13.317313476485918,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Palvelicham": {
+      "time_min": 6.770629902375633,
+      "facility": "Primary Health Centre Kurukanmoola"
+    },
+    "Kundala": {
+      "time_min": 6.502381787648507,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pulikkad": {
+      "time_min": 4.105966138185983,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pandikkadavu": {
+      "time_min": 1.5852023433420426,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Choottakadavu": {
+      "time_min": 2.6672028503088203,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Kaniyaram": {
+      "time_min": 2.8608856324784626,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Koolivayal": {
+      "time_min": 4.707048318146299,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Porur": {
+      "time_min": 7.665186521110908,
+      "facility": "Primary Health Center Valad"
+    },
+    "Payingattiri": {
+      "time_min": 3.106698770765304,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kuzhinilam": {
+      "time_min": 3.729886533582661,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pilacheri": {
+      "time_min": 4.834922424836281,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Ambukuthy": {
+      "time_min": 2.833860639561995,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pulpally": {
+      "time_min": 2.646733844617379,
+      "facility": "Community Health Centre, Pulpally"
+    },
+    "Muttil": {
+      "time_min": 4.8598707717142196,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Kainatti": {
+      "time_min": 2.853193124907526,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Kappamkolly": {
+      "time_min": 2.463312850905284,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Chooralmala": {
+      "time_min": 17.714038556506146,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Kalladi": {
+      "time_min": 11.66185738447002,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Nellimunda": {
+      "time_min": 4.90484821906439,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Chundale": {
+      "time_min": 4.568450914404344,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Nedumkarana": {
+      "time_min": 4.406323362029937,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Thinapuram": {
+      "time_min": 7.39502490806763,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Padinjarethara": {
+      "time_min": 0.7744268854851789,
+      "facility": "Primary Health Centre, Kappukunnu"
+    },
+    "Ambalavayal": {
+      "time_min": 0.8707852595110083,
+      "facility": "Community Health Centre, Meppady"
+    },
+    "Muthanga": {
+      "time_min": 4.776191477270794,
+      "facility": "Family Health Centre Noolpuzha"
+    },
+    "Lakkidi": {
+      "time_min": 3.998040703135808,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Padichira": {
+      "time_min": 6.204167653661294,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Puzhavayal": {
+      "time_min": 3.1905409175542383,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Cherakkara": {
+      "time_min": 11.057633029107953,
+      "facility": "District Hospital Mananthavady"
+    },
+    "SJLP School Pilakkavu": {
+      "time_min": 9.25095912228884,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Jessy": {
+      "time_min": 12.17097024161428,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Karyambadi": {
+      "time_min": 8.277173895723195,
+      "facility": "Family Health Center, Varadhoor"
+    },
+    "Kenichira": {
+      "time_min": 1.0566598357075763,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Koliyadi": {
+      "time_min": 7.980502894778848,
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery"
+    },
+    "Thaloor": {
+      "time_min": 3.450928543595131,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Korome": {
+      "time_min": 12.915954714654394,
+      "facility": "Primary Health Center Valad"
+    },
+    "Rippon 52": {
+      "time_min": 6.293998649995705,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Kallumukku": {
+      "time_min": 6.316487615865308,
+      "facility": "Family Health Centre Noolpuzha"
+    },
+    "Kabanigiri": {
+      "time_min": 10.227166186307986,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Nambikolly": {
+      "time_min": 6.247560360386169,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "Paplassery": {
+      "time_min": 11.129676324989846,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Kattimoola": {
+      "time_min": 3.9006371576410963,
+      "facility": "Primary Health Center Valad"
+    },
+    "palakuly": {
+      "time_min": 4.236343999972385,
+      "facility": "District Hospital Mananthavady"
+    },
+    "godavari colony": {
+      "time_min": 6.755954124834495,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pookode": {
+      "time_min": 2.46469507431339,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Melmury": {
+      "time_min": 16.76764303246409,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "ST colony puthiyadam": {
+      "time_min": 11.193060951409535,
+      "facility": "District Hospital Mananthavady"
+    },
+    "ambalakolly st colony": {
+      "time_min": 10.990818218581706,
+      "facility": "District Hospital Mananthavady"
+    },
+    "edmana scheduled tribes colony 1": {
+      "time_min": 11.48929446155711,
+      "facility": "Primary Health Center Valad"
+    },
+    "Edamana st colony 2": {
+      "time_min": 11.863217620526056,
+      "facility": "Primary Health Center Valad"
+    },
+    "kolymannu": {
+      "time_min": 2.3420349091523507,
+      "facility": "Community Health Centre Peria"
+    },
+    "Choyimoola": {
+      "time_min": 5.0005308901189105,
+      "facility": "Community Health Centre Peria"
+    },
+    "Alattil": {
+      "time_min": 6.545097466154387,
+      "facility": "Community Health Centre Peria"
+    },
+    "Kalluvettumthazhe": {
+      "time_min": 8.25909555834357,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Mavilamthodu": {
+      "time_min": 10.395266488194745,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Kappiset": {
+      "time_min": 9.106479872799254,
+      "facility": "Community Health Centre, Pulpally"
+    },
+    "Pinangode": {
+      "time_min": 7.245802053743596,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Kottoor": {
+      "time_min": 6.914059789626776,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Mundakai": {
+      "time_min": 21.13465272739552,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Moonanakuzhy": {
+      "time_min": 8.11345046652911,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Churuli": {
+      "time_min": 13.785295545936926,
+      "facility": "Primary Health Center Valad"
+    },
+    "Cheeral": {
+      "time_min": 1.1820960631064927,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "Kottathara": {
+      "time_min": 3.823550295998167,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Venniyodu": {
+      "time_min": 3.5867143046073595,
+      "facility": "Family Health Centre Kottathara"
+    },
+    "Nadavayal": {
+      "time_min": 6.006499062901892,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Kaniyambetta": {
+      "time_min": 4.933818483737483,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Chulliyode": {
+      "time_min": 1.0963768356079147,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Madakkara": {
+      "time_min": 5.7625997395345205,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Pazhoor": {
+      "time_min": 5.071878781398795,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "ponnada": {
+      "time_min": 5.985125336920602,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Pakkom": {
+      "time_min": 2.534619258990671,
+      "facility": "Primary Health Center Pakkom"
+    },
+    "Pariyaram": {
+      "time_min": 6.66414893151047,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    }
+  },
+  "after": {
+    "Kalpetta": {
+      "time_min": 0.0564741024703138,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Periya": {
+      "time_min": 0.3545101681322502,
+      "facility": "Community Health Centre Peria"
+    },
+    "Bavali": {
+      "time_min": 8.738922551582672,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Vythiri": {
+      "time_min": 1.2170244749096448,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Meppadi": {
+      "time_min": 1.1245286327973314,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Sultan Bathery": {
+      "time_min": 1.7275459546192362,
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery"
+    },
+    "Vaduvanchal": {
+      "time_min": 3.9983809375143182,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Makkiyad": {
+      "time_min": 14.892624226522567,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Vellmunda": {
+      "time_min": 8.578728245392583,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Mananthavady": {
+      "time_min": 1.5814130194846177,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Naalam Mile": {
+      "time_min": 0.6372730568503046,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pallikkal": {
+      "time_min": 0.314319702048535,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kammom": {
+      "time_min": 1.9600838181103364,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kallody": {
+      "time_min": 3.5259626903506347,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Mazhuvannur": {
+      "time_min": 3.3203476179070983,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kellur": {
+      "time_min": 0.6848061123128674,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Peechamcode": {
+      "time_min": 0.3748301488004788,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Ancham Mile": {
+      "time_min": 1.465351161163158,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pozhuthana": {
+      "time_min": 9.603821971449495,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Thariode": {
+      "time_min": 3.536561110658695,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "Kaavumannam": {
+      "time_min": 3.416164464737274,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "Vengappally": {
+      "time_min": 5.832138603173765,
+      "facility": "Urban Primary health Centre, Munderi"
+    },
+    "Tholpetty": {
+      "time_min": 16.347939097089107,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Dwaraka": {
+      "time_min": 0.9750005285775828,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Meenangadi": {
+      "time_min": 8.077712170084009,
+      "facility": "Primary Health Centre Vazhavatta"
+    },
+    "Eachome": {
+      "time_min": 9.068079823032022,
+      "facility": "Family Health Centre Kottathara"
+    },
+    "Tharuvana": {
+      "time_min": 3.226213858459325,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Thonichal": {
+      "time_min": 2.085379595284732,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kattikkulam": {
+      "time_min": 0.7133991394788044,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Anaappara": {
+      "time_min": 9.111493879126208,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Pannichal": {
+      "time_min": 1.7042918606931772,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Orappu": {
+      "time_min": 7.129701882061916,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Ellumannam": {
+      "time_min": 4.325261954523676,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Veettichal": {
+      "time_min": 1.1250849379722407,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "54": {
+      "time_min": 5.580172902948494,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Ancham Peedika": {
+      "time_min": 7.564340444142899,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Thettamala": {
+      "time_min": 9.896468942104198,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Chettapalam": {
+      "time_min": 3.2233929786556526,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Ondayangadi": {
+      "time_min": 6.086555797992666,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Thrissilery": {
+      "time_min": 6.703012073875584,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Appapara": {
+      "time_min": 3.108446576142687,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Thirunelli": {
+      "time_min": 12.772266700529677,
+      "facility": "Family Health Centre Appapara"
+    },
+    "Thalappuzha": {
+      "time_min": 7.494237241351292,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Panamaram": {
+      "time_min": 0.9580002628875213,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Koyilery": {
+      "time_min": 9.778670852134741,
+      "facility": "Primary Health Centre Kurukanmoola"
+    },
+    "Cherukattoor": {
+      "time_min": 7.467461368847959,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kappunchal": {
+      "time_min": 5.3092306293485185,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Anjukunnu": {
+      "time_min": 3.3522124607399726,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Aaraam Mile (6th mile)": {
+      "time_min": 2.4421603061043125,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Vilambukandam": {
+      "time_min": 8.751516230149349,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Pachilakkadu": {
+      "time_min": 3.42547504814386,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Varummal kadavu": {
+      "time_min": 9.354775791107308,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Peruvaka": {
+      "time_min": 4.385645933088389,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Boy's Town": {
+      "time_min": 8.24731880700704,
+      "facility": "Community Health Centre Peria"
+    },
+    "Kunjome": {
+      "time_min": 10.618768168908797,
+      "facility": "Primary Health Center Valad"
+    },
+    "Payyampalli": {
+      "time_min": 4.200402373121707,
+      "facility": "Primary Health Centre Kurukanmoola"
+    },
+    "Kammana": {
+      "time_min": 5.556766069229909,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Kambalakkad": {
+      "time_min": 6.585290220135921,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Nadakkal": {
+      "time_min": 1.4557621809749024,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Kokkadavu": {
+      "time_min": 4.806035357999667,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Arattuthara": {
+      "time_min": 5.281327443630488,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Muthireri": {
+      "time_min": 9.734590953354115,
+      "facility": "Primary Health Center Valad"
+    },
+    "Pathirachal": {
+      "time_min": 4.567932133830014,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Pulinjal": {
+      "time_min": 5.121341290422641,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Changadakkadavu": {
+      "time_min": 2.479531038090964,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Thannikkal": {
+      "time_min": 7.568449157236532,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Moolithodu": {
+      "time_min": 6.614522999232308,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Puthusseri": {
+      "time_min": 6.876616289196469,
+      "facility": "Primary Health Center Valad"
+    },
+    "Kanhirangad": {
+      "time_min": 13.317313476485918,
+      "facility": "Primary Health Centre Vellamunda"
+    },
+    "Palvelicham": {
+      "time_min": 6.770629902375633,
+      "facility": "Primary Health Centre Kurukanmoola"
+    },
+    "Kundala": {
+      "time_min": 6.502381787648507,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pulikkad": {
+      "time_min": 4.105966138185983,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Pandikkadavu": {
+      "time_min": 1.5852023433420426,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Choottakadavu": {
+      "time_min": 2.6672028503088203,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Kaniyaram": {
+      "time_min": 2.8608856324784626,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Koolivayal": {
+      "time_min": 4.875165960204957,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Porur": {
+      "time_min": 7.665186521110908,
+      "facility": "Primary Health Center Valad"
+    },
+    "Payingattiri": {
+      "time_min": 3.106698770765304,
+      "facility": "Family Health centre  Edavaka"
+    },
+    "Kuzhinilam": {
+      "time_min": 3.729886533582661,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pilacheri": {
+      "time_min": 4.834922424836281,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Ambukuthy": {
+      "time_min": 2.833860639561995,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pulpally": {
+      "time_min": 2.646733844617379,
+      "facility": "Community Health Centre, Pulpally"
+    },
+    "Muttil": {
+      "time_min": 4.8598707717142196,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Kainatti": {
+      "time_min": 2.853193124907526,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    },
+    "Kappamkolly": {
+      "time_min": 2.463312850905284,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Chooralmala": {
+      "time_min": 17.714038556506146,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Kalladi": {
+      "time_min": 11.66185738447002,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Nellimunda": {
+      "time_min": 4.90484821906439,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Chundale": {
+      "time_min": 4.568450914404344,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Nedumkarana": {
+      "time_min": 4.406323362029937,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Thinapuram": {
+      "time_min": 7.39502490806763,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Padinjarethara": {
+      "time_min": 0.7744268854851789,
+      "facility": "Primary Health Centre, Kappukunnu"
+    },
+    "Ambalavayal": {
+      "time_min": 0.8707852595110083,
+      "facility": "Community Health Centre, Meppady"
+    },
+    "Muthanga": {
+      "time_min": 4.776191477270794,
+      "facility": "Family Health Centre Noolpuzha"
+    },
+    "Lakkidi": {
+      "time_min": 3.998040703135808,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Padichira": {
+      "time_min": 6.204167653661294,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Puzhavayal": {
+      "time_min": 3.1905409175542383,
+      "facility": "Primary Health Centre Begur"
+    },
+    "Cherakkara": {
+      "time_min": 11.057633029107953,
+      "facility": "District Hospital Mananthavady"
+    },
+    "SJLP School Pilakkavu": {
+      "time_min": 9.25095912228884,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Jessy": {
+      "time_min": 12.17097024161428,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Karyambadi": {
+      "time_min": 8.277173895723195,
+      "facility": "Family Health Center, Varadhoor"
+    },
+    "Kenichira": {
+      "time_min": 1.0566598357075763,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Koliyadi": {
+      "time_min": 7.980502894778848,
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery"
+    },
+    "Thaloor": {
+      "time_min": 3.450928543595131,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Korome": {
+      "time_min": 12.915954714654394,
+      "facility": "Primary Health Center Valad"
+    },
+    "Rippon 52": {
+      "time_min": 6.293998649995705,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Kallumukku": {
+      "time_min": 6.316487615865308,
+      "facility": "Family Health Centre Noolpuzha"
+    },
+    "Kabanigiri": {
+      "time_min": 10.227166186307986,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Nambikolly": {
+      "time_min": 6.247560360386169,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "Paplassery": {
+      "time_min": 11.129676324989846,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Kattimoola": {
+      "time_min": 3.9006371576410963,
+      "facility": "Primary Health Center Valad"
+    },
+    "palakuly": {
+      "time_min": 4.236343999972385,
+      "facility": "District Hospital Mananthavady"
+    },
+    "godavari colony": {
+      "time_min": 6.755954124834495,
+      "facility": "District Hospital Mananthavady"
+    },
+    "Pookode": {
+      "time_min": 2.46469507431339,
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+    },
+    "Melmury": {
+      "time_min": 16.76764303246409,
+      "facility": "Community Health Centre Thariyode"
+    },
+    "ST colony puthiyadam": {
+      "time_min": 11.193060951409535,
+      "facility": "District Hospital Mananthavady"
+    },
+    "ambalakolly st colony": {
+      "time_min": 10.990818218581706,
+      "facility": "District Hospital Mananthavady"
+    },
+    "edmana scheduled tribes colony 1": {
+      "time_min": 11.48929446155711,
+      "facility": "Primary Health Center Valad"
+    },
+    "Edamana st colony 2": {
+      "time_min": 11.863217620526056,
+      "facility": "Primary Health Center Valad"
+    },
+    "kolymannu": {
+      "time_min": 2.3420349091523507,
+      "facility": "Community Health Centre Peria"
+    },
+    "Choyimoola": {
+      "time_min": 5.0005308901189105,
+      "facility": "Community Health Centre Peria"
+    },
+    "Alattil": {
+      "time_min": 6.545097466154387,
+      "facility": "Community Health Centre Peria"
+    },
+    "Kalluvettumthazhe": {
+      "time_min": 8.25909555834357,
+      "facility": "Community Health Centre Porunnanore"
+    },
+    "Mavilamthodu": {
+      "time_min": 10.395266488194745,
+      "facility": "Primary Health Centre Mullankolly"
+    },
+    "Kappiset": {
+      "time_min": 9.106479872799254,
+      "facility": "Community Health Centre, Pulpally"
+    },
+    "Pinangode": {
+      "time_min": 7.245802053743596,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Kottoor": {
+      "time_min": 6.914059789626776,
+      "facility": "Primary Health Centre, Mooppainad"
+    },
+    "Mundakai": {
+      "time_min": 21.13465272739552,
+      "facility": "Community Health Center Meppadi"
+    },
+    "Moonanakuzhy": {
+      "time_min": 8.11345046652911,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Churuli": {
+      "time_min": 13.785295545936926,
+      "facility": "Primary Health Center Valad"
+    },
+    "Cheeral": {
+      "time_min": 1.1820960631064927,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "Kottathara": {
+      "time_min": 3.823550295998167,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Venniyodu": {
+      "time_min": 3.5867143046073595,
+      "facility": "Family Health Centre Kottathara"
+    },
+    "Nadavayal": {
+      "time_min": 6.006499062901892,
+      "facility": "Family Health Center, Poothadi"
+    },
+    "Kaniyambetta": {
+      "time_min": 4.933818483737483,
+      "facility": "Community Health Centre Panamaram"
+    },
+    "Chulliyode": {
+      "time_min": 1.0963768356079147,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Madakkara": {
+      "time_min": 5.7625997395345205,
+      "facility": "Primary Health Centre Chulliode"
+    },
+    "Pazhoor": {
+      "time_min": 5.071878781398795,
+      "facility": "Primary Health Centre Cheeral"
+    },
+    "ponnada": {
+      "time_min": 5.985125336920602,
+      "facility": "Family Health Center, Vengapally"
+    },
+    "Pakkom": {
+      "time_min": 2.534619258990671,
+      "facility": "Primary Health Center Pakkom"
+    },
+    "Pariyaram": {
+      "time_min": 6.66414893151047,
+      "facility": "WIMS Urban Health Center Kalpetta"
+    }
+  },
+  "affected": [
+    {
+      "village": "Koyilery",
+      "before_min": 9.500477817042654,
+      "after_min": 9.778670852134741,
+      "before_facility": "Community Health Centre Panamaram",
+      "after_facility": "Primary Health Centre Kurukanmoola"
+    },
+    {
+      "village": "Cherukattoor",
+      "before_min": 4.9274850449711876,
+      "after_min": 7.467461368847959,
+      "before_facility": "Community Health Centre Panamaram",
+      "after_facility": "Community Health Centre Porunnanore"
+    },
+    {
+      "village": "Kappunchal",
+      "before_min": 3.1501245066364905,
+      "after_min": 5.3092306293485185,
+      "before_facility": "Community Health Centre Panamaram",
+      "after_facility": "Community Health Centre Porunnanore"
+    },
+    {
+      "village": "Koolivayal",
+      "before_min": 4.707048318146299,
+      "after_min": 4.875165960204957,
+      "before_facility": "Community Health Centre Panamaram",
+      "after_facility": "Community Health Centre Porunnanore"
+    }
+  ]
+}

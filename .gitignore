@@ -1,0 +1,4 @@
+data/graph_weighted.pkl
+*.pkl
+__pycache__/
+*.pyc

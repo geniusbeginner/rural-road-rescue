@@ -1,0 +1,2413 @@
+{
+  "villages": [
+    {
+      "name": "Kalpetta",
+      "lat": 11.610278,
+      "lon": 76.08281,
+      "node_id": 395351033,
+      "dist_m": 0.24039160346984947,
+      "snapped": true
+    },
+    {
+      "name": "Periya",
+      "lat": 11.8334589,
+      "lon": 75.8550205,
+      "node_id": 1998717071,
+      "dist_m": 44.16931940780902,
+      "snapped": true
+    },
+    {
+      "name": "Bavali",
+      "lat": 11.8564375,
+      "lon": 76.1169799,
+      "node_id": 9852371643,
+      "dist_m": 15.916531930995793,
+      "snapped": true
+    },
+    {
+      "name": "Vythiri",
+      "lat": 11.5560885,
+      "lon": 76.038922,
+      "node_id": 9852371646,
+      "dist_m": 7.991846000759548,
+      "snapped": true
+    },
+    {
+      "name": "Meppadi",
+      "lat": 11.5529455,
+      "lon": 76.1320079,
+      "node_id": 12465388885,
+      "dist_m": 5.433626440200796,
+      "snapped": true
+    },
+    {
+      "name": "Sultan Bathery",
+      "lat": 11.6631885,
+      "lon": 76.259553,
+      "node_id": 5882978585,
+      "dist_m": 35.349987592179936,
+      "snapped": true
+    },
+    {
+      "name": "Vaduvanchal",
+      "lat": 11.5548347,
+      "lon": 76.2226984,
+      "node_id": 5870600698,
+      "dist_m": 30.128024992174076,
+      "snapped": true
+    },
+    {
+      "name": "Makkiyad",
+      "lat": 11.741282,
+      "lon": 75.899907,
+      "node_id": 2644127628,
+      "dist_m": 19.949330776122842,
+      "snapped": true
+    },
+    {
+      "name": "Vellmunda",
+      "lat": 11.73389,
+      "lon": 75.936209,
+      "node_id": 5234340585,
+      "dist_m": 7.154807911202477,
+      "snapped": true
+    },
+    {
+      "name": "Mananthavady",
+      "lat": 11.8010338,
+      "lon": 76.0056565,
+      "node_id": 9620387235,
+      "dist_m": 8.48285645159996,
+      "snapped": true
+    },
+    {
+      "name": "Naalam Mile",
+      "lat": 11.7560081,
+      "lon": 76.0070307,
+      "node_id": 2592202694,
+      "dist_m": 22.090649146936997,
+      "snapped": true
+    },
+    {
+      "name": "Pallikkal",
+      "lat": 11.7772588,
+      "lon": 75.976909,
+      "node_id": 8003841723,
+      "dist_m": 28.391801007392793,
+      "snapped": true
+    },
+    {
+      "name": "Kammom",
+      "lat": 11.770161,
+      "lon": 75.968141,
+      "node_id": 5870080043,
+      "dist_m": 29.973925364196145,
+      "snapped": true
+    },
+    {
+      "name": "Kallody",
+      "lat": 11.765701,
+      "lon": 75.961316,
+      "node_id": 2639128073,
+      "dist_m": 13.115014465157776,
+      "snapped": true
+    },
+    {
+      "name": "Mazhuvannur",
+      "lat": 11.7347967,
+      "lon": 75.987075,
+      "node_id": 2000176571,
+      "dist_m": 70.38692288432591,
+      "snapped": true
+    },
+    {
+      "name": "Kellur",
+      "lat": 11.7522667,
+      "lon": 76.008865,
+      "node_id": 8023041748,
+      "dist_m": 5.540456094947602,
+      "snapped": true
+    },
+    {
+      "name": "Peechamcode",
+      "lat": 11.7502953,
+      "lon": 76.0013675,
+      "node_id": 2592201886,
+      "dist_m": 34.40454314860779,
+      "snapped": true
+    },
+    {
+      "name": "Ancham Mile",
+      "lat": 11.7495087,
+      "lon": 76.0176012,
+      "node_id": 3079073242,
+      "dist_m": 4.418299765812796,
+      "snapped": true
+    },
+    {
+      "name": "Pozhuthana",
+      "lat": 11.5876934,
+      "lon": 76.0185741,
+      "node_id": 3675479024,
+      "dist_m": 38.45203346408885,
+      "snapped": true
+    },
+    {
+      "name": "Thariode",
+      "lat": 11.6427112,
+      "lon": 75.9962709,
+      "node_id": 2641052707,
+      "dist_m": 50.9081865365762,
+      "snapped": true
+    },
+    {
+      "name": "Kaavumannam",
+      "lat": 11.6383895,
+      "lon": 76.0085635,
+      "node_id": 990944891,
+      "dist_m": 0.7478662699922711,
+      "snapped": true
+    },
+    {
+      "name": "Vengappally",
+      "lat": 11.6107661,
+      "lon": 76.04583,
+      "node_id": 842387558,
+      "dist_m": 20.589840663176304,
+      "snapped": true
+    },
+    {
+      "name": "Tholpetty",
+      "lat": 11.9453756,
+      "lon": 76.0615339,
+      "node_id": 5882511078,
+      "dist_m": 44.90480726661176,
+      "snapped": true
+    },
+    {
+      "name": "Dwaraka",
+      "lat": 11.7584401,
+      "lon": 76.0063045,
+      "node_id": 5234257884,
+      "dist_m": 17.434636168976574,
+      "snapped": true
+    },
+    {
+      "name": "Meenangadi",
+      "lat": 11.6594656,
+      "lon": 76.1668396,
+      "node_id": 7057388400,
+      "dist_m": 53.44266467739434,
+      "snapped": true
+    },
+    {
+      "name": "Eachome",
+      "lat": 11.6953539,
+      "lon": 76.0428388,
+      "node_id": 10288032026,
+      "dist_m": 9.403968346416876,
+      "snapped": true
+    },
+    {
+      "name": "Tharuvana",
+      "lat": 11.737252,
+      "lon": 75.9787894,
+      "node_id": 5880214297,
+      "dist_m": 60.20265480474485,
+      "snapped": true
+    },
+    {
+      "name": "Thonichal",
+      "lat": 11.7715455,
+      "lon": 76.0004919,
+      "node_id": 2625625975,
+      "dist_m": 3.251809690840056,
+      "snapped": true
+    },
+    {
+      "name": "Kattikkulam",
+      "lat": 11.8474605,
+      "lon": 76.0630926,
+      "node_id": 8344612107,
+      "dist_m": 8.705899741511237,
+      "snapped": true
+    },
+    {
+      "name": "Anaappara",
+      "lat": 11.8464372,
+      "lon": 76.0368747,
+      "node_id": 5870057774,
+      "dist_m": 13.751549360729326,
+      "snapped": true
+    },
+    {
+      "name": "Pannichal",
+      "lat": 11.7827212,
+      "lon": 75.9835228,
+      "node_id": 2638944199,
+      "dist_m": 10.25761587412462,
+      "snapped": true
+    },
+    {
+      "name": "Orappu",
+      "lat": 11.7826705,
+      "lon": 75.9497528,
+      "node_id": 2639128114,
+      "dist_m": 0.0,
+      "snapped": true
+    },
+    {
+      "name": "Ellumannam",
+      "lat": 11.7857976,
+      "lon": 75.9624206,
+      "node_id": 2639127983,
+      "dist_m": 4.620481132633364,
+      "snapped": true
+    },
+    {
+      "name": "Veettichal",
+      "lat": 11.7720298,
+      "lon": 75.972534,
+      "node_id": 2639128187,
+      "dist_m": 8.276277341285372,
+      "snapped": true
+    },
+    {
+      "name": "54",
+      "lat": 11.8287055,
+      "lon": 76.0421877,
+      "node_id": 395115873,
+      "dist_m": 11.939586973741182,
+      "snapped": true
+    },
+    {
+      "name": "Ancham Peedika",
+      "lat": 11.7546872,
+      "lon": 75.9416971,
+      "node_id": 5831687713,
+      "dist_m": 9.745996805527977,
+      "snapped": true
+    },
+    {
+      "name": "Thettamala",
+      "lat": 11.7471296,
+      "lon": 75.9322986,
+      "node_id": 2640226712,
+      "dist_m": 17.160297965764393,
+      "snapped": true
+    },
+    {
+      "name": "Chettapalam",
+      "lat": 11.8095157,
+      "lon": 76.0152701,
+      "node_id": 7513741110,
+      "dist_m": 44.45186907011126,
+      "snapped": true
+    },
+    {
+      "name": "Ondayangadi",
+      "lat": 11.8243992,
+      "lon": 76.0252641,
+      "node_id": 2625240988,
+      "dist_m": 3.7904078597428708,
+      "snapped": true
+    },
+    {
+      "name": "Thrissilery",
+      "lat": 11.8561401,
+      "lon": 76.0439966,
+      "node_id": 2638421192,
+      "dist_m": 10.761802331214966,
+      "snapped": true
+    },
+    {
+      "name": "Appapara",
+      "lat": 11.9051947,
+      "lon": 76.0330133,
+      "node_id": 5263563253,
+      "dist_m": 21.02789879264068,
+      "snapped": true
+    },
+    {
+      "name": "Thirunelli",
+      "lat": 11.9098981,
+      "lon": 75.994875,
+      "node_id": 2638421533,
+      "dist_m": 39.24250932645136,
+      "snapped": true
+    },
+    {
+      "name": "Thalappuzha",
+      "lat": 11.8406506,
+      "lon": 75.9538774,
+      "node_id": 8899528727,
+      "dist_m": 22.34728493510425,
+      "snapped": true
+    },
+    {
+      "name": "Panamaram",
+      "lat": 11.7390969,
+      "lon": 76.0731104,
+      "node_id": 12484970623,
+      "dist_m": 2.81050370989052,
+      "snapped": true
+    },
+    {
+      "name": "Koyilery",
+      "lat": 11.786852,
+      "lon": 76.0455379,
+      "node_id": 1461433882,
+      "dist_m": 6.584615157627904,
+      "snapped": true
+    },
+    {
+      "name": "Cherukattoor",
+      "lat": 11.7685286,
+      "lon": 76.0611498,
+      "node_id": 2628272411,
+      "dist_m": 23.92163131023392,
+      "snapped": true
+    },
+    {
+      "name": "Kappunchal",
+      "lat": 11.7594011,
+      "lon": 76.0592615,
+      "node_id": 395074837,
+      "dist_m": 16.955762639158536,
+      "snapped": true
+    },
+    {
+      "name": "Anjukunnu",
+      "lat": 11.7526104,
+      "lon": 76.0372835,
+      "node_id": 290206697,
+      "dist_m": 15.78095952078451,
+      "snapped": true
+    },
+    {
+      "name": "Aaraam Mile (6th mile)",
+      "lat": 11.7542227,
+      "lon": 76.0270696,
+      "node_id": 5870325791,
+      "dist_m": 20.870285865494278,
+      "snapped": true
+    },
+    {
+      "name": "Vilambukandam",
+      "lat": 11.7118416,
+      "lon": 76.0382866,
+      "node_id": 5834288578,
+      "dist_m": 33.383630966126134,
+      "snapped": true
+    },
+    {
+      "name": "Pachilakkadu",
+      "lat": 11.7108561,
+      "lon": 76.0795012,
+      "node_id": 12514354766,
+      "dist_m": 10.121697528176412,
+      "snapped": true
+    },
+    {
+      "name": "Varummal kadavu",
+      "lat": 11.7221158,
+      "lon": 76.0391235,
+      "node_id": 7733795373,
+      "dist_m": 88.7501145093553,
+      "snapped": true
+    },
+    {
+      "name": "Peruvaka",
+      "lat": 11.7896132,
+      "lon": 76.0130524,
+      "node_id": 2623780181,
+      "dist_m": 114.68656245583935,
+      "snapped": true
+    },
+    {
+      "name": "Boy's Town",
+      "lat": 11.8398632,
+      "lon": 75.920034,
+      "node_id": 660597554,
+      "dist_m": 28.72667719848246,
+      "snapped": true
+    },
+    {
+      "name": "Kunjome",
+      "lat": 11.7627231,
+      "lon": 75.8530636,
+      "node_id": 2641559234,
+      "dist_m": 7.274276570539566,
+      "snapped": true
+    },
+    {
+      "name": "Payyampalli",
+      "lat": 11.810523,
+      "lon": 76.055507,
+      "node_id": 1461434068,
+      "dist_m": 29.563023637799255,
+      "snapped": true
+    },
+    {
+      "name": "Kammana",
+      "lat": 11.7827341,
+      "lon": 76.0177737,
+      "node_id": 2623362909,
+      "dist_m": 65.43954525655485,
+      "snapped": true
+    },
+    {
+      "name": "Kambalakkad",
+      "lat": 11.6775554,
+      "lon": 76.0746238,
+      "node_id": 394634100,
+      "dist_m": 1.7602278862381298,
+      "snapped": true
+    },
+    {
+      "name": "Nadakkal",
+      "lat": 11.7414709,
+      "lon": 75.9936392,
+      "node_id": 12513929881,
+      "dist_m": 23.747149938079215,
+      "snapped": true
+    },
+    {
+      "name": "Kokkadavu",
+      "lat": 11.7383603,
+      "lon": 75.9697467,
+      "node_id": 5831563539,
+      "dist_m": 27.55545894913431,
+      "snapped": true
+    },
+    {
+      "name": "Arattuthara",
+      "lat": 11.8004763,
+      "lon": 76.0276658,
+      "node_id": 7513741997,
+      "dist_m": 55.55315910262776,
+      "snapped": true
+    },
+    {
+      "name": "Muthireri",
+      "lat": 11.8025977,
+      "lon": 75.9425217,
+      "node_id": 5831642747,
+      "dist_m": 31.911045475229763,
+      "snapped": true
+    },
+    {
+      "name": "Pathirachal",
+      "lat": 11.7543005,
+      "lon": 75.9686042,
+      "node_id": 2642202203,
+      "dist_m": 5.322969321133449,
+      "snapped": true
+    },
+    {
+      "name": "Pulinjal",
+      "lat": 11.7180336,
+      "lon": 75.9386167,
+      "node_id": 12351173195,
+      "dist_m": 4.734819886457545,
+      "snapped": true
+    },
+    {
+      "name": "Changadakkadavu",
+      "lat": 11.7873956,
+      "lon": 76.0027363,
+      "node_id": 2623913340,
+      "dist_m": 34.03347780815704,
+      "snapped": true
+    },
+    {
+      "name": "Thannikkal",
+      "lat": 11.799054,
+      "lon": 76.0382738,
+      "node_id": 2026661864,
+      "dist_m": 62.94253563303853,
+      "snapped": true
+    },
+    {
+      "name": "Moolithodu",
+      "lat": 11.7578505,
+      "lon": 75.9464374,
+      "node_id": 5831687714,
+      "dist_m": 3.2731381858485578,
+      "snapped": true
+    },
+    {
+      "name": "Puthusseri",
+      "lat": 11.7727691,
+      "lon": 75.9194278,
+      "node_id": 2644109481,
+      "dist_m": 6.861914577486896,
+      "snapped": true
+    },
+    {
+      "name": "Kanhirangad",
+      "lat": 11.7401547,
+      "lon": 75.9088042,
+      "node_id": 1712266528,
+      "dist_m": 20.33754914469379,
+      "snapped": true
+    },
+    {
+      "name": "Palvelicham",
+      "lat": 11.8219719,
+      "lon": 76.0878625,
+      "node_id": 290209254,
+      "dist_m": 26.974067429153912,
+      "snapped": true
+    },
+    {
+      "name": "Kundala",
+      "lat": 11.7765397,
+      "lon": 76.0276845,
+      "node_id": 5870325277,
+      "dist_m": 28.552173329290497,
+      "snapped": true
+    },
+    {
+      "name": "Pulikkad",
+      "lat": 11.7694816,
+      "lon": 76.0162261,
+      "node_id": 2592204048,
+      "dist_m": 39.18337784144168,
+      "snapped": true
+    },
+    {
+      "name": "Pandikkadavu",
+      "lat": 11.7961764,
+      "lon": 75.9981654,
+      "node_id": 394770101,
+      "dist_m": 40.8043497630558,
+      "snapped": true
+    },
+    {
+      "name": "Choottakadavu",
+      "lat": 11.80143,
+      "lon": 75.991047,
+      "node_id": 2623913145,
+      "dist_m": 19.201825753677298,
+      "snapped": true
+    },
+    {
+      "name": "Kaniyaram",
+      "lat": 11.8135283,
+      "lon": 75.9944653,
+      "node_id": 1994983670,
+      "dist_m": 17.983341230144855,
+      "snapped": true
+    },
+    {
+      "name": "Koolivayal",
+      "lat": 11.7606266,
+      "lon": 76.0475183,
+      "node_id": 5831527278,
+      "dist_m": 18.180073093673656,
+      "snapped": true
+    },
+    {
+      "name": "Porur",
+      "lat": 11.7916605,
+      "lon": 75.9364046,
+      "node_id": 5870256776,
+      "dist_m": 29.019076404549132,
+      "snapped": true
+    },
+    {
+      "name": "Payingattiri",
+      "lat": 11.7727134,
+      "lon": 75.990334,
+      "node_id": 2625625999,
+      "dist_m": 29.52358602543247,
+      "snapped": true
+    },
+    {
+      "name": "Kuzhinilam",
+      "lat": 11.8192132,
+      "lon": 75.9882459,
+      "node_id": 1994983644,
+      "dist_m": 22.28558899046593,
+      "snapped": true
+    },
+    {
+      "name": "Pilacheri",
+      "lat": 11.8055926,
+      "lon": 75.9800705,
+      "node_id": 8676016301,
+      "dist_m": 16.641594069213227,
+      "snapped": true
+    },
+    {
+      "name": "Ambukuthy",
+      "lat": 11.8148761,
+      "lon": 76.0069409,
+      "node_id": 2627603757,
+      "dist_m": 26.09487994329968,
+      "snapped": true
+    },
+    {
+      "name": "Pulpally",
+      "lat": 11.7932652,
+      "lon": 76.1643871,
+      "node_id": 5870646305,
+      "dist_m": 20.798551820073072,
+      "snapped": true
+    },
+    {
+      "name": "Thonichal",
+      "lat": 11.7707383,
+      "lon": 76.0016918,
+      "node_id": 5870370170,
+      "dist_m": 12.674997181140736,
+      "snapped": true
+    },
+    {
+      "name": "Muttil",
+      "lat": 11.6418431,
+      "lon": 76.110624,
+      "node_id": 3330085320,
+      "dist_m": 2.402427621938212,
+      "snapped": true
+    },
+    {
+      "name": "Kainatti",
+      "lat": 11.6343825,
+      "lon": 76.0894939,
+      "node_id": 7521526458,
+      "dist_m": 60.72738383788256,
+      "snapped": true
+    },
+    {
+      "name": "Kappamkolly",
+      "lat": 11.5629978,
+      "lon": 76.1220971,
+      "node_id": 4423888999,
+      "dist_m": 22.106887992335803,
+      "snapped": true
+    },
+    {
+      "name": "Chooralmala",
+      "lat": 11.4992319,
+      "lon": 76.1598711,
+      "node_id": 3842230572,
+      "dist_m": 3.4040149166477676,
+      "snapped": true
+    },
+    {
+      "name": "Kalladi",
+      "lat": 11.5105804,
+      "lon": 76.1320264,
+      "node_id": 3249489400,
+      "dist_m": 20.02252729521535,
+      "snapped": true
+    },
+    {
+      "name": "Nellimunda",
+      "lat": 11.5375255,
+      "lon": 76.1315033,
+      "node_id": 7913072871,
+      "dist_m": 76.94112564935087,
+      "snapped": true
+    },
+    {
+      "name": "Chundale",
+      "lat": 11.5740364,
+      "lon": 76.0591416,
+      "node_id": 12070867707,
+      "dist_m": 36.44887468473917,
+      "snapped": true
+    },
+    {
+      "name": "Nedumkarana",
+      "lat": 11.5454831,
+      "lon": 76.17896,
+      "node_id": 5870268835,
+      "dist_m": 38.84147846256906,
+      "snapped": true
+    },
+    {
+      "name": "Thinapuram",
+      "lat": 11.539575,
+      "lon": 76.1617777,
+      "node_id": 12069562746,
+      "dist_m": 50.26740833368621,
+      "snapped": true
+    },
+    {
+      "name": "Padinjarethara",
+      "lat": 11.6780678,
+      "lon": 75.9752486,
+      "node_id": 5870075061,
+      "dist_m": 23.30488594835746,
+      "snapped": true
+    },
+    {
+      "name": "Ambalavayal",
+      "lat": 11.6192026,
+      "lon": 76.2120176,
+      "node_id": 5871739362,
+      "dist_m": 5.453824098307828,
+      "snapped": true
+    },
+    {
+      "name": "Muthanga",
+      "lat": 11.6714546,
+      "lon": 76.3619141,
+      "node_id": 290207311,
+      "dist_m": 23.992464584675,
+      "snapped": true
+    },
+    {
+      "name": "Lakkidi",
+      "lat": 11.5205672,
+      "lon": 76.0203502,
+      "node_id": 11553417675,
+      "dist_m": 34.403012934212725,
+      "snapped": true
+    },
+    {
+      "name": "Padichira",
+      "lat": 11.8396351,
+      "lon": 76.1789133,
+      "node_id": 5921465458,
+      "dist_m": 2.360720932817465,
+      "snapped": true
+    },
+    {
+      "name": "Puzhavayal",
+      "lat": 11.8521708,
+      "lon": 76.0552513,
+      "node_id": 6367722989,
+      "dist_m": 34.79763285861405,
+      "snapped": true
+    },
+    {
+      "name": "Cherakkara",
+      "lat": 11.8523332,
+      "lon": 75.965714,
+      "node_id": 7548699536,
+      "dist_m": 10.318549835033995,
+      "snapped": true
+    },
+    {
+      "name": "SJLP School Pilakkavu",
+      "lat": 11.8445249,
+      "lon": 75.9943436,
+      "node_id": 7522131408,
+      "dist_m": 69.84206640379486,
+      "snapped": true
+    },
+    {
+      "name": "Jessy",
+      "lat": 11.8523285,
+      "lon": 75.9855394,
+      "node_id": 8600966716,
+      "dist_m": 31.41404500929221,
+      "snapped": true
+    },
+    {
+      "name": "Karyambadi",
+      "lat": 11.6765072,
+      "lon": 76.1350705,
+      "node_id": 5699312266,
+      "dist_m": 4.916247592074554,
+      "snapped": true
+    },
+    {
+      "name": "Kenichira",
+      "lat": 11.7231089,
+      "lon": 76.1524023,
+      "node_id": 4720121260,
+      "dist_m": 12.410627516236588,
+      "snapped": true
+    },
+    {
+      "name": "Koliyadi",
+      "lat": 11.6346364,
+      "lon": 76.2773232,
+      "node_id": 5877688003,
+      "dist_m": 15.568969458790622,
+      "snapped": true
+    },
+    {
+      "name": "Thaloor",
+      "lat": 11.5849175,
+      "lon": 76.2542857,
+      "node_id": 12498671831,
+      "dist_m": 8.933813551555366,
+      "snapped": true
+    },
+    {
+      "name": "Korome",
+      "lat": 11.7443831,
+      "lon": 75.8815687,
+      "node_id": 1712266551,
+      "dist_m": 6.759587626761294,
+      "snapped": true
+    },
+    {
+      "name": "Rippon 52",
+      "lat": 11.5389643,
+      "lon": 76.1682956,
+      "node_id": 5870270785,
+      "dist_m": 2.5469379460247343,
+      "snapped": true
+    },
+    {
+      "name": "Kallumukku",
+      "lat": 11.6834216,
+      "lon": 76.3357329,
+      "node_id": 5234365985,
+      "dist_m": 93.4494066030198,
+      "snapped": true
+    },
+    {
+      "name": "Kabanigiri",
+      "lat": 11.8589476,
+      "lon": 76.1818007,
+      "node_id": 4618546948,
+      "dist_m": 23.91407886009613,
+      "snapped": true
+    },
+    {
+      "name": "Nambikolly",
+      "lat": 11.6359693,
+      "lon": 76.3069043,
+      "node_id": 5864848683,
+      "dist_m": 14.167842524143639,
+      "snapped": true
+    },
+    {
+      "name": "Paplassery",
+      "lat": 11.7190383,
+      "lon": 76.1892296,
+      "node_id": 4720121201,
+      "dist_m": 31.198623393409154,
+      "snapped": true
+    },
+    {
+      "name": "Kattimoola",
+      "lat": 11.802613,
+      "lon": 75.9254752,
+      "node_id": 2642326192,
+      "dist_m": 3.618183446377101,
+      "snapped": true
+    },
+    {
+      "name": "palakuly",
+      "lat": 11.8116366,
+      "lon": 75.9878501,
+      "node_id": 2640226557,
+      "dist_m": 4.259519152544959,
+      "snapped": true
+    },
+    {
+      "name": "godavari colony",
+      "lat": 11.8328294,
+      "lon": 75.9761116,
+      "node_id": 7463530176,
+      "dist_m": 53.47346002171584,
+      "snapped": true
+    },
+    {
+      "name": "Pookode",
+      "lat": 11.5357024,
+      "lon": 76.0305834,
+      "node_id": 8759481106,
+      "dist_m": 31.578707437072296,
+      "snapped": true
+    },
+    {
+      "name": "Melmury",
+      "lat": 11.6089377,
+      "lon": 75.9920555,
+      "node_id": 7705108527,
+      "dist_m": 23.288682204255945,
+      "snapped": true
+    },
+    {
+      "name": "ST colony puthiyadam",
+      "lat": 11.8542962,
+      "lon": 75.9582481,
+      "node_id": 2641297056,
+      "dist_m": 40.01251414660466,
+      "snapped": true
+    },
+    {
+      "name": "ambalakolly st colony",
+      "lat": 11.8240055,
+      "lon": 75.9590482,
+      "node_id": 2700418668,
+      "dist_m": 58.0237908137528,
+      "snapped": true
+    },
+    {
+      "name": "edmana scheduled tribes colony 1",
+      "lat": 11.8262663,
+      "lon": 75.9171162,
+      "node_id": 5871889622,
+      "dist_m": 34.93208648479632,
+      "snapped": true
+    },
+    {
+      "name": "Edamana st colony 2",
+      "lat": 11.8266374,
+      "lon": 75.9147782,
+      "node_id": 5871890856,
+      "dist_m": 63.95038512640556,
+      "snapped": true
+    },
+    {
+      "name": "kolymannu",
+      "lat": 11.8286769,
+      "lon": 75.8464419,
+      "node_id": 10756831820,
+      "dist_m": 53.30843461139771,
+      "snapped": true
+    },
+    {
+      "name": "Choyimoola",
+      "lat": 11.8287845,
+      "lon": 75.8344745,
+      "node_id": 8010432149,
+      "dist_m": 16.79564955620163,
+      "snapped": true
+    },
+    {
+      "name": "Alattil",
+      "lat": 11.808008,
+      "lon": 75.868248,
+      "node_id": 5870392324,
+      "dist_m": 11.493835411617244,
+      "snapped": true
+    },
+    {
+      "name": "Kalluvettumthazhe",
+      "lat": 11.7160724,
+      "lon": 76.0188827,
+      "node_id": 9164512015,
+      "dist_m": 5.555138661660361,
+      "snapped": true
+    },
+    {
+      "name": "Mavilamthodu",
+      "lat": 11.8181142,
+      "lon": 76.21616,
+      "node_id": 9188016650,
+      "dist_m": 51.18037033441094,
+      "snapped": true
+    },
+    {
+      "name": "Kappiset",
+      "lat": 11.8029156,
+      "lon": 76.2059502,
+      "node_id": 5882864342,
+      "dist_m": 15.797469420304688,
+      "snapped": true
+    },
+    {
+      "name": "Pinangode",
+      "lat": 11.6187238,
+      "lon": 76.0295278,
+      "node_id": 7525711214,
+      "dist_m": 4.450302791410835,
+      "snapped": true
+    },
+    {
+      "name": "Kottoor",
+      "lat": 11.5658556,
+      "lon": 76.2339013,
+      "node_id": 5870061548,
+      "dist_m": 46.30979811909267,
+      "snapped": true
+    },
+    {
+      "name": "Mundakai",
+      "lat": 11.486475,
+      "lon": 76.1557245,
+      "node_id": 3842228221,
+      "dist_m": 12.893509369174696,
+      "snapped": true
+    },
+    {
+      "name": "Moonanakuzhy",
+      "lat": 11.6998691,
+      "lon": 76.1848694,
+      "node_id": 604965415,
+      "dist_m": 24.57964869391838,
+      "snapped": true
+    },
+    {
+      "name": "Churuli",
+      "lat": 11.7939649,
+      "lon": 75.8457746,
+      "node_id": 12067246650,
+      "dist_m": 66.7212949816432,
+      "snapped": true
+    },
+    {
+      "name": "Cheeral",
+      "lat": 11.6080915,
+      "lon": 76.3136674,
+      "node_id": 5114721955,
+      "dist_m": 19.680877268526338,
+      "snapped": true
+    },
+    {
+      "name": "Kottathara",
+      "lat": 11.6650598,
+      "lon": 76.0416419,
+      "node_id": 3903375081,
+      "dist_m": 2.376846918649009,
+      "snapped": true
+    },
+    {
+      "name": "Venniyodu",
+      "lat": 11.6792598,
+      "lon": 76.0241865,
+      "node_id": 5870363161,
+      "dist_m": 6.650846849368619,
+      "snapped": true
+    },
+    {
+      "name": "Nadavayal",
+      "lat": 11.7410773,
+      "lon": 76.119078,
+      "node_id": 604965309,
+      "dist_m": 6.235249975793378,
+      "snapped": true
+    },
+    {
+      "name": "Kaniyambetta",
+      "lat": 11.6953621,
+      "lon": 76.0807517,
+      "node_id": 2648760619,
+      "dist_m": 4.186459239096615,
+      "snapped": true
+    },
+    {
+      "name": "Chulliyode",
+      "lat": 11.6012586,
+      "lon": 76.2551187,
+      "node_id": 411458472,
+      "dist_m": 42.82258009108431,
+      "snapped": true
+    },
+    {
+      "name": "Madakkara",
+      "lat": 11.619314,
+      "lon": 76.2749174,
+      "node_id": 5877686822,
+      "dist_m": 31.369493101715236,
+      "snapped": true
+    },
+    {
+      "name": "Pazhoor",
+      "lat": 11.6294935,
+      "lon": 76.3104519,
+      "node_id": 5114721266,
+      "dist_m": 34.68517703247146,
+      "snapped": true
+    },
+    {
+      "name": "ponnada",
+      "lat": 11.6322347,
+      "lon": 76.0487358,
+      "node_id": 2026701367,
+      "dist_m": 34.613688617109446,
+      "snapped": true
+    },
+    {
+      "name": "Pakkom",
+      "lat": 11.8017879,
+      "lon": 76.1032386,
+      "node_id": 306422901,
+      "dist_m": 28.114161076451833,
+      "snapped": true
+    },
+    {
+      "name": "Pariyaram",
+      "lat": 11.6513075,
+      "lon": 76.1028275,
+      "node_id": 3905891307,
+      "dist_m": 5.487774579867672,
+      "snapped": true
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Community Health Center Meppadi",
+      "lat": 11.558403,
+      "lon": 76.1308492,
+      "node_id": 5870049317,
+      "dist_m": 14.252032070171447,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre Panamaram",
+      "lat": 11.7384608,
+      "lon": 76.0702992,
+      "node_id": 11299153142,
+      "dist_m": 37.08407755747466,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre Peria",
+      "lat": 11.8356598,
+      "lon": 75.8564181,
+      "node_id": 1998717380,
+      "dist_m": 18.809244851667685,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre Porunnanore",
+      "lat": 11.7510286,
+      "lon": 76.0048247,
+      "node_id": 2000116964,
+      "dist_m": 36.47194501257327,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre Thariyode",
+      "lat": 11.6553728,
+      "lon": 75.9958546,
+      "node_id": 5870363123,
+      "dist_m": 80.81771827237397,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre, Meppady",
+      "lat": 11.6202435,
+      "lon": 76.2099125,
+      "node_id": 3903467563,
+      "dist_m": 24.614971632942755,
+      "snapped": true
+    },
+    {
+      "name": "Community Health Centre, Pulpally",
+      "lat": 11.782553,
+      "lon": 76.1622556,
+      "node_id": 7514649013,
+      "dist_m": 54.474487919138895,
+      "snapped": true
+    },
+    {
+      "name": "District Hospital Mananthavady",
+      "lat": 11.8003707,
+      "lon": 76.0012011,
+      "node_id": 2625625949,
+      "dist_m": 37.669277086250354,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Center Chethalayam",
+      "lat": 11.7481484,
+      "lon": 76.237039,
+      "node_id": 5869995755,
+      "dist_m": 18.77162856460381,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Center, Poothadi",
+      "lat": 11.7253588,
+      "lon": 76.1484157,
+      "node_id": 7526598461,
+      "dist_m": 30.193762052462105,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Center, Varadhoor",
+      "lat": 11.6995842,
+      "lon": 76.1057776,
+      "node_id": 5870378312,
+      "dist_m": 15.048080554608035,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Center, Vengapally",
+      "lat": 11.6493678,
+      "lon": 76.0402035,
+      "node_id": 8000329368,
+      "dist_m": 11.792393727344944,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Centre Appapara",
+      "lat": 11.9077131,
+      "lon": 76.032476,
+      "node_id": 5870276968,
+      "dist_m": 16.7832602413082,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Centre Kottathara",
+      "lat": 11.6663792,
+      "lon": 76.0111996,
+      "node_id": 8000053269,
+      "dist_m": 35.71492722890471,
+      "snapped": true
+    },
+    {
+      "name": "Family Health Centre Noolpuzha",
+      "lat": 11.6618891,
+      "lon": 76.3284577,
+      "node_id": 5292868805,
+      "dist_m": 18.053850082350312,
+      "snapped": true
+    },
+    {
+      "name": "Family Health centre  Edavaka",
+      "lat": 11.7764224,
+      "lon": 75.9764867,
+      "node_id": 5880213898,
+      "dist_m": 22.500540746393,
+      "snapped": true
+    },
+    {
+      "name": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery",
+      "lat": 11.658439,
+      "lon": 76.2635843,
+      "node_id": 4770518313,
+      "dist_m": 61.756669268165645,
+      "snapped": true
+    },
+    {
+      "name": "Noolpuzha Family Health Centre",
+      "lat": 11.6672489,
+      "lon": 76.3183017,
+      "node_id": 5588185383,
+      "dist_m": 24.68883792319526,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Center Pakkom",
+      "lat": 11.8041975,
+      "lon": 76.0941921,
+      "node_id": 5883019546,
+      "dist_m": 20.445723830900906,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Center Valad",
+      "lat": 11.7937938,
+      "lon": 75.9045112,
+      "node_id": 5870188346,
+      "dist_m": 16.43819046508242,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Begur",
+      "lat": 11.8495649,
+      "lon": 76.0672934,
+      "node_id": 395115924,
+      "dist_m": 23.14113818316029,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Cheeral",
+      "lat": 11.6105626,
+      "lon": 76.316091,
+      "node_id": 5877490081,
+      "dist_m": 14.661050770301783,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Chulliode",
+      "lat": 11.5974854,
+      "lon": 76.2561469,
+      "node_id": 7893169754,
+      "dist_m": 15.288726732224607,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Kurukanmoola",
+      "lat": 11.8263179,
+      "lon": 76.063034,
+      "node_id": 306423616,
+      "dist_m": 12.504165609598259,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Mullankolly",
+      "lat": 11.8205132,
+      "lon": 76.1653784,
+      "node_id": 5870645499,
+      "dist_m": 18.674510202979885,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Sugandhagiri",
+      "lat": 11.5506596,
+      "lon": 76.0029387,
+      "node_id": 8157241398,
+      "dist_m": 45.1938813419287,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Varadoor",
+      "lat": 11.7140519,
+      "lon": 76.1023231,
+      "node_id": 11266514535,
+      "dist_m": 20.202635360918343,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Vazhavatta",
+      "lat": 11.6213793,
+      "lon": 76.1581686,
+      "node_id": 2019274187,
+      "dist_m": 90.8482981081891,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre Vellamunda",
+      "lat": 11.7049126,
+      "lon": 75.9559317,
+      "node_id": 2642614933,
+      "dist_m": 36.542259692181055,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre, Kappukunnu",
+      "lat": 11.6751631,
+      "lon": 75.9733868,
+      "node_id": 8000047292,
+      "dist_m": 20.542365299206025,
+      "snapped": true
+    },
+    {
+      "name": "Primary Health Centre, Mooppainad",
+      "lat": 11.5477549,
+      "lon": 76.2040551,
+      "node_id": 3842232125,
+      "dist_m": 8.183599885973704,
+      "snapped": true
+    },
+    {
+      "name": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI",
+      "lat": 11.5510242,
+      "lon": 76.0405901,
+      "node_id": 7803553513,
+      "dist_m": 20.428243132620707,
+      "snapped": true
+    },
+    {
+      "name": "Urban Primary health Centre, Munderi",
+      "lat": 11.6202283,
+      "lon": 76.0734496,
+      "node_id": 2164886741,
+      "dist_m": 25.36072768597673,
+      "snapped": true
+    },
+    {
+      "name": "WIMS Urban Health Center Kalpetta",
+      "lat": 11.6099469,
+      "lon": 76.0824983,
+      "node_id": 395351034,
+      "dist_m": 13.895734071645702,
+      "snapped": true
+    }
+  ],
+  "routes": [
+    {
+      "village": "Kalpetta",
+      "facility": "WIMS Urban Health Center Kalpetta",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Periya",
+      "facility": "Community Health Centre Peria",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Bavali",
+      "facility": "Primary Health Centre Begur",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Vythiri",
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Meppadi",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Sultan Bathery",
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Vaduvanchal",
+      "facility": "Primary Health Centre, Mooppainad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Makkiyad",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Vellmunda",
+      "facility": "Primary Health Centre Vellamunda",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Mananthavady",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Naalam Mile",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pallikkal",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kammom",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kallody",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Mazhuvannur",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kellur",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Peechamcode",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ancham Mile",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pozhuthana",
+      "facility": "Primary Health Centre Sugandhagiri",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thariode",
+      "facility": "Community Health Centre Thariyode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kaavumannam",
+      "facility": "Community Health Centre Thariyode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Vengappally",
+      "facility": "Urban Primary health Centre, Munderi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Tholpetty",
+      "facility": "Family Health Centre Appapara",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Dwaraka",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Meenangadi",
+      "facility": "Primary Health Centre Vazhavatta",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Eachome",
+      "facility": "Family Health Centre Kottathara",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Tharuvana",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thonichal",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kattikkulam",
+      "facility": "Primary Health Centre Begur",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Anaappara",
+      "facility": "Primary Health Centre Begur",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pannichal",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Orappu",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ellumannam",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Veettichal",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "54",
+      "facility": "Primary Health Centre Kurukanmoola",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ancham Peedika",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thettamala",
+      "facility": "Primary Health Centre Vellamunda",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Chettapalam",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ondayangadi",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thrissilery",
+      "facility": "Primary Health Centre Begur",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Appapara",
+      "facility": "Family Health Centre Appapara",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thirunelli",
+      "facility": "Family Health Centre Appapara",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thalappuzha",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Panamaram",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Koyilery",
+      "facility": "Primary Health Centre Kurukanmoola",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Cherukattoor",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kappunchal",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Anjukunnu",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Aaraam Mile (6th mile)",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Vilambukandam",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pachilakkadu",
+      "facility": "Primary Health Centre Varadoor",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Varummal kadavu",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Peruvaka",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Boy's Town",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kunjome",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Payyampalli",
+      "facility": "Primary Health Centre Kurukanmoola",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kammana",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kambalakkad",
+      "facility": "Family Health Center, Varadhoor",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Nadakkal",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kokkadavu",
+      "facility": "Primary Health Centre Vellamunda",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Arattuthara",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Muthireri",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pathirachal",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pulinjal",
+      "facility": "Primary Health Centre Vellamunda",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Changadakkadavu",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thannikkal",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Moolithodu",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Puthusseri",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kanhirangad",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Palvelicham",
+      "facility": "Primary Health Center Pakkom",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kundala",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pulikkad",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pandikkadavu",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Choottakadavu",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kaniyaram",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Koolivayal",
+      "facility": "Community Health Centre Panamaram",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Porur",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Payingattiri",
+      "facility": "Family Health centre  Edavaka",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kuzhinilam",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pilacheri",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ambukuthy",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pulpally",
+      "facility": "Community Health Centre, Pulpally",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thonichal",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Muttil",
+      "facility": "WIMS Urban Health Center Kalpetta",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kainatti",
+      "facility": "Urban Primary health Centre, Munderi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kappamkolly",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Chooralmala",
+      "facility": "Primary Health Centre, Mooppainad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kalladi",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Nellimunda",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Chundale",
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Nedumkarana",
+      "facility": "Primary Health Centre, Mooppainad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thinapuram",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Padinjarethara",
+      "facility": "Primary Health Centre, Kappukunnu",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Ambalavayal",
+      "facility": "Community Health Centre, Meppady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Muthanga",
+      "facility": "Family Health Centre Noolpuzha",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Lakkidi",
+      "facility": "Primary Health Centre Sugandhagiri",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Padichira",
+      "facility": "Primary Health Centre Mullankolly",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Puzhavayal",
+      "facility": "Primary Health Centre Begur",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Cherakkara",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "SJLP School Pilakkavu",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Jessy",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Karyambadi",
+      "facility": "Family Health Center, Varadhoor",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kenichira",
+      "facility": "Family Health Center, Poothadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Koliyadi",
+      "facility": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Thaloor",
+      "facility": "Primary Health Centre Chulliode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Korome",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Rippon 52",
+      "facility": "Primary Health Centre, Mooppainad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kallumukku",
+      "facility": "Family Health Centre Noolpuzha",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kabanigiri",
+      "facility": "Primary Health Centre Mullankolly",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Nambikolly",
+      "facility": "Primary Health Centre Cheeral",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Paplassery",
+      "facility": "Family Health Center, Poothadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kattimoola",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "palakuly",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "godavari colony",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pookode",
+      "facility": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Melmury",
+      "facility": "Community Health Centre Thariyode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "ST colony puthiyadam",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "ambalakolly st colony",
+      "facility": "District Hospital Mananthavady",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "edmana scheduled tribes colony 1",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Edamana st colony 2",
+      "facility": "Primary Health Center Valad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "kolymannu",
+      "facility": "Community Health Centre Peria",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Choyimoola",
+      "facility": "Community Health Centre Peria",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Alattil",
+      "facility": "Community Health Centre Peria",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kalluvettumthazhe",
+      "facility": "Community Health Centre Porunnanore",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Mavilamthodu",
+      "facility": "Primary Health Centre Mullankolly",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kappiset",
+      "facility": "Primary Health Centre Mullankolly",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pinangode",
+      "facility": "Family Health Center, Vengapally",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kottoor",
+      "facility": "Primary Health Centre, Mooppainad",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Mundakai",
+      "facility": "Community Health Center Meppadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Moonanakuzhy",
+      "facility": "Family Health Center, Poothadi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Churuli",
+      "facility": "Community Health Centre Peria",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Cheeral",
+      "facility": "Primary Health Centre Cheeral",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kottathara",
+      "facility": "Family Health Center, Vengapally",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Venniyodu",
+      "facility": "Family Health Centre Kottathara",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Nadavayal",
+      "facility": "Primary Health Centre Varadoor",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Kaniyambetta",
+      "facility": "Family Health Center, Varadhoor",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Chulliyode",
+      "facility": "Primary Health Centre Chulliode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Madakkara",
+      "facility": "Primary Health Centre Chulliode",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pazhoor",
+      "facility": "Primary Health Centre Cheeral",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "ponnada",
+      "facility": "Family Health Center, Vengapally",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pakkom",
+      "facility": "Primary Health Center Pakkom",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    },
+    {
+      "village": "Pariyaram",
+      "facility": "Urban Primary health Centre, Munderi",
+      "village_snap_ok": true,
+      "facility_snap_ok": true,
+      "has_path": true
+    }
+  ],
+  "village_snap_pct": 100.0,
+  "facility_snap_pct": 100.0,
+  "route_pct": 100.0
+}
