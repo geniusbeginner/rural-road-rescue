@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "geosadak_wayanad_habitation_sample15",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "HAB_ID": 610317, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 3622, "HAB_NAME": "Kuzhinilam", "TOT_POPULA": 1701.0 }, "geometry": { "type": "Point", "coordinates": [ 75.98301625, 11.82031744 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222636, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Cherumala", "TOT_POPULA": 440.0 }, "geometry": { "type": "Point", "coordinates": [ 76.022116672046806, 11.702538705297099 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222682, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Choothupara", "TOT_POPULA": 610.0 }, "geometry": { "type": "Point", "coordinates": [ 76.158916339117795, 11.708109865977599 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222304, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Chitramoola", "TOT_POPULA": 350.0 }, "geometry": { "type": "Point", "coordinates": [ 76.088625291124302, 11.6922951825767 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1216099, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Kambalakkad", "TOT_POPULA": 3098.0 }, "geometry": { "type": "Point", "coordinates": [ 76.079694739920299, 11.6718193993459 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222599, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Kattayattu kavala", "TOT_POPULA": 340.0 }, "geometry": { "type": "Point", "coordinates": [ 76.184912599936595, 11.8084995006515 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222602, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Kulakattilkavala", "TOT_POPULA": 300.0 }, "geometry": { "type": "Point", "coordinates": [ 76.179717598688299, 11.8162254000822 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1216189, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Pallithazham", "TOT_POPULA": 350.0 }, "geometry": { "type": "Point", "coordinates": [ 76.199968959699802, 11.8138416903418 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222727, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Eriyapally", "TOT_POPULA": 1179.0 }, "geometry": { "type": "Point", "coordinates": [ 76.1750007471868, 11.7727274787902 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222739, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Shed", "TOT_POPULA": 1700.0 }, "geometry": { "type": "Point", "coordinates": [ 76.187776599810306, 11.7726319006417 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1216169, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Kakkadankunnu", "TOT_POPULA": 390.0 }, "geometry": { "type": "Point", "coordinates": [ 76.220840210807097, 11.688568598861799 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1216193, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Third palem", "TOT_POPULA": 530.0 }, "geometry": { "type": "Point", "coordinates": [ 76.160961599798, 11.8520540009914 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1216137, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Oorkattumoola", "TOT_POPULA": 540.0 }, "geometry": { "type": "Point", "coordinates": [ 76.105698401260298, 11.7721714009894 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222606, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Mambilly", "TOT_POPULA": 520.0 }, "geometry": { "type": "Point", "coordinates": [ 76.208630199923803, 11.851395100103799 ] } },
+{ "type": "Feature", "properties": { "HAB_ID": 1222596, "STATE_ID": 18, "DISTRICT_I": 587.0, "BLOCK_ID": 7105, "HAB_NAME": "Kanivelil kavala", "TOT_POPULA": 525.0 }, "geometry": { "type": "Point", "coordinates": [ 76.187173699706506, 11.8487814993667 ] } }
+]
+}

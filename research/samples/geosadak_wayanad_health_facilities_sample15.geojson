@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "geosadak_wayanad_health_facilities_sample15",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 5220, "HAB_ID": 692177, "FACILITY_I": 378768, "FAC_DESC": "Purnayoo arogya nikethanam", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.1663404, 11.66229059 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 5220, "HAB_ID": 30137, "FACILITY_I": 438515, "FAC_DESC": "ST Martin hospital", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.21100407, 11.62372067 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 5220, "HAB_ID": 55130, "FACILITY_I": 429393, "FAC_DESC": "health subcentre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.21326612, 11.63713904 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 2654, "HAB_ID": 735308, "FACILITY_I": 518250, "FAC_DESC": "Veterinary sub centre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.10884154, 11.63560749 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 5220, "HAB_ID": 692177, "FACILITY_I": 354291, "FAC_DESC": "Community Health Centre Meenangadi", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.16752082, 11.66445421 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 2654, "HAB_ID": 482263, "FACILITY_I": 444646, "FAC_DESC": "Leo Hospital", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.085092736479993, 11.604287374528999 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 2654, "HAB_ID": 1222559, "FACILITY_I": 527699, "FAC_DESC": "Govt Ayurveda Dispensary", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.02810309, 11.55009562 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 3622, "HAB_ID": 795367, "FACILITY_I": 606145, "FAC_DESC": "PHC sub centre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.03277383, 11.82823859 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 2654, "HAB_ID": 1222555, "FACILITY_I": 599070, "FAC_DESC": "Good shepered Hospital", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.04440693, 11.56112823 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 7105, "HAB_ID": 1216107, "FACILITY_I": 502482, "FAC_DESC": "CHC sub centre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.12027539, 11.74268848 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 7105, "HAB_ID": 1222540, "FACILITY_I": 502317, "FAC_DESC": "govt ayurveda dispensary", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.10745408, 11.73672977 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 5220, "HAB_ID": 320816, "FACILITY_I": 443689, "FAC_DESC": "Primary health centre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 76.32225994, 11.60479242 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 2654, "HAB_ID": 323014, "FACILITY_I": 603776, "FAC_DESC": "Government Ayurvedha dispensary", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 75.99063357, 11.62830771 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 3622, "HAB_ID": 1221880, "FACILITY_I": 622146, "FAC_DESC": "PHC Subcentre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 75.937167027732997, 11.763924249318 ] } },
+{ "type": "Feature", "properties": { "STATE_ID": 18, "DISTRICT_I": 587, "BLOCK_ID": 3622, "HAB_ID": 1052728, "FACILITY_I": 607588, "FAC_DESC": "Govt tribal hospital and Ambedkar memorial dist Cancer centre", "FAC_CATEGO": "Medical" }, "geometry": { "type": "Point", "coordinates": [ 75.98123348, 11.75500714 ] } }
+]
+}
