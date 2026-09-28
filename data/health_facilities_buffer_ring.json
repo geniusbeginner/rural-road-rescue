@@ -1,0 +1,219 @@
+[
+ {
+  "name": "24\u00d77 Primary health centre, Kelakam",
+  "lat": 11.9001654,
+  "lon": 75.8131351,
+  "osm": "node/7479298278",
+  "inside_district": false
+ },
+ {
+  "name": "Community Health Center Kodanchery",
+  "lat": 11.4362652,
+  "lon": 76.0077578,
+  "osm": "node/9063647194",
+  "inside_district": false
+ },
+ {
+  "name": "FHC Peruvannamuzhi",
+  "lat": 11.5968024,
+  "lon": 75.8191503,
+  "osm": "node/10709394546",
+  "inside_district": false
+ },
+ {
+  "name": "Family Health Center Puduppadi",
+  "lat": 11.4815104,
+  "lon": 75.9811713,
+  "osm": "node/8881574726",
+  "inside_district": false
+ },
+ {
+  "name": "Family Health Centre Maruthumkara",
+  "lat": 11.6437392,
+  "lon": 75.7909035,
+  "osm": "way/880556333",
+  "inside_district": false
+ },
+ {
+  "name": "Family Health Centre, Kottiyoor",
+  "lat": 11.8760855,
+  "lon": 75.8589003,
+  "osm": "way/799018520",
+  "inside_district": false
+ },
+ {
+  "name": "Government Hospital",
+  "lat": 11.5264581,
+  "lon": 76.3292672,
+  "osm": "node/7844009733",
+  "inside_district": false
+ },
+ {
+  "name": "Government Hospital, Kolapalli",
+  "lat": 11.5487451,
+  "lon": 76.3115365,
+  "osm": "node/7262919392",
+  "inside_district": false
+ },
+ {
+  "name": "Kavilumpara Village Primary Health Center",
+  "lat": 11.7060482,
+  "lon": 75.7791479,
+  "osm": "node/3799800080",
+  "inside_district": false
+ },
+ {
+  "name": "Kutta CHC",
+  "lat": 11.969701,
+  "lon": 76.051284,
+  "osm": "node/7202979474",
+  "inside_district": false
+ },
+ {
+  "name": "PHC Adivaram",
+  "lat": 11.4840238,
+  "lon": 76.011645,
+  "osm": "node/10124876388",
+  "inside_district": false
+ },
+ {
+  "name": "PHC Kakkayam",
+  "lat": 11.5517361,
+  "lon": 75.8946007,
+  "osm": "node/3028236981",
+  "inside_district": false
+ },
+ {
+  "name": "PHC, Ambalamoola",
+  "lat": 11.57522,
+  "lon": 76.321326,
+  "osm": "node/7262919449",
+  "inside_district": false
+ },
+ {
+  "name": "PHC, Kappala",
+  "lat": 11.55607,
+  "lon": 76.258173,
+  "osm": "node/7262919461",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center",
+  "lat": 11.609562,
+  "lon": 75.8513226,
+  "osm": "node/4032384252",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center Kakkayam",
+  "lat": 11.5487368,
+  "lon": 75.8918301,
+  "osm": "node/9063530922",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center Kayakkodi",
+  "lat": 11.6836601,
+  "lon": 75.7540734,
+  "osm": "node/9062936100",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center Peruvannamoozhi",
+  "lat": 11.5902664,
+  "lon": 75.8249727,
+  "osm": "node/9062792442",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center, Kanichar",
+  "lat": 11.8997376,
+  "lon": 75.7892328,
+  "osm": "way/894620565",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Center, Naripatta",
+  "lat": 11.7128929,
+  "lon": 75.7089141,
+  "osm": "node/9060670209",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre",
+  "lat": 11.455727,
+  "lon": 75.98656,
+  "osm": "node/7723464333",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre Vayalada",
+  "lat": 11.5023591,
+  "lon": 75.8921967,
+  "osm": "way/801055688",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre, Kallanode",
+  "lat": 11.532159,
+  "lon": 75.8790946,
+  "osm": "way/658627385",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre, Kayakodi",
+  "lat": 11.6727986,
+  "lon": 75.7465651,
+  "osm": "node/10683368735",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre, Kodencherry",
+  "lat": 11.4350036,
+  "lon": 76.0076115,
+  "osm": "node/6726383726",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre, Kunduthode",
+  "lat": 11.6727917,
+  "lon": 75.8143906,
+  "osm": "way/801535880",
+  "inside_district": false
+ },
+ {
+  "name": "Primary Health Centre, Peruva",
+  "lat": 11.837871,
+  "lon": 75.7174566,
+  "osm": "way/800008264",
+  "inside_district": false
+ },
+ {
+  "name": "Primary health centre, Kanichar",
+  "lat": 11.8810876,
+  "lon": 75.7681696,
+  "osm": "node/7496575836",
+  "inside_district": false
+ },
+ {
+  "name": "Primary health centre, Kanichar",
+  "lat": 11.8644562,
+  "lon": 75.7614717,
+  "osm": "node/8042718503",
+  "inside_district": false
+ },
+ {
+  "name": "Primary health centre, Keezhpally",
+  "lat": 11.9353294,
+  "lon": 75.7682192,
+  "osm": "node/8042715070",
+  "inside_district": false
+ },
+ {
+  "name": "Taluk Head Quarter Hospital, Peravoor",
+  "lat": 11.9030562,
+  "lon": 75.7332435,
+  "osm": "way/980012055",
+  "inside_district": false
+ }
+]

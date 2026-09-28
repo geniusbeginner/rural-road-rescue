@@ -1,0 +1,661 @@
+{
+ "parameters": {
+  "buffer_km": 10,
+  "buffer_edge_rule_m": 500,
+  "snap_cap_m": 500,
+  "suspect_rule": "any node outside district OR within buffer_edge_rule_m of buffer edge",
+  "population_rule": "revenue village counted only if all its OSM settlements are inside",
+  "facilities": "curated 34 + rule-selected buffer-ring facilities",
+  "osm_snapshot": "2026-09-16T10:45:02Z"
+ },
+ "enclaves": [
+  {
+   "villages": [
+    "Chooralmala",
+    "Kalladi",
+    "Mundakai"
+   ],
+   "road_nodes": 4536,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 141,
+   "outermost_cut": {
+    "u": 3249489501,
+    "v": 5870049103,
+    "way_id": 380928374,
+    "highway": "primary",
+    "length_m": 11.4,
+    "u_latlon": [
+     11.5243986,
+     76.1372555
+    ],
+    "v_latlon": [
+     11.5244917,
+     76.1372991
+    ]
+   },
+   "min_distance_to_district_boundary_m": 140,
+   "min_distance_to_buffer_edge_m": 10925,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 7548.0,
+   "revenue_villages_full": {
+    "Vellarimala": 7548.0
+   },
+   "revenue_villages_partial_unattributed": {}
+  },
+  {
+   "villages": [
+    "Chooralmala",
+    "Mundakai"
+   ],
+   "road_nodes": 3894,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 36,
+   "outermost_cut": {
+    "u": 3249489400,
+    "v": 3842231008,
+    "way_id": 30778557,
+    "highway": "primary",
+    "length_m": 10.2,
+    "u_latlon": [
+     11.5104282,
+     76.1321246
+    ],
+    "v_latlon": [
+     11.5103513,
+     76.1321751
+    ]
+   },
+   "min_distance_to_district_boundary_m": 140,
+   "min_distance_to_buffer_edge_m": 10925,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Vellarimala": {
+     "population_2011": 7548.0,
+     "settlements_inside": 2,
+     "settlements_total": 3
+    }
+   }
+  },
+  {
+   "villages": [
+    "Mundakai"
+   ],
+   "road_nodes": 752,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 20,
+   "outermost_cut": {
+    "u": 3842228241,
+    "v": 3842228242,
+    "way_id": 380928408,
+    "highway": "tertiary",
+    "length_m": 12.3,
+    "u_latlon": [
+     11.4899076,
+     76.1558417
+    ],
+    "v_latlon": [
+     11.4900185,
+     76.155845
+    ]
+   },
+   "min_distance_to_district_boundary_m": 1244,
+   "min_distance_to_buffer_edge_m": 11682,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Vellarimala": {
+     "population_2011": 7548.0,
+     "settlements_inside": 1,
+     "settlements_total": 3
+    }
+   }
+  },
+  {
+   "villages": [
+    "Jessy"
+   ],
+   "road_nodes": 128,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 13,
+   "outermost_cut": {
+    "u": 2625625792,
+    "v": 8269402312,
+    "way_id": 256942786,
+    "highway": "tertiary",
+    "length_m": 13.0,
+    "u_latlon": [
+     11.8512682,
+     75.9859675
+    ],
+    "v_latlon": [
+     11.8511724,
+     75.9860357
+    ]
+   },
+   "min_distance_to_district_boundary_m": 5756,
+   "min_distance_to_buffer_edge_m": 17996,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Mananthavady": {
+     "population_2011": 34663.0,
+     "settlements_inside": 1,
+     "settlements_total": 14
+    }
+   }
+  },
+  {
+   "villages": [
+    "Kallumukku"
+   ],
+   "road_nodes": 89,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 23,
+   "outermost_cut": {
+    "u": 5234365965,
+    "v": 5234365966,
+    "way_id": 845788122,
+    "highway": "unclassified",
+    "length_m": 28.6,
+    "u_latlon": [
+     11.6767208,
+     76.336629
+    ],
+    "v_latlon": [
+     11.6769761,
+     76.3365981
+    ]
+   },
+   "min_distance_to_district_boundary_m": 4871,
+   "min_distance_to_buffer_edge_m": 17217,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Noolpuzha": {
+     "population_2011": 14133.0,
+     "settlements_inside": 1,
+     "settlements_total": 2
+    }
+   }
+  },
+  {
+   "villages": [
+    "Palvelicham"
+   ],
+   "road_nodes": 85,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 20,
+   "outermost_cut": {
+    "u": 290209227,
+    "v": 290209232,
+    "way_id": 30779581,
+    "highway": "tertiary",
+    "length_m": 105.8,
+    "u_latlon": [
+     11.8197034,
+     76.083318
+    ],
+    "v_latlon": [
+     11.8203874,
+     76.0839935
+    ]
+   },
+   "min_distance_to_district_boundary_m": 4425,
+   "min_distance_to_buffer_edge_m": 19611,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Payyampally": {
+     "population_2011": 13311.0,
+     "settlements_inside": 1,
+     "settlements_total": 5
+    }
+   }
+  },
+  {
+   "villages": [
+    "Churuli"
+   ],
+   "road_nodes": 46,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 31,
+   "outermost_cut": {
+    "u": 5870338598,
+    "v": 5870338599,
+    "way_id": 621404204,
+    "highway": "residential",
+    "length_m": 7.0,
+    "u_latlon": [
+     11.796392,
+     75.8513386
+    ],
+    "v_latlon": [
+     11.7964177,
+     75.8512795
+    ]
+   },
+   "min_distance_to_district_boundary_m": 5425,
+   "min_distance_to_buffer_edge_m": 16822,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Thondernad": {
+     "population_2011": 11752.0,
+     "settlements_inside": 1,
+     "settlements_total": 4
+    }
+   }
+  },
+  {
+   "villages": [
+    "Melmury"
+   ],
+   "road_nodes": 37,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 5,
+   "outermost_cut": {
+    "u": 5871743515,
+    "v": 7705108523,
+    "way_id": 825183489,
+    "highway": "track",
+    "length_m": 57.1,
+    "u_latlon": [
+     11.608972,
+     75.9932888
+    ],
+    "v_latlon": [
+     11.6089627,
+     75.9927644
+    ]
+   },
+   "min_distance_to_district_boundary_m": 4845,
+   "min_distance_to_buffer_edge_m": 15746,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Achooranam": {
+     "population_2011": 11998.0,
+     "settlements_inside": 1,
+     "settlements_total": 2
+    }
+   }
+  },
+  {
+   "villages": [
+    "Nellimunda"
+   ],
+   "road_nodes": 22,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 10,
+   "outermost_cut": {
+    "u": 3842231567,
+    "v": 3842231572,
+    "way_id": 380928407,
+    "highway": "unclassified",
+    "length_m": 13.9,
+    "u_latlon": [
+     11.5382338,
+     76.1301191
+    ],
+    "v_latlon": [
+     11.5383073,
+     76.1300155
+    ]
+   },
+   "min_distance_to_district_boundary_m": 5264,
+   "min_distance_to_buffer_edge_m": 17088,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Kottappadi (part)": {
+     "population_2011": 23384.0,
+     "settlements_inside": 1,
+     "settlements_total": 3
+    }
+   }
+  },
+  {
+   "villages": [
+    "Lakkidi"
+   ],
+   "road_nodes": 22,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 2,
+   "outermost_cut": {
+    "u": 11553417673,
+    "v": 11553417674,
+    "way_id": 1243121892,
+    "highway": "residential",
+    "length_m": 32.5,
+    "u_latlon": [
+     11.5210346,
+     76.0206783
+    ],
+    "v_latlon": [
+     11.5209141,
+     76.0204064
+    ]
+   },
+   "min_distance_to_district_boundary_m": 371,
+   "min_distance_to_buffer_edge_m": 10614,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Kunnathidavaka": {
+     "population_2011": 10309.0,
+     "settlements_inside": 1,
+     "settlements_total": 2
+    }
+   }
+  },
+  {
+   "villages": [
+    "Edamana st colony 2"
+   ],
+   "road_nodes": 15,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 2,
+   "outermost_cut": {
+    "u": 5871889608,
+    "v": 5871890587,
+    "way_id": 621580223,
+    "highway": "residential",
+    "length_m": 53.2,
+    "u_latlon": [
+     11.8255615,
+     75.9144503
+    ],
+    "v_latlon": [
+     11.8260386,
+     75.9144139
+    ]
+   },
+   "min_distance_to_district_boundary_m": 2068,
+   "min_distance_to_buffer_edge_m": 15804,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Periya": {
+     "population_2011": 11174.0,
+     "settlements_inside": 1,
+     "settlements_total": 7
+    }
+   }
+  },
+  {
+   "villages": [
+    "Choyimoola"
+   ],
+   "road_nodes": 9,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 2,
+   "outermost_cut": {
+    "u": 8010432147,
+    "v": 8010432148,
+    "way_id": 859362204,
+    "highway": "track",
+    "length_m": 16.2,
+    "u_latlon": [
+     11.8290639,
+     75.8344249
+    ],
+    "v_latlon": [
+     11.8289694,
+     75.8345376
+    ]
+   },
+   "min_distance_to_district_boundary_m": 2585,
+   "min_distance_to_buffer_edge_m": 13128,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Periya": {
+     "population_2011": 11174.0,
+     "settlements_inside": 1,
+     "settlements_total": 7
+    }
+   }
+  },
+  {
+   "villages": [
+    "Pilacheri"
+   ],
+   "road_nodes": 6,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 1,
+   "outermost_cut": {
+    "u": 8676016300,
+    "v": 8676016301,
+    "way_id": 936313299,
+    "highway": "residential",
+    "length_m": 51.1,
+    "u_latlon": [
+     11.805297,
+     75.9799476
+    ],
+    "v_latlon": [
+     11.8057421,
+     75.9800634
+    ]
+   },
+   "min_distance_to_district_boundary_m": 7018,
+   "min_distance_to_buffer_edge_m": 22185,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Mananthavady": {
+     "population_2011": 34663.0,
+     "settlements_inside": 1,
+     "settlements_total": 14
+    }
+   }
+  },
+  {
+   "villages": [
+    "Thinapuram"
+   ],
+   "road_nodes": 6,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 2,
+   "outermost_cut": {
+    "u": 12069562744,
+    "v": 12069562745,
+    "way_id": 1303235391,
+    "highway": "unclassified",
+    "length_m": 59.7,
+    "u_latlon": [
+     11.5393515,
+     76.1628273
+    ],
+    "v_latlon": [
+     11.5393032,
+     76.162282
+    ]
+   },
+   "min_distance_to_district_boundary_m": 5451,
+   "min_distance_to_buffer_edge_m": 16419,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Muppainad": {
+     "population_2011": 22892.0,
+     "settlements_inside": 1,
+     "settlements_total": 5
+    }
+   }
+  },
+  {
+   "villages": [
+    "Chundale"
+   ],
+   "road_nodes": 1,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 1,
+   "outermost_cut": {
+    "u": 3129716941,
+    "v": 12070867707,
+    "way_id": 1303385757,
+    "highway": "unclassified",
+    "length_m": 101.9,
+    "u_latlon": [
+     11.573484,
+     76.0595363
+    ],
+    "v_latlon": [
+     11.574059,
+     76.0588078
+    ]
+   },
+   "min_distance_to_district_boundary_m": 5737,
+   "min_distance_to_buffer_edge_m": 17782,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [
+    "Chundale"
+   ],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Chundale": {
+     "population_2011": 7996.0,
+     "settlements_inside": 1,
+     "settlements_total": 2
+    }
+   }
+  },
+  {
+   "villages": [
+    "Sultan Bathery"
+   ],
+   "road_nodes": 1,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 1,
+   "outermost_cut": {
+    "u": 5882978584,
+    "v": 5882978585,
+    "way_id": 622901612,
+    "highway": "residential",
+    "length_m": 33.9,
+    "u_latlon": [
+     11.6626156,
+     76.2596714
+    ],
+    "v_latlon": [
+     11.6629163,
+     76.2597207
+    ]
+   },
+   "min_distance_to_district_boundary_m": 7171,
+   "min_distance_to_buffer_edge_m": 21113,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [
+    "Sultan Bathery"
+   ],
+   "population_attributed": 23333.0,
+   "revenue_villages_full": {
+    "Sulthanbathery": 23333.0
+   },
+   "revenue_villages_partial_unattributed": {}
+  },
+  {
+   "villages": [
+    "Meenangadi"
+   ],
+   "road_nodes": 1,
+   "facilities_inside": 0,
+   "n_single_link_cuts_producing_it": 1,
+   "outermost_cut": {
+    "u": 7057388399,
+    "v": 7057388400,
+    "way_id": 755560629,
+    "highway": "unclassified",
+    "length_m": 43.5,
+    "u_latlon": [
+     11.6599114,
+     76.1674507
+    ],
+    "v_latlon": [
+     11.6595402,
+     76.1673244
+    ]
+   },
+   "min_distance_to_district_boundary_m": 12120,
+   "min_distance_to_buffer_edge_m": 26296,
+   "nodes_outside_district": 0,
+   "flag_10km": "real",
+   "flag_5km": "real",
+   "spur_snap_villages": [
+    "Meenangadi"
+   ],
+   "population_attributed": 0,
+   "revenue_villages_full": {},
+   "revenue_villages_partial_unattributed": {
+    "Purakkadi": {
+     "population_2011": 21022.0,
+     "settlements_inside": 1,
+     "settlements_total": 2
+    }
+   }
+  }
+ ],
+ "villages_in_facility_free_components": []
+}
