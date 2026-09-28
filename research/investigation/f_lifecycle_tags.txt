@@ -1,0 +1,9 @@
+ways in 2026 extract: 19272; with a lifecycle key (wide list ('destroyed', 'disused', 'abandoned', 'razed', 'demolished', 'removed', 'dismantled', 'was', 'construction', 'proposed')): 4
+  of which in V2's list ('destroyed', 'disused', 'abandoned'): 4
+  lifecycle keys: {'destroyed:highway': 4, 'destroyed': 2}
+  by highway class: {'residential': 2, 'track': 2}
+damage:* tagged ways (reported separately): 2 -> [794270381, 1347557913]
+  way 794270379: highway=residential bridge=yes {'destroyed:highway': 'residential'} | in V0 graph True (1 edges, 1 of them graph bridges) | on alternate path: no
+  way 794270381: highway=track bridge=yes {'destroyed': 'yes', 'destroyed:highway': 'yes'} | in V0 graph True (1 edges, 0 of them graph bridges) | on alternate path: ['2024 alternate', '2026 alternate']
+  way 1347557909: highway=residential bridge=- {'destroyed:highway': 'residential'} | in V0 graph True (3 edges, 3 of them graph bridges) | on alternate path: no
+  way 1347557913: highway=track bridge=- {'destroyed': 'yes', 'destroyed:highway': 'yes'} | in V0 graph True (1 edges, 0 of them graph bridges) | on alternate path: ['2026 alternate']

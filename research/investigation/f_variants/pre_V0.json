@@ -1,0 +1,1516 @@
+{
+ "snapshot": "pre",
+ "variant": "V0",
+ "ways_kept": 18091,
+ "ways_total": 18091,
+ "nodes": 335165,
+ "edges": 339421,
+ "components": 128,
+ "unsnapped_villages": [],
+ "unsnapped_facilities": [],
+ "snap_moved_vs_V0": [],
+ "chooralmala_node": 3842230572,
+ "mundakai_node": 3842228221,
+ "snaps": {
+  "villages": {
+   "Kalpetta@11.610278,76.08281": [
+    395351033,
+    0
+   ],
+   "Periya@11.8334589,75.8550205": [
+    1998717071,
+    44
+   ],
+   "Bavali@11.8564375,76.1169799": [
+    9852371643,
+    16
+   ],
+   "Vythiri@11.5560885,76.038922": [
+    9852371646,
+    8
+   ],
+   "Meppadi@11.5529455,76.1320079": [
+    5870049105,
+    5
+   ],
+   "Sultan Bathery@11.6631885,76.259553": [
+    5882978585,
+    35
+   ],
+   "Vaduvanchal@11.5548347,76.2226984": [
+    5870600698,
+    30
+   ],
+   "Makkiyad@11.741282,75.899907": [
+    2644127628,
+    20
+   ],
+   "Vellmunda@11.73389,75.936209": [
+    5234340585,
+    7
+   ],
+   "Mananthavady@11.8010338,76.0056565": [
+    9620387235,
+    8
+   ],
+   "Naalam Mile@11.7560081,76.0070307": [
+    2592202694,
+    22
+   ],
+   "Pallikkal@11.7772588,75.976909": [
+    8003841723,
+    28
+   ],
+   "Kammom@11.770161,75.968141": [
+    5870080043,
+    30
+   ],
+   "Kallody@11.765701,75.961316": [
+    2639128073,
+    13
+   ],
+   "Mazhuvannur@11.7347967,75.987075": [
+    2000176571,
+    74
+   ],
+   "Kellur@11.7522667,76.008865": [
+    8023041748,
+    7
+   ],
+   "Peechamcode@11.7502953,76.0013675": [
+    2592201886,
+    34
+   ],
+   "Ancham Mile@11.7495087,76.0176012": [
+    3079073242,
+    4
+   ],
+   "Pozhuthana@11.5876934,76.0185741": [
+    3675479024,
+    38
+   ],
+   "Thariode@11.6427112,75.9962709": [
+    2641052707,
+    51
+   ],
+   "Kaavumannam@11.6383895,76.0085635": [
+    990944891,
+    1
+   ],
+   "Vengappally@11.6107661,76.04583": [
+    842387558,
+    21
+   ],
+   "Tholpetty@11.9453756,76.0615339": [
+    5882511078,
+    45
+   ],
+   "Dwaraka@11.7584401,76.0063045": [
+    5234257884,
+    17
+   ],
+   "Meenangadi@11.6594656,76.1668396": [
+    7057388400,
+    53
+   ],
+   "Eachome@11.6953539,76.0428388": [
+    10288032026,
+    9
+   ],
+   "Tharuvana@11.737252,75.9787894": [
+    5880214297,
+    60
+   ],
+   "Thonichal@11.7715455,76.0004919": [
+    2625625975,
+    3
+   ],
+   "Kattikkulam@11.8474605,76.0630926": [
+    8344612107,
+    9
+   ],
+   "Anaappara@11.8464372,76.0368747": [
+    5870057774,
+    14
+   ],
+   "Pannichal@11.7827212,75.9835228": [
+    2638944199,
+    10
+   ],
+   "Orappu@11.7826705,75.9497528": [
+    2639128114,
+    0
+   ],
+   "Ellumannam@11.7857976,75.9624206": [
+    2639127983,
+    5
+   ],
+   "Veettichal@11.7720298,75.972534": [
+    2639128187,
+    8
+   ],
+   "54@11.8287055,76.0421877": [
+    395115873,
+    12
+   ],
+   "Ancham Peedika@11.7546872,75.9416971": [
+    5831687713,
+    10
+   ],
+   "Thettamala@11.7471296,75.9322986": [
+    2640226712,
+    17
+   ],
+   "Chettapalam@11.8095157,76.0152701": [
+    7513741110,
+    44
+   ],
+   "Ondayangadi@11.8243992,76.0252641": [
+    2625240988,
+    4
+   ],
+   "Thrissilery@11.8561401,76.0439966": [
+    2638421192,
+    11
+   ],
+   "Appapara@11.9051947,76.0330133": [
+    5263563253,
+    21
+   ],
+   "Thirunelli@11.9098981,75.994875": [
+    2638421533,
+    39
+   ],
+   "Thalappuzha@11.8406506,75.9538774": [
+    8899528727,
+    22
+   ],
+   "Panamaram@11.7390969,76.0731104": [
+    2005926717,
+    4
+   ],
+   "Koyilery@11.786852,76.0455379": [
+    1461433882,
+    7
+   ],
+   "Cherukattoor@11.7685286,76.0611498": [
+    2628272411,
+    24
+   ],
+   "Kappunchal@11.7594011,76.0592615": [
+    395074837,
+    17
+   ],
+   "Anjukunnu@11.7526104,76.0372835": [
+    290206697,
+    16
+   ],
+   "Aaraam Mile (6th mile)@11.7542227,76.0270696": [
+    5870325791,
+    21
+   ],
+   "Vilambukandam@11.7118416,76.0382866": [
+    5834288578,
+    34
+   ],
+   "Pachilakkadu@11.7108561,76.0795012": [
+    5831388315,
+    20
+   ],
+   "Varummal kadavu@11.7221158,76.0391235": [
+    7733795373,
+    89
+   ],
+   "Peruvaka@11.7896132,76.0130524": [
+    2623780181,
+    115
+   ],
+   "Boy's Town@11.8398632,75.920034": [
+    660597554,
+    29
+   ],
+   "Kunjome@11.7627231,75.8530636": [
+    2641559234,
+    7
+   ],
+   "Payyampalli@11.810523,76.055507": [
+    1461434068,
+    30
+   ],
+   "Kammana@11.7827341,76.0177737": [
+    2623362909,
+    65
+   ],
+   "Kambalakkad@11.6775554,76.0746238": [
+    394634100,
+    3
+   ],
+   "Nadakkal@11.7414709,75.9936392": [
+    2642202116,
+    28
+   ],
+   "Kokkadavu@11.7383603,75.9697467": [
+    5831563539,
+    28
+   ],
+   "Arattuthara@11.8004763,76.0276658": [
+    7513741997,
+    56
+   ],
+   "Muthireri@11.8025977,75.9425217": [
+    5831642747,
+    32
+   ],
+   "Pathirachal@11.7543005,75.9686042": [
+    2642202203,
+    5
+   ],
+   "Pulinjal@11.7180336,75.9386167": [
+    5831554876,
+    8
+   ],
+   "Changadakkadavu@11.7873956,76.0027363": [
+    2623913340,
+    34
+   ],
+   "Thannikkal@11.799054,76.0382738": [
+    2026661864,
+    63
+   ],
+   "Moolithodu@11.7578505,75.9464374": [
+    5831687714,
+    3
+   ],
+   "Puthusseri@11.7727691,75.9194278": [
+    2644109481,
+    12
+   ],
+   "Kanhirangad@11.7401547,75.9088042": [
+    1712266528,
+    20
+   ],
+   "Palvelicham@11.8219719,76.0878625": [
+    290209254,
+    27
+   ],
+   "Kundala@11.7765397,76.0276845": [
+    5870325277,
+    29
+   ],
+   "Pulikkad@11.7694816,76.0162261": [
+    2592204048,
+    39
+   ],
+   "Pandikkadavu@11.7961764,75.9981654": [
+    394770101,
+    41
+   ],
+   "Choottakadavu@11.80143,75.991047": [
+    2623913145,
+    19
+   ],
+   "Kaniyaram@11.8135283,75.9944653": [
+    1994983670,
+    18
+   ],
+   "Koolivayal@11.7606266,76.0475183": [
+    5831527278,
+    18
+   ],
+   "Porur@11.7916605,75.9364046": [
+    5870256776,
+    29
+   ],
+   "Payingattiri@11.7727134,75.990334": [
+    2625625999,
+    30
+   ],
+   "Kuzhinilam@11.8192132,75.9882459": [
+    1994983644,
+    22
+   ],
+   "Pilacheri@11.8055926,75.9800705": [
+    8676016301,
+    17
+   ],
+   "Ambukuthy@11.8148761,76.0069409": [
+    2627603757,
+    26
+   ],
+   "Pulpally@11.7932652,76.1643871": [
+    5870646305,
+    21
+   ],
+   "Thonichal@11.7707383,76.0016918": [
+    5870370170,
+    13
+   ],
+   "Muttil@11.6418431,76.110624": [
+    3330085320,
+    2
+   ],
+   "Kainatti@11.6343825,76.0894939": [
+    7521526458,
+    61
+   ],
+   "Kappamkolly@11.5629978,76.1220971": [
+    4423888999,
+    22
+   ],
+   "Chooralmala@11.4992319,76.1598711": [
+    3842230572,
+    6
+   ],
+   "Kalladi@11.5105804,76.1320264": [
+    3249489400,
+    20
+   ],
+   "Nellimunda@11.5375255,76.1315033": [
+    7913072871,
+    77
+   ],
+   "Chundale@11.5740364,76.0591416": [
+    12070867707,
+    36
+   ],
+   "Nedumkarana@11.5454831,76.17896": [
+    5870268835,
+    39
+   ],
+   "Thinapuram@11.539575,76.1617777": [
+    12069562746,
+    50
+   ],
+   "Padinjarethara@11.6780678,75.9752486": [
+    5870075061,
+    23
+   ],
+   "Ambalavayal@11.6192026,76.2120176": [
+    5871739362,
+    5
+   ],
+   "Muthanga@11.6714546,76.3619141": [
+    290207311,
+    24
+   ],
+   "Lakkidi@11.5205672,76.0203502": [
+    11553417675,
+    34
+   ],
+   "Padichira@11.8396351,76.1789133": [
+    5921465458,
+    2
+   ],
+   "Puzhavayal@11.8521708,76.0552513": [
+    6367722989,
+    35
+   ],
+   "Cherakkara@11.8523332,75.965714": [
+    7548699536,
+    10
+   ],
+   "SJLP School Pilakkavu@11.8445249,75.9943436": [
+    7522131408,
+    70
+   ],
+   "Jessy@11.8523285,75.9855394": [
+    8600966716,
+    31
+   ],
+   "Karyambadi@11.6765072,76.1350705": [
+    5699312266,
+    4
+   ],
+   "Kenichira@11.7231089,76.1524023": [
+    4720121260,
+    12
+   ],
+   "Koliyadi@11.6346364,76.2773232": [
+    5877688003,
+    16
+   ],
+   "Thaloor@11.5849175,76.2542857": [
+    411458549,
+    35
+   ],
+   "Korome@11.7443831,75.8815687": [
+    1712266551,
+    7
+   ],
+   "Rippon 52@11.5389643,76.1682956": [
+    5870270785,
+    3
+   ],
+   "Kallumukku@11.6834216,76.3357329": [
+    5234365985,
+    93
+   ],
+   "Kabanigiri@11.8589476,76.1818007": [
+    4618546948,
+    24
+   ],
+   "Nambikolly@11.6359693,76.3069043": [
+    5864848683,
+    14
+   ],
+   "Paplassery@11.7190383,76.1892296": [
+    4720121201,
+    31
+   ],
+   "Kattimoola@11.802613,75.9254752": [
+    2642326192,
+    4
+   ],
+   "palakuly@11.8116366,75.9878501": [
+    2640226557,
+    4
+   ],
+   "godavari colony@11.8328294,75.9761116": [
+    7463530176,
+    53
+   ],
+   "Pookode@11.5357024,76.0305834": [
+    8759481106,
+    32
+   ],
+   "Melmury@11.6089377,75.9920555": [
+    7705108527,
+    23
+   ],
+   "ST colony puthiyadam@11.8542962,75.9582481": [
+    2641297056,
+    40
+   ],
+   "ambalakolly st colony@11.8240055,75.9590482": [
+    2700418668,
+    58
+   ],
+   "edmana scheduled tribes colony 1@11.8262663,75.9171162": [
+    5871889622,
+    35
+   ],
+   "Edamana st colony 2@11.8266374,75.9147782": [
+    5871890856,
+    64
+   ],
+   "kolymannu@11.8286769,75.8464419": [
+    10756831820,
+    53
+   ],
+   "Choyimoola@11.8287845,75.8344745": [
+    8010432149,
+    17
+   ],
+   "Alattil@11.808008,75.868248": [
+    5870392324,
+    11
+   ],
+   "Kalluvettumthazhe@11.7160724,76.0188827": [
+    9164512015,
+    6
+   ],
+   "Mavilamthodu@11.8181142,76.21616": [
+    9188016650,
+    51
+   ],
+   "Kappiset@11.8029156,76.2059502": [
+    5882864342,
+    16
+   ],
+   "Pinangode@11.6187238,76.0295278": [
+    7525711214,
+    4
+   ],
+   "Kottoor@11.5658556,76.2339013": [
+    5870061548,
+    46
+   ],
+   "Mundakai@11.486475,76.1557245": [
+    3842228221,
+    13
+   ],
+   "Moonanakuzhy@11.6998691,76.1848694": [
+    604965415,
+    25
+   ],
+   "Churuli@11.7939649,75.8457746": [
+    12067246650,
+    67
+   ],
+   "Cheeral@11.6080915,76.3136674": [
+    5114721955,
+    20
+   ],
+   "Kottathara@11.6650598,76.0416419": [
+    3903375082,
+    5
+   ],
+   "Venniyodu@11.6792598,76.0241865": [
+    5870363161,
+    7
+   ],
+   "Nadavayal@11.7410773,76.119078": [
+    604965309,
+    6
+   ],
+   "Kaniyambetta@11.6953621,76.0807517": [
+    2648760619,
+    4
+   ],
+   "Chulliyode@11.6012586,76.2551187": [
+    411458472,
+    43
+   ],
+   "Madakkara@11.619314,76.2749174": [
+    5877686822,
+    31
+   ],
+   "Pazhoor@11.6294935,76.3104519": [
+    5114721266,
+    35
+   ],
+   "ponnada@11.6322347,76.0487358": [
+    2026701367,
+    35
+   ],
+   "Pakkom@11.8017879,76.1032386": [
+    306422901,
+    28
+   ],
+   "Pariyaram@11.6513075,76.1028275": [
+    3905891307,
+    5
+   ]
+  },
+  "facilities": {
+   "Community Health Center Meppadi@11.558403,76.1308492": [
+    5870049317,
+    14
+   ],
+   "Community Health Centre Panamaram@11.7384608,76.0702992": [
+    11299153142,
+    37
+   ],
+   "Community Health Centre Peria@11.8356598,75.8564181": [
+    1998717380,
+    19
+   ],
+   "Community Health Centre Porunnanore@11.7510286,76.0048247": [
+    2000116964,
+    36
+   ],
+   "Community Health Centre Thariyode@11.6553728,75.9958546": [
+    5870363123,
+    81
+   ],
+   "Community Health Centre, Meppady@11.6202435,76.2099125": [
+    3903467563,
+    25
+   ],
+   "Community Health Centre, Pulpally@11.782553,76.1622556": [
+    7514649013,
+    54
+   ],
+   "District Hospital Mananthavady@11.8003707,76.0012011": [
+    2625625949,
+    38
+   ],
+   "Family Health Center Chethalayam@11.7481484,76.237039": [
+    5869995755,
+    19
+   ],
+   "Family Health Center, Poothadi@11.7253588,76.1484157": [
+    7526598461,
+    30
+   ],
+   "Family Health Center, Varadhoor@11.6995842,76.1057776": [
+    5870378312,
+    15
+   ],
+   "Family Health Center, Vengapally@11.6493678,76.0402035": [
+    8000329368,
+    12
+   ],
+   "Family Health Centre Appapara@11.9077131,76.032476": [
+    5870276968,
+    17
+   ],
+   "Family Health Centre Kottathara@11.6663792,76.0111996": [
+    8000053269,
+    36
+   ],
+   "Family Health Centre Noolpuzha@11.6618891,76.3284577": [
+    5292868805,
+    18
+   ],
+   "Family Health centre  Edavaka@11.7764224,75.9764867": [
+    5880213898,
+    23
+   ],
+   "Govt. Taluk Head Quarters Hospital, Sulthan Bathery@11.658439,76.2635843": [
+    4770518313,
+    62
+   ],
+   "Noolpuzha Family Health Centre@11.6672489,76.3183017": [
+    5588185383,
+    25
+   ],
+   "Primary Health Center Pakkom@11.8041975,76.0941921": [
+    5883019546,
+    20
+   ],
+   "Primary Health Center Valad@11.7937938,75.9045112": [
+    5870188346,
+    15
+   ],
+   "Primary Health Centre Begur@11.8495649,76.0672934": [
+    395115924,
+    23
+   ],
+   "Primary Health Centre Cheeral@11.6105626,76.316091": [
+    5877490081,
+    15
+   ],
+   "Primary Health Centre Chulliode@11.5974854,76.2561469": [
+    7893169754,
+    15
+   ],
+   "Primary Health Centre Kurukanmoola@11.8263179,76.063034": [
+    306423616,
+    13
+   ],
+   "Primary Health Centre Mullankolly@11.8205132,76.1653784": [
+    5870645499,
+    19
+   ],
+   "Primary Health Centre Sugandhagiri@11.5506596,76.0029387": [
+    8157241398,
+    45
+   ],
+   "Primary Health Centre Varadoor@11.7140519,76.1023231": [
+    11266514535,
+    20
+   ],
+   "Primary Health Centre Vazhavatta@11.6213793,76.1581686": [
+    2019274187,
+    91
+   ],
+   "Primary Health Centre Vellamunda@11.7049126,75.9559317": [
+    2642614933,
+    37
+   ],
+   "Primary Health Centre, Kappukunnu@11.6751631,75.9733868": [
+    8000047292,
+    21
+   ],
+   "Primary Health Centre, Mooppainad@11.5477549,76.2040551": [
+    3842232125,
+    8
+   ],
+   "TALUK HEAD QUARTERS HOSPITAL VYTHIRI@11.5510242,76.0405901": [
+    7803553513,
+    20
+   ],
+   "Urban Primary health Centre, Munderi@11.6202283,76.0734496": [
+    2164886741,
+    25
+   ],
+   "WIMS Urban Health Center Kalpetta@11.6099469,76.0824983": [
+    395351034,
+    14
+   ],
+   "24\u00d77 Primary health centre, Kelakam@11.9001654,75.8131351": [
+    10746603638,
+    9
+   ],
+   "Community Health Center Kodanchery@11.4362652,76.0077578": [
+    6733994593,
+    10
+   ],
+   "FHC Peruvannamuzhi@11.5968024,75.8191503": [
+    2657855738,
+    76
+   ],
+   "Family Health Center Puduppadi@11.4815104,75.9811713": [
+    6736832120,
+    32
+   ],
+   "Family Health Centre Maruthumkara@11.6437392,75.7909035": [
+    3830615547,
+    15
+   ],
+   "Family Health Centre, Kottiyoor@11.8760855,75.8589003": [
+    660598359,
+    39
+   ],
+   "Government Hospital@11.5264581,76.3292672": [
+    5883256763,
+    16
+   ],
+   "Government Hospital, Kolapalli@11.5487451,76.3115365": [
+    5883258094,
+    29
+   ],
+   "Kavilumpara Village Primary Health Center@11.7060482,75.7791479": [
+    3799800011,
+    6
+   ],
+   "Kutta CHC@11.969701,76.051284": [
+    5862296366,
+    22
+   ],
+   "PHC Adivaram@11.4840238,76.011645": [
+    6732240573,
+    63
+   ],
+   "PHC Kakkayam@11.5517361,75.8946007": [
+    2587579707,
+    19
+   ],
+   "PHC, Ambalamoola@11.57522,76.321326": [
+    5870173300,
+    66
+   ],
+   "PHC, Kappala@11.55607,76.258173": [
+    411470428,
+    28
+   ],
+   "Primary Health Center@11.609562,75.8513226": [
+    4032384486,
+    13
+   ],
+   "Primary Health Center Kakkayam@11.5487368,75.8918301": [
+    2821258526,
+    48
+   ],
+   "Primary Health Center Kayakkodi@11.6836601,75.7540734": [
+    6763198409,
+    7
+   ],
+   "Primary Health Center Peruvannamoozhi@11.5902664,75.8249727": [
+    6707624401,
+    48
+   ],
+   "Primary Health Center, Kanichar@11.8997376,75.7892328": [
+    10749294380,
+    30
+   ],
+   "Primary Health Center, Naripatta@11.7128929,75.7089141": [
+    5698793824,
+    98
+   ],
+   "Primary Health Centre@11.455727,75.98656": [
+    5442310620,
+    14
+   ],
+   "Primary Health Centre Vayalada@11.5023591,75.8921967": [
+    4508017560,
+    26
+   ],
+   "Primary Health Centre, Kallanode@11.532159,75.8790946": [
+    2653778336,
+    67
+   ],
+   "Primary Health Centre, Kayakodi@11.6727986,75.7465651": [
+    6753553293,
+    26
+   ],
+   "Primary Health Centre, Kodencherry@11.4350036,76.0076115": [
+    3265691159,
+    39
+   ],
+   "Primary Health Centre, Kunduthode@11.6727917,75.8143906": [
+    4032371911,
+    22
+   ],
+   "Primary Health Centre, Peruva@11.837871,75.7174566": [
+    7054241692,
+    39
+   ],
+   "Primary health centre, Kanichar@11.8810876,75.7681696": [
+    8324761112,
+    24
+   ],
+   "Primary health centre, Kanichar@11.8644562,75.7614717": [
+    10770288323,
+    26
+   ],
+   "Primary health centre, Keezhpally@11.9353294,75.7682192": [
+    10699245523,
+    19
+   ],
+   "Taluk Head Quarter Hospital, Peravoor@11.9030562,75.7332435": [
+    7502433831,
+    46
+   ]
+  }
+ },
+ "i_failed_bridge": {
+  "edge_present": true,
+  "is_graph_bridge": false,
+  "is_village_isolating_cut": false,
+  "alternate": {
+   "connected_without_bridge": true,
+   "n_edges": 195,
+   "length_m": 5055.105252342771,
+   "time_min": 15.524673957294455,
+   "ways": [
+    {
+     "way_id": 30778557,
+     "edges": 4,
+     "length_m": 95.91672772995585,
+     "start": [
+      11.4991873,
+      76.1598362
+     ],
+     "highway": "primary",
+     "surface": "asphalt",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "Kalpetta - Meppadi Road",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 380928406,
+     "edges": 67,
+     "length_m": 2214.3509044768584,
+     "start": [
+      11.4999625,
+      76.1595198
+     ],
+     "highway": "unclassified",
+     "surface": "",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 622913247,
+     "edges": 1,
+     "length_m": 11.856746841881511,
+     "start": [
+      11.4947038,
+      76.1455675
+     ],
+     "highway": "track",
+     "surface": "unpaved",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 622913215,
+     "edges": 103,
+     "length_m": 2248.8209474559635,
+     "start": [
+      11.4947151,
+      76.1454593
+     ],
+     "highway": "track",
+     "surface": "unpaved",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 794270381,
+     "edges": 1,
+     "length_m": 9.145012295431654,
+     "start": [
+      11.4894888,
+      76.1546136
+     ],
+     "highway": "track",
+     "surface": "unpaved",
+     "tracktype": "",
+     "bridge": "yes",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 794270380,
+     "edges": 1,
+     "length_m": 23.248986568494484,
+     "start": [
+      11.4894908,
+      76.1546975
+     ],
+     "highway": "track",
+     "surface": "unpaved",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 622913237,
+     "edges": 4,
+     "length_m": 197.7502461424815,
+     "start": [
+      11.4894957,
+      76.1549108
+     ],
+     "highway": "residential",
+     "surface": "",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    },
+    {
+     "way_id": 380928408,
+     "edges": 14,
+     "length_m": 254.01568083170417,
+     "start": [
+      11.487997,
+      76.155646
+     ],
+     "highway": "tertiary",
+     "surface": "",
+     "tracktype": "",
+     "bridge": "",
+     "access": "",
+     "motor_vehicle": "",
+     "name": "",
+     "lifecycle": {}
+    }
+   ]
+  }
+ },
+ "ii_edge_connectivity": {
+  "edge_connectivity": 1,
+  "min_cut": [
+   [
+    5883092633,
+    3842228221,
+    380928408,
+    "tertiary"
+   ]
+  ]
+ },
+ "iii_level1": {
+  "edge_present": true,
+  "is_graph_bridge": null,
+  "is_village_isolating_cut": true,
+  "villages": [
+   "Chooralmala",
+   "Kalladi",
+   "Mundakai"
+  ],
+  "isolated_nodes": 4013,
+  "population_attributed": 7548.0,
+  "revenue_villages_full": {
+   "Vellarimala": 7548.0
+  },
+  "revenue_villages_partial_unattributed": {}
+ },
+ "iv_enclaves": [
+  {
+   "villages": [
+    "Chooralmala",
+    "Kalladi",
+    "Mundakai"
+   ],
+   "nodes": 4013,
+   "n_cuts": 138,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3249489501,
+    "v": 5870049103,
+    "way_id": 380928374,
+    "highway": "primary",
+    "length_m": 11.3,
+    "u_latlon": [
+     11.5243913,
+     76.1372807
+    ],
+    "v_latlon": [
+     11.5244917,
+     76.1372991
+    ]
+   },
+   "population_attributed": 7548.0,
+   "partial_unattributed": []
+  },
+  {
+   "villages": [
+    "Chooralmala",
+    "Mundakai"
+   ],
+   "nodes": 3548,
+   "n_cuts": 36,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3249489400,
+    "v": 3842231008,
+    "way_id": 30778557,
+    "highway": "primary",
+    "length_m": 10.2,
+    "u_latlon": [
+     11.5104282,
+     76.1321246
+    ],
+    "v_latlon": [
+     11.5103513,
+     76.1321751
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Vellarimala"
+   ]
+  },
+  {
+   "villages": [
+    "Mundakai"
+   ],
+   "nodes": 414,
+   "n_cuts": 14,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3842228231,
+    "v": 5883092920,
+    "way_id": 380928408,
+    "highway": "tertiary",
+    "length_m": 7.6,
+    "u_latlon": [
+     11.4879354,
+     76.1556155
+    ],
+    "v_latlon": [
+     11.487997,
+     76.155646
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Vellarimala"
+   ]
+  },
+  {
+   "villages": [
+    "Jessy"
+   ],
+   "nodes": 128,
+   "n_cuts": 13,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 2625625792,
+    "v": 8269402312,
+    "way_id": 256942786,
+    "highway": "tertiary",
+    "length_m": 13.0,
+    "u_latlon": [
+     11.8512682,
+     75.9859675
+    ],
+    "v_latlon": [
+     11.8511724,
+     75.9860357
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Mananthavady"
+   ]
+  },
+  {
+   "villages": [
+    "Kallumukku"
+   ],
+   "nodes": 89,
+   "n_cuts": 23,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 5234365965,
+    "v": 5234365966,
+    "way_id": 845788122,
+    "highway": "unclassified",
+    "length_m": 28.6,
+    "u_latlon": [
+     11.6767208,
+     76.336629
+    ],
+    "v_latlon": [
+     11.6769761,
+     76.3365981
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Noolpuzha"
+   ]
+  },
+  {
+   "villages": [
+    "Palvelicham"
+   ],
+   "nodes": 85,
+   "n_cuts": 20,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 290209227,
+    "v": 290209232,
+    "way_id": 30779581,
+    "highway": "tertiary",
+    "length_m": 105.8,
+    "u_latlon": [
+     11.8197034,
+     76.083318
+    ],
+    "v_latlon": [
+     11.8203874,
+     76.0839935
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Payyampally"
+   ]
+  },
+  {
+   "villages": [
+    "Churuli"
+   ],
+   "nodes": 81,
+   "n_cuts": 61,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 5870338569,
+    "v": 5870422298,
+    "way_id": 621404204,
+    "highway": "residential",
+    "length_m": 26.3,
+    "u_latlon": [
+     11.7965552,
+     75.8548824
+    ],
+    "v_latlon": [
+     11.7964936,
+     75.8546492
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Thondernad"
+   ]
+  },
+  {
+   "villages": [
+    "Melmury"
+   ],
+   "nodes": 37,
+   "n_cuts": 5,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 5871743515,
+    "v": 7705108523,
+    "way_id": 825183489,
+    "highway": "track",
+    "length_m": 57.1,
+    "u_latlon": [
+     11.608972,
+     75.9932888
+    ],
+    "v_latlon": [
+     11.6089627,
+     75.9927644
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Achooranam"
+   ]
+  },
+  {
+   "villages": [
+    "Nellimunda"
+   ],
+   "nodes": 22,
+   "n_cuts": 10,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3842231567,
+    "v": 3842231572,
+    "way_id": 380928407,
+    "highway": "unclassified",
+    "length_m": 13.9,
+    "u_latlon": [
+     11.5382338,
+     76.1301191
+    ],
+    "v_latlon": [
+     11.5383073,
+     76.1300155
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Kottappadi (part)"
+   ]
+  },
+  {
+   "villages": [
+    "Lakkidi"
+   ],
+   "nodes": 22,
+   "n_cuts": 2,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 11553417673,
+    "v": 11553417674,
+    "way_id": 1243121892,
+    "highway": "residential",
+    "length_m": 32.5,
+    "u_latlon": [
+     11.5210346,
+     76.0206783
+    ],
+    "v_latlon": [
+     11.5209141,
+     76.0204064
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Kunnathidavaka"
+   ]
+  },
+  {
+   "villages": [
+    "Edamana st colony 2"
+   ],
+   "nodes": 15,
+   "n_cuts": 2,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 5871889608,
+    "v": 5871890587,
+    "way_id": 621580223,
+    "highway": "residential",
+    "length_m": 53.2,
+    "u_latlon": [
+     11.8255615,
+     75.9144503
+    ],
+    "v_latlon": [
+     11.8260386,
+     75.9144139
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Periya"
+   ]
+  },
+  {
+   "villages": [
+    "Choyimoola"
+   ],
+   "nodes": 9,
+   "n_cuts": 2,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 8010432147,
+    "v": 8010432148,
+    "way_id": 859362204,
+    "highway": "track",
+    "length_m": 16.2,
+    "u_latlon": [
+     11.8290639,
+     75.8344249
+    ],
+    "v_latlon": [
+     11.8289694,
+     75.8345376
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Periya"
+   ]
+  },
+  {
+   "villages": [
+    "Kottathara"
+   ],
+   "nodes": 6,
+   "n_cuts": 1,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3903375081,
+    "v": 3903375082,
+    "way_id": 386998071,
+    "highway": "tertiary",
+    "length_m": 9.0,
+    "u_latlon": [
+     11.6650559,
+     76.0415875
+    ],
+    "v_latlon": [
+     11.6651082,
+     76.041651
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Kottathara"
+   ]
+  },
+  {
+   "villages": [
+    "Pilacheri"
+   ],
+   "nodes": 6,
+   "n_cuts": 1,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 8676016300,
+    "v": 8676016301,
+    "way_id": 936313299,
+    "highway": "residential",
+    "length_m": 51.1,
+    "u_latlon": [
+     11.805297,
+     75.9799476
+    ],
+    "v_latlon": [
+     11.8057421,
+     75.9800634
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Mananthavady"
+   ]
+  },
+  {
+   "villages": [
+    "Thinapuram"
+   ],
+   "nodes": 6,
+   "n_cuts": 2,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 12069562744,
+    "v": 12069562745,
+    "way_id": 1303235391,
+    "highway": "unclassified",
+    "length_m": 59.7,
+    "u_latlon": [
+     11.5393515,
+     76.1628273
+    ],
+    "v_latlon": [
+     11.5393032,
+     76.162282
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Muppainad"
+   ]
+  },
+  {
+   "villages": [
+    "Chundale"
+   ],
+   "nodes": 1,
+   "n_cuts": 1,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 3129716941,
+    "v": 12070867707,
+    "way_id": 1303385757,
+    "highway": "unclassified",
+    "length_m": 101.9,
+    "u_latlon": [
+     11.573484,
+     76.0595363
+    ],
+    "v_latlon": [
+     11.574059,
+     76.0588078
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Chundale"
+   ]
+  },
+  {
+   "villages": [
+    "Sultan Bathery"
+   ],
+   "nodes": 1,
+   "n_cuts": 1,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 5882978584,
+    "v": 5882978585,
+    "way_id": 622901612,
+    "highway": "residential",
+    "length_m": 33.9,
+    "u_latlon": [
+     11.6626156,
+     76.2596714
+    ],
+    "v_latlon": [
+     11.6629163,
+     76.2597207
+    ]
+   },
+   "population_attributed": 23333.0,
+   "partial_unattributed": []
+  },
+  {
+   "villages": [
+    "Meenangadi"
+   ],
+   "nodes": 1,
+   "n_cuts": 1,
+   "flag": "real",
+   "outermost_edge": {
+    "u": 7057388399,
+    "v": 7057388400,
+    "way_id": 755560629,
+    "highway": "unclassified",
+    "length_m": 43.5,
+    "u_latlon": [
+     11.6599114,
+     76.1674507
+    ],
+    "v_latlon": [
+     11.6595402,
+     76.1673244
+    ]
+   },
+   "population_attributed": 0,
+   "partial_unattributed": [
+    "Purakkadi"
+   ]
+  }
+ ],
+ "v_no_facility_route": {
+  "unsnapped": [],
+  "in_facility_free_components": [],
+  "total": 0
+ }
+}

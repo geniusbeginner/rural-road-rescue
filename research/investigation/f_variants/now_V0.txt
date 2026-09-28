@@ -1,0 +1,39 @@
+[now V0] ways kept 19272/19272 (dropped 0)
+Weighted graph: 343373 nodes, 347948 edges
+Speed assignment source (by way): {'assumed': 18953, 'osm_maxspeed_tag': 319}
+[now V0] graph 343373 nodes, 347948 edges, 77 components  (15s)
+[now V0] villages snapped 142/142, unsnapped []; facilities snapped 65/65, unsnapped []; villages whose snap moved vs V0: 0
+[now V0] bridges: 126172; bridges isolating >=1 village from all 65 facility nodes: 311; distinct enclaves (village sets): 17; villages in facility-free components: []
+
+(i) failed bridge (3842230570, 3842230578): {"edge_present": true, "is_graph_bridge": false, "is_village_isolating_cut": false}
+    without it, Chooralmala->Mundakai connected: True; 209 edges, 5243 m, 16.00 min
+      way 30778557: 5 edges 95 m start [11.4992088, 76.1598506] highway=primary surface=asphalt name=Kalpetta - Meppadi Road
+      way 380928406: 66 edges 2220 m start [11.4999988, 76.1595541] highway=unclassified
+      way 622913247: 1 edges 13 m start [11.4947577, 76.1455675] highway=track surface=unpaved
+      way 622913215: 104 edges 2245 m start [11.4947151, 76.1454593] highway=track surface=unpaved
+      way 794270381: 1 edges 9 m start [11.4894888, 76.1546136] highway=track surface=unpaved bridge=yes LIFECYCLE {'destroyed': 'yes', 'destroyed:highway': 'yes'}
+      way 1347557913: 1 edges 23 m start [11.4894908, 76.1546975] highway=track surface=unpaved LIFECYCLE {'destroyed': 'yes', 'destroyed:highway': 'yes'}
+      way 794270380: 5 edges 128 m start [11.4894957, 76.1549108] highway=track surface=unpaved
+      way 380928408: 26 edges 510 m start [11.4900185, 76.155845] highway=tertiary access=permit
+(ii) Chooralmala-Mundakai edge connectivity: 1; minimum cut: [[6894943729, 3842228224, 380928408, 'tertiary']]
+(iii) Level-1 edge (3249489501, 5870049103): {"edge_present": true, "is_village_isolating_cut": true, "villages": ["Chooralmala", "Kalladi", "Mundakai"], "isolated_nodes": 4536, "population_attributed": 7548.0}
+(iv) enclaves: 17 (real 17, suspect 0)
+       4536 nodes  141 cuts real    pop    7,548  ['Chooralmala', 'Kalladi', 'Mundakai']
+       3894 nodes   36 cuts real    pop        0  ['Chooralmala', 'Mundakai']
+        752 nodes   20 cuts real    pop        0  ['Mundakai']
+        128 nodes   13 cuts real    pop        0  ['Jessy']
+         89 nodes   23 cuts real    pop        0  ['Kallumukku']
+         85 nodes   20 cuts real    pop        0  ['Palvelicham']
+         46 nodes   31 cuts real    pop        0  ['Churuli']
+         37 nodes    5 cuts real    pop        0  ['Melmury']
+         22 nodes   10 cuts real    pop        0  ['Nellimunda']
+         22 nodes    2 cuts real    pop        0  ['Lakkidi']
+         15 nodes    2 cuts real    pop        0  ['Edamana st colony 2']
+          9 nodes    2 cuts real    pop        0  ['Choyimoola']
+          6 nodes    1 cuts real    pop        0  ['Pilacheri']
+          6 nodes    2 cuts real    pop        0  ['Thinapuram']
+          1 nodes    1 cuts real    pop        0  ['Chundale']
+          1 nodes    1 cuts real    pop   23,333  ['Sultan Bathery']
+          1 nodes    1 cuts real    pop        0  ['Meenangadi']
+(v) villages with no route to any facility: 0 (unsnapped 0: []; facility-free components 0: [])
+saved research/investigation/f_variants/now_V0.json  (total 35s)

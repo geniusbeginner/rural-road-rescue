@@ -1,0 +1,72 @@
+GRAPH SIZE
+snap       var    ways kept    nodes    edges  comps  unsnapped v/f snap moved
+2024-07-29 V0   18091/18091   335165   339421    128      0/0                0
+2024-07-29 V1   16753/18091   309021   312683    182      0/0                2
+2024-07-29 V2   16753/18091   309021   312683    182      0/0                2
+2026-09-16 V0   19272/19272   343373   347948     77      0/0                0
+2026-09-16 V1   17707/19272   311747   315652    138      0/0                2
+2026-09-16 V2   17705/19272   311744   315648    139      0/0                2
+
+(i) FAILED BRIDGE (way 380928388, edge 3842230570-3842230578)
+  2024-07-29 V0: graph-bridge=False; not a cut; alternate 195 edges 5055 m 15.52 min via ways 30778557(primary/asphalt), 380928406(unclassified), 622913247(track/unpaved), 622913215(track/unpaved), 794270381(track/unpaved), 794270380(track/unpaved), 622913237(residential), 380928408(tertiary)
+  2024-07-29 V1: graph-bridge=True; CUT -> isolates ['Mundakai'] (762 nodes), population attributed 0, partial ['Vellarimala']; no alternate (C-M disconnected without it)
+  2024-07-29 V2: graph-bridge=True; CUT -> isolates ['Mundakai'] (762 nodes), population attributed 0, partial ['Vellarimala']; no alternate (C-M disconnected without it)
+  2026-09-16 V0: graph-bridge=False; not a cut; alternate 209 edges 5243 m 16.00 min via ways 30778557(primary/asphalt), 380928406(unclassified), 622913247(track/unpaved), 622913215(track/unpaved), 794270381(track/unpaved/LIFECYCLE), 1347557913(track/unpaved/LIFECYCLE), 794270380(track/unpaved), 380928408(tertiary)
+  2026-09-16 V1: graph-bridge=True; CUT -> isolates ['Mundakai'] (831 nodes), population attributed 0, partial ['Vellarimala']; no alternate (C-M disconnected without it)
+  2026-09-16 V2: graph-bridge=True; CUT -> isolates ['Mundakai'] (820 nodes), population attributed 0, partial ['Vellarimala']; no alternate (C-M disconnected without it)
+
+(ii) CHOORALMALA-MUNDAKAI edge connectivity / one minimum cut
+  2024-07-29 V0: 1  cut [[5883092633, 3842228221, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+  2024-07-29 V1: 1  cut [[5883092633, 3842228221, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+  2024-07-29 V2: 1  cut [[5883092633, 3842228221, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+  2026-09-16 V0: 1  cut [[6894943729, 3842228224, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+  2026-09-16 V1: 1  cut [[12465132728, 3842228221, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+  2026-09-16 V2: 1  cut [[12465132728, 3842228221, 380928408, 'tertiary']]  (C node 3842230572, M node 3842228221)
+
+(iii) LEVEL-1 SH59 edge 3249489501-5870049103: side by side
+  var | 2024-07-29                                              | 2026-09-16                                             
+  V0  | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 4013 nodes pop 7548.0 | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 4536 nodes pop 7548.0
+  V1  | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 2428 nodes pop 7548.0 | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 2185 nodes pop 7548.0
+  V2  | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 2428 nodes pop 7548.0 | cut=True ['Chooralmala', 'Kalladi', 'Mundakai'] 2174 nodes pop 7548.0
+
+(iv) ENCLAVES and changes vs V0 of the same snapshot
+  2024-07-29 V0: 18 enclaves (real 18, suspect 0)
+  2024-07-29 V1: 18 enclaves (real 17, suspect 1)
+      APPEARS  ['Bavali']: 1086 nodes, 10 cuts, flag suspect, pop 0
+      VANISHES ['Melmury'] (V0: 37 nodes, flag real)
+      CHANGES  ['Chooralmala', 'Kalladi', 'Mundakai']: nodes 4013 -> 2428, flag real -> real
+      CHANGES  ['Chooralmala', 'Mundakai']: nodes 3548 -> 1990, flag real -> real
+      CHANGES  ['Choyimoola']: nodes 9 -> 145, flag real -> real
+      CHANGES  ['Mundakai']: nodes 414 -> 763, flag real -> real
+  2024-07-29 V2: 18 enclaves (real 17, suspect 1)
+      APPEARS  ['Bavali']: 1086 nodes, 10 cuts, flag suspect, pop 0
+      VANISHES ['Melmury'] (V0: 37 nodes, flag real)
+      CHANGES  ['Chooralmala', 'Kalladi', 'Mundakai']: nodes 4013 -> 2428, flag real -> real
+      CHANGES  ['Chooralmala', 'Mundakai']: nodes 3548 -> 1990, flag real -> real
+      CHANGES  ['Choyimoola']: nodes 9 -> 145, flag real -> real
+      CHANGES  ['Mundakai']: nodes 414 -> 763, flag real -> real
+  2026-09-16 V0: 17 enclaves (real 17, suspect 0)
+  2026-09-16 V1: 17 enclaves (real 16, suspect 1)
+      APPEARS  ['Bavali']: 1171 nodes, 10 cuts, flag suspect, pop 0
+      VANISHES ['Melmury'] (V0: 37 nodes, flag real)
+      CHANGES  ['Chooralmala', 'Kalladi', 'Mundakai']: nodes 4536 -> 2185, flag real -> real
+      CHANGES  ['Chooralmala', 'Mundakai']: nodes 3894 -> 1815, flag real -> real
+      CHANGES  ['Choyimoola']: nodes 9 -> 145, flag real -> real
+      CHANGES  ['Churuli']: nodes 46 -> 81, flag real -> real
+      CHANGES  ['Mundakai']: nodes 752 -> 832, flag real -> real
+  2026-09-16 V2: 17 enclaves (real 16, suspect 1)
+      APPEARS  ['Bavali']: 1171 nodes, 10 cuts, flag suspect, pop 0
+      VANISHES ['Melmury'] (V0: 37 nodes, flag real)
+      CHANGES  ['Chooralmala', 'Kalladi', 'Mundakai']: nodes 4536 -> 2174, flag real -> real
+      CHANGES  ['Chooralmala', 'Mundakai']: nodes 3894 -> 1804, flag real -> real
+      CHANGES  ['Choyimoola']: nodes 9 -> 145, flag real -> real
+      CHANGES  ['Churuli']: nodes 46 -> 81, flag real -> real
+      CHANGES  ['Mundakai']: nodes 752 -> 821, flag real -> real
+
+(v) VILLAGES WITH NO ROUTE TO ANY FACILITY IN THE BASE GRAPH
+  2024-07-29 V0: 0 of 142 (unsnapped [], facility-free components [])
+  2024-07-29 V1: 0 of 142 (unsnapped [], facility-free components [])
+  2024-07-29 V2: 0 of 142 (unsnapped [], facility-free components [])
+  2026-09-16 V0: 0 of 142 (unsnapped [], facility-free components [])
+  2026-09-16 V1: 0 of 142 (unsnapped [], facility-free components [])
+  2026-09-16 V2: 0 of 142 (unsnapped [], facility-free components [])

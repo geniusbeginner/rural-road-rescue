@@ -1,0 +1,84 @@
+{
+ "families_reported": [
+  "destroyed",
+  "disused",
+  "abandoned",
+  "razed",
+  "demolished",
+  "removed",
+  "dismantled",
+  "was",
+  "construction",
+  "proposed"
+ ],
+ "v2_families": [
+  "destroyed",
+  "disused",
+  "abandoned"
+ ],
+ "ways": [
+  {
+   "way_id": 794270379,
+   "highway": "residential",
+   "bridge": "yes",
+   "lifecycle_tags": {
+    "destroyed:highway": "residential"
+   },
+   "in_V2_list": true,
+   "in_V0_graph": true,
+   "edges_in_graph": 1,
+   "edges_that_are_single_link_cuts_2026_V0": 1,
+   "on_alternate_path": []
+  },
+  {
+   "way_id": 794270381,
+   "highway": "track",
+   "bridge": "yes",
+   "lifecycle_tags": {
+    "destroyed": "yes",
+    "destroyed:highway": "yes"
+   },
+   "in_V2_list": true,
+   "in_V0_graph": true,
+   "edges_in_graph": 1,
+   "edges_that_are_single_link_cuts_2026_V0": 0,
+   "on_alternate_path": [
+    "2024 alternate",
+    "2026 alternate"
+   ]
+  },
+  {
+   "way_id": 1347557909,
+   "highway": "residential",
+   "bridge": "",
+   "lifecycle_tags": {
+    "destroyed:highway": "residential"
+   },
+   "in_V2_list": true,
+   "in_V0_graph": true,
+   "edges_in_graph": 3,
+   "edges_that_are_single_link_cuts_2026_V0": 3,
+   "on_alternate_path": []
+  },
+  {
+   "way_id": 1347557913,
+   "highway": "track",
+   "bridge": "",
+   "lifecycle_tags": {
+    "destroyed": "yes",
+    "destroyed:highway": "yes"
+   },
+   "in_V2_list": true,
+   "in_V0_graph": true,
+   "edges_in_graph": 1,
+   "edges_that_are_single_link_cuts_2026_V0": 0,
+   "on_alternate_path": [
+    "2026 alternate"
+   ]
+  }
+ ],
+ "damage_tagged": [
+  794270381,
+  1347557913
+ ]
+}
