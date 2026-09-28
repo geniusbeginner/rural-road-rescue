@@ -1,0 +1,84 @@
+{
+ "enclave_nodes": 3894,
+ "bailey_edges": [
+  [
+   3842230570,
+   3842230578
+  ]
+ ],
+ "bank_pieces": {
+  "paper coordinate 11.4992,76.1601": [
+   0
+  ],
+  "Chooralmala settlement point": [
+   0
+  ],
+  "Chooralmala snap node 3842230572": [
+   0
+  ],
+  "Mundakai settlement point": [
+   0
+  ],
+  "Mundakai snap node 3842228221": [
+   0
+  ],
+  "Bailey end node 3842230570": [
+   0
+  ],
+  "Bailey end node 3842230578": [
+   0
+  ]
+ },
+ "results": {
+  "with bridge": {
+   "connected": true,
+   "length_m": {
+    "length_m": 1997.13718965267,
+    "time_min": 3.4206141708893574,
+    "n_edges": 91
+   },
+   "time_min": {
+    "length_m": 1997.13718965267,
+    "time_min": 3.4206141708893574,
+    "n_edges": 91
+   },
+   "edge_connectivity": 1,
+   "min_edge_cut": [
+    [
+     3842228224,
+     6894943729
+    ]
+   ]
+  },
+  "without bridge": {
+   "connected": true,
+   "length_m": {
+    "length_m": 5242.722724426579,
+    "time_min": 16.000897014901785,
+    "n_edges": 209
+   },
+   "time_min": {
+    "length_m": 5242.722724426579,
+    "time_min": 16.000897014901785,
+    "n_edges": 209
+   },
+   "edge_connectivity": 1,
+   "min_edge_cut": [
+    [
+     3842228224,
+     6894943729
+    ]
+   ]
+  }
+ },
+ "alternate_path_ways": [
+  30778557,
+  380928406,
+  380928408,
+  622913215,
+  622913247,
+  794270380,
+  794270381,
+  1347557913
+ ]
+}

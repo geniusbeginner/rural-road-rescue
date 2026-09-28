@@ -1,0 +1,36 @@
+
+================ PRE (2024-07-29T00:00:00Z) ================
+Chooralmala snap node 3842230572, Mundakai snap node 3842228221; bridge edge present: True (way 380928388)
+   main-stem ways present: {794270374: True, 794270376: True, 794270372: True, 793762963: True, 1530896408: False} tags: {794270374: {'waterway': 'stream'}, 794270376: {'name': 'putthumala stream', 'waterway': 'stream'}, 794270372: {'name': 'putthumala thodu', 'waterway': 'stream'}, 793762963: {'waterway': 'stream'}}
+Edges crossing the Punnappuzha main stem within the 0.06 deg box: 3
+   way_id=380928388 u=3842230570 v=3842230578 lat=11.499174 lon=76.159882 length_m=39.2 highway=tertiary bridge=yes layer=1
+   way_id=794270379 u=7428737123 v=7428737124 lat=11.482044 lon=76.151284 length_m=9.1 highway=residential bridge=yes layer=1 import=yes source=digitalglobe
+   way_id=794270381 u=7428737125 v=7428737126 lat=11.489491 lon=76.154697 length_m=9.1 highway=track bridge=yes layer=1 surface=unpaved import=yes source=digitalglobe
+[with bridge] connected: True; shortest 90 edges, 2002 m, 3.43 min
+[without bridge] connected: True; shortest 195 edges, 5055 m, 15.52 min
+   way 30778557: 4 edges 96 m start (11.4991873, 76.1598362) {'highway': 'primary', 'surface': 'asphalt', 'name': 'Kalpetta - Meppadi Road'}
+   way 380928406: 67 edges 2215 m start (11.4999625, 76.1595198) {'highway': 'unclassified'}
+   way 622913247: 1 edges 12 m start (11.4947038, 76.1455675) {'highway': 'track', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'}
+   way 622913215: 103 edges 2249 m start (11.4947151, 76.1454593) {'highway': 'track', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'} crosses ['794270375:stream:']
+   way 794270381: 1 edges 9 m start (11.4894888, 76.1546136) {'highway': 'track', 'bridge': 'yes', 'layer': '1', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'} CROSSES MAIN STEM
+   way 794270380: 1 edges 23 m start (11.4894908, 76.1546975) {'highway': 'track', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'}
+   way 622913237: 4 edges 198 m start (11.4894957, 76.1549108) {'highway': 'residential', 'import': 'yes', 'source': 'digitalglobe'}
+   way 380928408: 14 edges 254 m start (11.487997, 76.155646) {'highway': 'tertiary'}
+
+================ NOW (2026-09-16T10:45:02Z) ================
+Chooralmala snap node 3842230572, Mundakai snap node 3842228221; bridge edge present: True (way 380928388)
+   main-stem ways present: {794270374: True, 794270376: True, 794270372: True, 793762963: True, 1530896408: True} tags: {794270374: {'name': 'Punnappuzha', 'waterway': 'stream'}, 794270376: {'name': 'Punnappuzha', 'waterway': 'stream'}, 794270372: {'name': 'Punnappuzha', 'waterway': 'stream'}, 793762963: {'name': 'Iruvazhinji', 'waterway': 'stream'}, 1530896408: {'name': 'Iruvazhinji', 'waterway': 'stream'}}
+Edges crossing the Punnappuzha main stem within the 0.06 deg box: 3
+   way_id=380928388 u=3842230570 v=3842230578 lat=11.499178 lon=76.159917 length_m=35.4 highway=tertiary bridge=yes layer=1 access=permissive surface=metal name=Bailey Bridge
+   way_id=794270379 u=7428737123 v=7428737124 lat=11.482044 lon=76.151284 length_m=9.1 highway=residential bridge=yes layer=1 destroyed:highway=residential import=yes source=digitalglobe
+   way_id=794270381 u=7428737125 v=7428737126 lat=11.489491 lon=76.154697 length_m=9.1 highway=track bridge=yes layer=1 surface=unpaved destroyed=yes destroyed:highway=yes damage:event=2024WayanadLandslide import=yes source=digitalglobe
+[with bridge] connected: True; shortest 91 edges, 1997 m, 3.42 min
+[without bridge] connected: True; shortest 209 edges, 5243 m, 16.00 min
+   way 30778557: 5 edges 94 m start (11.4992088, 76.1598506) {'highway': 'primary', 'surface': 'asphalt', 'name': 'Kalpetta - Meppadi Road'}
+   way 380928406: 66 edges 2220 m start (11.4999988, 76.1595541) {'highway': 'unclassified'}
+   way 622913247: 1 edges 13 m start (11.4947577, 76.1455675) {'highway': 'track', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'}
+   way 622913215: 104 edges 2245 m start (11.4947151, 76.1454593) {'highway': 'track', 'surface': 'unpaved'} crosses ['794270375:stream:']
+   way 794270381: 1 edges 9 m start (11.4894888, 76.1546136) {'highway': 'track', 'bridge': 'yes', 'layer': '1', 'surface': 'unpaved', 'destroyed': 'yes', 'destroyed:highway': 'yes', 'damage:event': '2024WayanadLandslide', 'import': 'yes', 'source': 'digitalglobe'} CROSSES MAIN STEM
+   way 1347557913: 1 edges 23 m start (11.4894908, 76.1546975) {'highway': 'track', 'surface': 'unpaved', 'destroyed': 'yes', 'destroyed:highway': 'yes', 'damage:event': '2024WayanadLandslide', 'import': 'yes', 'source': 'digitalglobe'}
+   way 794270380: 5 edges 128 m start (11.4894957, 76.1549108) {'highway': 'track', 'surface': 'unpaved', 'import': 'yes', 'source': 'digitalglobe'}
+   way 380928408: 26 edges 510 m start (11.4900185, 76.155845) {'highway': 'tertiary', 'access': 'permit'}

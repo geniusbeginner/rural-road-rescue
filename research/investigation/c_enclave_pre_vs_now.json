@@ -1,0 +1,457 @@
+{
+ "PRE-EVENT 2024-07-29": {
+  "at_failed_bridge": [
+   {
+    "way": 30778557,
+    "u": 3842230570,
+    "v": 3842230572,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230572,
+    "v": 3842230576,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230576,
+    "v": 3842230588,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230588,
+    "v": 3842230601,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230565,
+    "v": 3842230566,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230565,
+    "v": 3842230567,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230566,
+    "v": 3842230573,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230573,
+    "v": 3842230577,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230577,
+    "v": 3842230578,
+    "is_cut": false
+   },
+   {
+    "way": 380928388,
+    "u": 3842230570,
+    "v": 3842230578,
+    "is_cut": false
+   }
+  ],
+  "chain_levels": [
+   {
+    "villages": [
+     "Chooralmala",
+     "Kalladi",
+     "Mundakai"
+    ],
+    "n_cuts": 138,
+    "isolated_nodes": 4013,
+    "outermost_edge": {
+     "u": 3249489501,
+     "v": 5870049103,
+     "way_id": 380928374,
+     "highway": "primary",
+     "length_m": 11.3,
+     "u_latlon": [
+      11.5243913,
+      76.1372807
+     ],
+     "v_latlon": [
+      11.5244917,
+      76.1372991
+     ]
+    },
+    "outermost_outer_end": [
+     11.5244917,
+     76.1372991
+    ],
+    "innermost_edge": [
+     3249489400,
+     3842231012
+    ],
+    "innermost_inner_end": [
+     11.5104282,
+     76.1321246
+    ],
+    "ways": {
+     "380928374": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     },
+     "380928376": {
+      "highway": "primary",
+      "bridge": "yes",
+      "name": "Meenakshi Bridge",
+      "access": null,
+      "destroyed": null
+     },
+     "380928378": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     },
+     "380928389": {
+      "highway": "primary",
+      "bridge": "yes",
+      "name": null,
+      "access": null,
+      "destroyed": null
+     }
+    },
+    "road_length_m": 2387
+   },
+   {
+    "villages": [
+     "Chooralmala",
+     "Mundakai"
+    ],
+    "n_cuts": 36,
+    "isolated_nodes": 3548,
+    "outermost_edge": {
+     "u": 3249489400,
+     "v": 3842231008,
+     "way_id": 30778557,
+     "highway": "primary",
+     "length_m": 10.2,
+     "u_latlon": [
+      11.5104282,
+      76.1321246
+     ],
+     "v_latlon": [
+      11.5103513,
+      76.1321751
+     ]
+    },
+    "outermost_outer_end": [
+     11.5104282,
+     76.1321246
+    ],
+    "innermost_edge": [
+     3249489380,
+     5883093024
+    ],
+    "innermost_inner_end": [
+     11.5101033,
+     76.1393463
+    ],
+    "ways": {
+     "30778557": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     }
+    },
+    "road_length_m": 885
+   },
+   {
+    "villages": [
+     "Mundakai"
+    ],
+    "n_cuts": 14,
+    "isolated_nodes": 414,
+    "outermost_edge": {
+     "u": 3842228231,
+     "v": 5883092920,
+     "way_id": 380928408,
+     "highway": "tertiary",
+     "length_m": 7.6,
+     "u_latlon": [
+      11.4879354,
+      76.1556155
+     ],
+     "v_latlon": [
+      11.487997,
+      76.155646
+     ]
+    },
+    "outermost_outer_end": [
+     11.487997,
+     76.155646
+    ],
+    "innermost_edge": [
+     3842228221,
+     5883092633
+    ],
+    "innermost_inner_end": [
+     11.4863858,
+     76.1556489
+    ],
+    "ways": {
+     "380928408": {
+      "highway": "tertiary",
+      "bridge": null,
+      "name": null,
+      "access": null,
+      "destroyed": null
+     }
+    },
+    "road_length_m": 254
+   }
+  ],
+  "n_enclaves": 18,
+  "n_cuts": 333
+ },
+ "NOW 2026-09-16": {
+  "at_failed_bridge": [
+   {
+    "way": 30778557,
+    "u": 3842230570,
+    "v": 3842230572,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230572,
+    "v": 3842230576,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230576,
+    "v": 3842230588,
+    "is_cut": false
+   },
+   {
+    "way": 30778557,
+    "u": 3842230588,
+    "v": 12091838221,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230565,
+    "v": 3842230566,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230565,
+    "v": 3842230567,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230566,
+    "v": 3842230573,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230573,
+    "v": 3842230577,
+    "is_cut": false
+   },
+   {
+    "way": 380928381,
+    "u": 3842230577,
+    "v": 3842230578,
+    "is_cut": false
+   },
+   {
+    "way": 380928388,
+    "u": 3842230570,
+    "v": 3842230578,
+    "is_cut": false
+   }
+  ],
+  "chain_levels": [
+   {
+    "villages": [
+     "Chooralmala",
+     "Kalladi",
+     "Mundakai"
+    ],
+    "n_cuts": 141,
+    "isolated_nodes": 4536,
+    "outermost_edge": {
+     "u": 3249489501,
+     "v": 5870049103,
+     "way_id": 380928374,
+     "highway": "primary",
+     "length_m": 11.4,
+     "u_latlon": [
+      11.5243986,
+      76.1372555
+     ],
+     "v_latlon": [
+      11.5244917,
+      76.1372991
+     ]
+    },
+    "outermost_outer_end": [
+     11.5244917,
+     76.1372991
+    ],
+    "innermost_edge": [
+     3249489400,
+     3842231012
+    ],
+    "innermost_inner_end": [
+     11.5104282,
+     76.1321246
+    ],
+    "ways": {
+     "380928374": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     },
+     "380928376": {
+      "highway": "primary",
+      "bridge": "yes",
+      "name": "Meenakshi Bridge",
+      "access": null,
+      "destroyed": null
+     },
+     "380928378": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     },
+     "380928389": {
+      "highway": "primary",
+      "bridge": "yes",
+      "name": "Kalladi Bridge",
+      "access": null,
+      "destroyed": null
+     },
+     "1426730512": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     }
+    },
+    "road_length_m": 2388
+   },
+   {
+    "villages": [
+     "Chooralmala",
+     "Mundakai"
+    ],
+    "n_cuts": 36,
+    "isolated_nodes": 3894,
+    "outermost_edge": {
+     "u": 3249489400,
+     "v": 3842231008,
+     "way_id": 30778557,
+     "highway": "primary",
+     "length_m": 10.2,
+     "u_latlon": [
+      11.5104282,
+      76.1321246
+     ],
+     "v_latlon": [
+      11.5103513,
+      76.1321751
+     ]
+    },
+    "outermost_outer_end": [
+     11.5104282,
+     76.1321246
+    ],
+    "innermost_edge": [
+     3249489380,
+     5883093024
+    ],
+    "innermost_inner_end": [
+     11.5101033,
+     76.1393463
+    ],
+    "ways": {
+     "30778557": {
+      "highway": "primary",
+      "bridge": null,
+      "name": "Kalpetta - Meppadi Road",
+      "access": null,
+      "destroyed": null
+     }
+    },
+    "road_length_m": 885
+   },
+   {
+    "villages": [
+     "Mundakai"
+    ],
+    "n_cuts": 20,
+    "isolated_nodes": 752,
+    "outermost_edge": {
+     "u": 3842228241,
+     "v": 3842228242,
+     "way_id": 380928408,
+     "highway": "tertiary",
+     "length_m": 12.3,
+     "u_latlon": [
+      11.4899076,
+      76.1558417
+     ],
+     "v_latlon": [
+      11.4900185,
+      76.155845
+     ]
+    },
+    "outermost_outer_end": [
+     11.4900185,
+     76.155845
+    ],
+    "innermost_edge": [
+     3842228224,
+     6894943729
+    ],
+    "innermost_inner_end": [
+     11.4865851,
+     76.1550819
+    ],
+    "ways": {
+     "380928408": {
+      "highway": "tertiary",
+      "bridge": null,
+      "name": null,
+      "access": "permit",
+      "destroyed": null
+     }
+    },
+    "road_length_m": 443
+   }
+  ],
+  "n_enclaves": 17,
+  "n_cuts": 311
+ }
+}

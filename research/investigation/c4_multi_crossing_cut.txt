@@ -1,0 +1,22 @@
+
+=== PRE 2024-07-29 ===  all crossing edges present: [True, True, True]
+  removed none: connected=True 2002 m
+  removed ['380928388 (failed bridge / Bailey)']: connected=True 5055 m
+  removed ['794270381 (track bridge)']: connected=True 2002 m
+  removed ['794270379 (residential bridge)']: connected=True 2002 m
+  removed ['380928388 (failed bridge / Bailey)', '794270381 (track bridge)']: connected=False 
+  removed ['380928388 (failed bridge / Bailey)', '794270379 (residential bridge)']: connected=True 5055 m
+  removed ['794270381 (track bridge)', '794270379 (residential bridge)']: connected=True 2002 m
+  removed ['380928388 (failed bridge / Bailey)', '794270381 (track bridge)', '794270379 (residential bridge)']: connected=False 
+  edge connectivity Chooralmala-Mundakai: 1; a minimum edge cut: [((5883092633, 3842228221), 380928408)]
+
+=== NOW 2026-09-16 ===  all crossing edges present: [True, True, True]
+  removed none: connected=True 1997 m
+  removed ['380928388 (failed bridge / Bailey)']: connected=True 5243 m
+  removed ['794270381 (track bridge)']: connected=True 1997 m
+  removed ['794270379 (residential bridge)']: connected=True 1997 m
+  removed ['380928388 (failed bridge / Bailey)', '794270381 (track bridge)']: connected=False 
+  removed ['380928388 (failed bridge / Bailey)', '794270379 (residential bridge)']: connected=True 5243 m
+  removed ['794270381 (track bridge)', '794270379 (residential bridge)']: connected=True 1997 m
+  removed ['380928388 (failed bridge / Bailey)', '794270381 (track bridge)', '794270379 (residential bridge)']: connected=False 
+  edge connectivity Chooralmala-Mundakai: 1; a minimum edge cut: [((6894943729, 3842228224), 380928408)]

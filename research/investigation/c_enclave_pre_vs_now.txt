@@ -1,0 +1,88 @@
+
+================ PRE-EVENT 2024-07-29 (facilities fixed: curated 34 + 31 buffer ring) ================
+[PRE-EVENT 2024-07-29] bridges: 125579; bridges isolating >=1 village from all 65 facility nodes: 333; distinct enclaves (village sets): 18; villages in facility-free components: []
+Edges with an endpoint within 50 m of (11.4992, 76.1601):
+  way 30778557 edge 3842230570-3842230572 5.2 m tags {'sidewalk': 'none', 'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230572-3842230576 5.0 m tags {'sidewalk': 'none', 'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230576-3842230588 21.4 m tags {'sidewalk': 'none', 'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230588-3842230601 48.1 m tags {'sidewalk': 'none', 'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230565-3842230566 3.5 m tags {'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230565-3842230567 3.7 m tags {'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230566-3842230573 18.1 m tags {'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230573-3842230577 8.2 m tags {'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230577-3842230578 6.9 m tags {'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928388 edge 3842230570-3842230578 39.2 m tags {'layer': '1', 'highway': 'tertiary', 'bridge': 'yes'} | single-link cut isolating a village: NO
+Enclaves (18):
+    4013 nodes  138 cuts flag=real    ['Chooralmala', 'Kalladi', 'Mundakai']
+    3548 nodes   36 cuts flag=real    ['Chooralmala', 'Mundakai']
+     414 nodes   14 cuts flag=real    ['Mundakai']
+     128 nodes   13 cuts flag=real    ['Jessy']
+      89 nodes   23 cuts flag=real    ['Kallumukku']
+      85 nodes   20 cuts flag=real    ['Palvelicham']
+      81 nodes   61 cuts flag=real    ['Churuli']
+      37 nodes    5 cuts flag=real    ['Melmury']
+      22 nodes   10 cuts flag=real    ['Nellimunda']
+      22 nodes    2 cuts flag=real    ['Lakkidi']
+      15 nodes    2 cuts flag=real    ['Edamana st colony 2']
+       9 nodes    2 cuts flag=real    ['Choyimoola']
+       6 nodes    1 cuts flag=real    ['Kottathara']
+       6 nodes    1 cuts flag=real    ['Pilacheri']
+       6 nodes    2 cuts flag=real    ['Thinapuram']
+       1 nodes    1 cuts flag=real    ['Chundale']
+       1 nodes    1 cuts flag=real    ['Sultan Bathery']
+       1 nodes    1 cuts flag=real    ['Meenangadi']
+Chain of single-link cuts isolating Mundakai: 188 cuts
+  LEVEL 1: isolates ('Chooralmala', 'Kalladi', 'Mundakai') | 138 cuts, 2387 m | outermost edge 3249489501-5870049103 way 380928374 primary 11.3 m outer end [11.5244917, 76.1372991] | innermost inner end [11.5104282, 76.1321246]
+        way 380928374: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+        way 380928376: {'highway': 'primary', 'bridge': 'yes', 'name': 'Meenakshi Bridge', 'access': None, 'destroyed': None}
+        way 380928378: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+        way 380928389: {'highway': 'primary', 'bridge': 'yes', 'name': None, 'access': None, 'destroyed': None}
+  LEVEL 2: isolates ('Chooralmala', 'Mundakai') | 36 cuts, 885 m | outermost edge 3249489400-3842231008 way 30778557 primary 10.2 m outer end [11.5104282, 76.1321246] | innermost inner end [11.5101033, 76.1393463]
+        way 30778557: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+  LEVEL 3: isolates ('Mundakai',) | 14 cuts, 254 m | outermost edge 3842228231-5883092920 way 380928408 tertiary 7.6 m outer end [11.487997, 76.155646] | innermost inner end [11.4863858, 76.1556489]
+        way 380928408: {'highway': 'tertiary', 'bridge': None, 'name': None, 'access': None, 'destroyed': None}
+Cuts isolating Mundakai but not Chooralmala: 14
+
+================ NOW 2026-09-16 (facilities fixed: curated 34 + 31 buffer ring) ================
+[NOW 2026-09-16] bridges: 126172; bridges isolating >=1 village from all 65 facility nodes: 311; distinct enclaves (village sets): 17; villages in facility-free components: []
+Edges with an endpoint within 50 m of (11.4992, 76.1601):
+  way 30778557 edge 3842230570-3842230572 8.0 m tags {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230572-3842230576 3.9 m tags {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230576-3842230588 20.2 m tags {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 30778557 edge 3842230588-12091838221 24.0 m tags {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230565-3842230566 3.5 m tags {'access': 'permit', 'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230565-3842230567 3.7 m tags {'access': 'permit', 'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230566-3842230573 18.1 m tags {'access': 'permit', 'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230573-3842230577 8.2 m tags {'access': 'permit', 'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928381 edge 3842230577-3842230578 6.9 m tags {'access': 'permit', 'highway': 'tertiary'} | single-link cut isolating a village: NO
+  way 380928388 edge 3842230570-3842230578 35.4 m tags {'access': 'permissive', 'bridge': 'yes', 'highway': 'tertiary', 'layer': '1', 'name': 'Bailey Bridge', 'surface': 'metal', 'wikimedia_commons': 'File:Bailey Bridge Wayanad 02.jpg'} | single-link cut isolating a village: NO
+Enclaves (17):
+    4536 nodes  141 cuts flag=real    ['Chooralmala', 'Kalladi', 'Mundakai']
+    3894 nodes   36 cuts flag=real    ['Chooralmala', 'Mundakai']
+     752 nodes   20 cuts flag=real    ['Mundakai']
+     128 nodes   13 cuts flag=real    ['Jessy']
+      89 nodes   23 cuts flag=real    ['Kallumukku']
+      85 nodes   20 cuts flag=real    ['Palvelicham']
+      46 nodes   31 cuts flag=real    ['Churuli']
+      37 nodes    5 cuts flag=real    ['Melmury']
+      22 nodes   10 cuts flag=real    ['Nellimunda']
+      22 nodes    2 cuts flag=real    ['Lakkidi']
+      15 nodes    2 cuts flag=real    ['Edamana st colony 2']
+       9 nodes    2 cuts flag=real    ['Choyimoola']
+       6 nodes    1 cuts flag=real    ['Pilacheri']
+       6 nodes    2 cuts flag=real    ['Thinapuram']
+       1 nodes    1 cuts flag=real    ['Chundale']
+       1 nodes    1 cuts flag=real    ['Sultan Bathery']
+       1 nodes    1 cuts flag=real    ['Meenangadi']
+Chain of single-link cuts isolating Mundakai: 197 cuts
+  LEVEL 1: isolates ('Chooralmala', 'Kalladi', 'Mundakai') | 141 cuts, 2388 m | outermost edge 3249489501-5870049103 way 380928374 primary 11.4 m outer end [11.5244917, 76.1372991] | innermost inner end [11.5104282, 76.1321246]
+        way 380928374: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+        way 380928376: {'highway': 'primary', 'bridge': 'yes', 'name': 'Meenakshi Bridge', 'access': None, 'destroyed': None}
+        way 380928378: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+        way 380928389: {'highway': 'primary', 'bridge': 'yes', 'name': 'Kalladi Bridge', 'access': None, 'destroyed': None}
+        way 1426730512: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+  LEVEL 2: isolates ('Chooralmala', 'Mundakai') | 36 cuts, 885 m | outermost edge 3249489400-3842231008 way 30778557 primary 10.2 m outer end [11.5104282, 76.1321246] | innermost inner end [11.5101033, 76.1393463]
+        way 30778557: {'highway': 'primary', 'bridge': None, 'name': 'Kalpetta - Meppadi Road', 'access': None, 'destroyed': None}
+  LEVEL 3: isolates ('Mundakai',) | 20 cuts, 443 m | outermost edge 3842228241-3842228242 way 380928408 tertiary 12.3 m outer end [11.4900185, 76.155845] | innermost inner end [11.4865851, 76.1550819]
+        way 380928408: {'highway': 'tertiary', 'bridge': None, 'name': None, 'access': 'permit', 'destroyed': None}
+Cuts isolating Mundakai but not Chooralmala: 20

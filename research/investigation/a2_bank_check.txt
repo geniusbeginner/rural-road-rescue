@@ -1,0 +1,24 @@
+794270372 / 794270376 junction node 7428736768 at index 48 of 239 (11.493132, 76.154773)
+main stem merged geometry: LineString, tributary: LineString
+
+MAIN STEM (Punnappuzha): 2 km disc split into 2 pieces; relative areas [0.518, 0.482]
+  paper coordinate 11.4992N 76.1601E         piece [0]   ~4 m from line
+  Chooralmala settlement point               piece [1]   ~19 m from line
+  Chooralmala snap node 3842230572           piece [1]   ~22 m from line
+  Mundakai settlement point                  piece [0]   ~153 m from line
+  Mundakai snap node 3842228221              piece [0]   ~147 m from line
+  Bailey end node 3842230570                 piece [1]   ~16 m from line
+  Bailey end node 3842230578                 piece [0]   ~18 m from line
+  track bridge 794270381 end 7428737126      piece [1]   ~5 m from line
+  track bridge 794270381 end 7428737125      piece [0]   ~5 m from line
+
+TRIBUTARY (unnamed 794270375 + W part of 794270372): 2 km disc split into 1 pieces; relative areas [1.0]
+  paper coordinate 11.4992N 76.1601E         piece [0]   ~896 m from line
+  Chooralmala settlement point               piece [0]   ~882 m from line
+  Chooralmala snap node 3842230572           piece [0]   ~879 m from line
+  Mundakai settlement point                  piece [0]   ~746 m from line
+  Mundakai snap node 3842228221              piece [0]   ~755 m from line
+  Bailey end node 3842230570                 piece [0]   ~881 m from line
+  Bailey end node 3842230578                 piece [0]   ~909 m from line
+  track bridge 794270381 end 7428737126      piece [0]   ~405 m from line
+  track bridge 794270381 end 7428737125      piece [0]   ~404 m from line

@@ -1,0 +1,120 @@
+Bridge-tagged ways in Level-2 enclave: [380928388, 794270379, 794270381, 794678803]
+Bridge-tagged ways in Level 1-3 corridor ways: [380928376, 380928389]
+way 30778557 [alternate path; L2 corridor] created 2009-02-04T10:18:37Z v15 latest 2024-12-31T14:34:35Z <<< changed after 2024-07-29
+     created tags: {}
+     latest  tags: {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+     v2 2009-02-04T11:27:01Z changed: tags
+     v3 2009-02-04T11:29:54Z changed: nodes
+     v4 2009-05-16T09:25:34Z changed: nodes
+     v5 2009-05-16T09:30:40Z changed: tags
+     v6 2015-11-18T08:26:30Z changed: nodes,tags
+     v7 2017-03-08T16:52:11Z changed: tags
+     v8 2018-09-04T06:33:32Z changed: nodes
+     v9 2018-09-04T23:24:00Z changed: nodes
+     v10 2018-10-01T17:53:50Z changed: nodes
+     v11 2023-11-02T05:33:56Z changed: nodes
+     v12 2023-11-10T05:44:46Z changed: nodes
+     v13 2024-07-23T03:32:37Z changed: nodes
+     v14 2024-08-04T12:55:14Z changed: nodes   (after event)
+     v15 2024-12-31T14:34:35Z changed: nodes,tags   (after event)
+way 380928374 [L1 corridor] created 2015-11-18T08:26:21Z v6 latest 2024-12-31T14:34:35Z <<< changed after 2024-07-29
+     created tags: {'access': 'yes', 'alt_name': 'Hill Highway', 'bicycle': 'yes', 'cycleway': 'no', 'foot': 'yes', 'highway': 'primary', 'horse': 'yes', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'none', 'surface': 'asphalt'}
+     latest  tags: {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+     v2 2017-03-02T07:27:57Z changed: nodes
+     v3 2017-03-08T16:53:38Z changed: tags
+     v4 2018-08-31T04:16:38Z changed: nodes
+     v5 2022-06-20T11:23:27Z changed: nodes
+     v6 2024-12-31T14:34:35Z changed: nodes,tags   (after event)
+way 380928376 [L1 corridor] created 2015-11-18T08:26:22Z v5 latest 2025-09-02T21:32:05Z <<< changed after 2024-07-29
+     created tags: {'access': 'yes', 'alt_name': 'Hill Highway', 'bicycle': 'yes', 'bridge': 'yes', 'cycleway': 'no', 'foot': 'yes', 'highway': 'primary', 'horse': 'yes', 'lanes': '2', 'layer': '1', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'none', 'surface': 'asphalt'}
+     latest  tags: {'alt_name': 'Hill Highway', 'bridge': 'yes', 'highway': 'primary', 'lanes': '2', 'layer': '1', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Meenakshi Bridge', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'oneway': 'no', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+     v2 2017-03-08T16:53:50Z changed: tags
+     v3 2022-02-16T18:25:46Z changed: tags
+     v4 2025-01-06T12:17:37Z changed: tags   (after event)
+     v5 2025-09-02T21:32:05Z changed: tags   (after event)
+way 380928378 [L1 corridor] created 2015-11-18T08:26:23Z v10 latest 2026-07-07T07:53:13Z <<< changed after 2024-07-29
+     created tags: {'access': 'yes', 'alt_name': 'Hill Highway', 'bicycle': 'yes', 'cycleway': 'no', 'foot': 'yes', 'highway': 'primary', 'horse': 'yes', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'none', 'surface': 'asphalt'}
+     latest  tags: {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+     v2 2017-03-08T16:53:56Z changed: tags
+     v3 2018-08-31T04:16:40Z changed: nodes
+     v4 2018-09-04T23:24:00Z changed: nodes
+     v5 2020-10-15T08:03:10Z changed: nodes
+     v6 2022-06-22T07:07:36Z changed: nodes
+     v7 2023-11-02T04:48:07Z changed: nodes
+     v8 2024-12-31T14:34:35Z changed: nodes,tags   (after event)
+     v9 2025-09-02T21:32:05Z changed: nodes   (after event)
+     v10 2026-07-07T07:53:13Z changed: nodes   (after event)
+way 380928388 [Bailey Bridge; enclave bridge] created 2015-11-18T08:26:25Z v2 latest 2024-12-31T11:40:38Z <<< changed after 2024-07-29
+     created tags: {'bridge': 'yes', 'highway': 'tertiary', 'layer': '1'}
+     latest  tags: {'access': 'permissive', 'bridge': 'yes', 'highway': 'tertiary', 'layer': '1', 'name': 'Bailey Bridge', 'surface': 'metal', 'wikimedia_commons': 'File:Bailey Bridge Wayanad 02.jpg'}
+     v2 2024-12-31T11:40:38Z changed: tags   (after event)
+way 380928389 [L1 corridor] created 2015-11-18T08:26:25Z v3 latest 2025-09-02T21:32:05Z <<< changed after 2024-07-29
+     created tags: {'bridge': 'yes', 'highway': 'tertiary', 'layer': '1'}
+     latest  tags: {'bridge': 'yes', 'highway': 'primary', 'layer': '1', 'name': 'Kalladi Bridge', 'oneway': 'no', 'surface': 'asphalt'}
+     v2 2020-09-29T14:36:01Z changed: tags
+     v3 2025-09-02T21:32:05Z changed: tags   (after event)
+way 380928406 [alternate path] created 2015-11-18T08:26:28Z v4 latest 2024-07-31T15:42:00Z <<< changed after 2024-07-29
+     created tags: {'highway': 'unclassified'}
+     latest  tags: {'highway': 'unclassified'}
+     v2 2024-07-30T18:21:32Z changed: nodes   (after event)
+     v3 2024-07-30T18:29:53Z changed: nodes   (after event)
+     v4 2024-07-31T15:42:00Z changed: nodes   (after event)
+way 380928408 [alternate path; L3 corridor] created 2015-11-18T08:26:28Z v7 latest 2024-12-31T11:40:38Z <<< changed after 2024-07-29
+     created tags: {'highway': 'tertiary'}
+     latest  tags: {'access': 'permit', 'highway': 'tertiary'}
+     v2 2018-09-04T06:33:31Z changed: nodes
+     v3 2018-09-04T23:24:00Z changed: nodes
+     v4 2018-09-06T15:50:47Z changed: nodes
+     v5 2019-10-18T07:21:09Z changed: nodes
+     v6 2024-12-31T11:33:54Z changed: nodes   (after event)
+     v7 2024-12-31T11:40:38Z changed: tags   (after event)
+way 622913215 [alternate path] created 2018-09-04T23:23:55Z v5 latest 2024-08-03T11:47:37Z <<< changed after 2024-07-29
+     created tags: {'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     latest  tags: {'highway': 'track', 'surface': 'unpaved'}
+     v2 2018-10-01T17:53:52Z changed: nodes
+     v3 2020-04-21T07:15:09Z changed: nodes
+     v4 2024-07-31T03:02:22Z changed: nodes   (after event)
+     v5 2024-08-03T11:47:37Z changed: tags   (after event)
+way 622913247 [alternate path] created 2018-09-04T23:23:59Z v3 latest 2020-03-29T12:08:41Z
+     created tags: {'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     latest  tags: {'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     v2 2018-10-01T17:53:54Z changed: nodes
+     v3 2020-03-29T12:08:41Z changed: nodes
+way 794270379 [enclave bridge] created 2020-04-21T07:15:09Z v4 latest 2025-03-12T10:34:48Z <<< changed after 2024-07-29
+     created tags: {'bridge': 'yes', 'highway': 'residential', 'import': 'yes', 'layer': '1', 'source': 'digitalglobe'}
+     latest  tags: {'bridge': 'yes', 'destroyed:highway': 'residential', 'highway': 'residential', 'import': 'yes', 'layer': '1', 'source': 'digitalglobe'}
+     v2 2024-12-31T11:33:54Z changed: tags   (after event)
+     v3 2025-03-05T14:51:08Z changed: tags   (after event)
+     v4 2025-03-12T10:34:48Z changed: tags   (after event)
+way 794270380 [alternate path] created 2020-04-21T07:15:09Z v2 latest 2024-12-31T11:33:54Z <<< changed after 2024-07-29
+     created tags: {'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     latest  tags: {'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     v2 2024-12-31T11:33:54Z changed: nodes   (after event)
+way 794270381 [alternate path; enclave bridge] created 2020-04-21T07:15:09Z v2 latest 2024-12-31T11:33:54Z <<< changed after 2024-07-29
+     created tags: {'bridge': 'yes', 'highway': 'track', 'import': 'yes', 'layer': '1', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     latest  tags: {'bridge': 'yes', 'damage:event': '2024WayanadLandslide', 'damage:event:wikidata': 'Q128098219', 'damage:type': 'landslide', 'destroyed': 'yes', 'destroyed:highway': 'yes', 'highway': 'track', 'import': 'yes', 'layer': '1', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     v2 2024-12-31T11:33:54Z changed: tags   (after event)
+way 794678803 [enclave bridge] created 2020-04-22T07:51:22Z v2 latest 2024-12-31T11:40:38Z <<< changed after 2024-07-29
+     created tags: {'highway': 'tertiary', 'layer': '-1', 'tunnel': 'yes'}
+     latest  tags: {'bridge': 'yes', 'highway': 'tertiary', 'layer': '1'}
+     v2 2024-12-31T11:40:38Z changed: tags   (after event)
+way 1347557913 [alternate path] created 2024-12-31T11:33:54Z v1 latest 2024-12-31T11:33:54Z <<< CREATED AFTER 2024-07-29
+     created tags: {'damage:event': '2024WayanadLandslide', 'damage:event:wikidata': 'Q128098219', 'damage:type': 'landslide', 'destroyed': 'yes', 'destroyed:highway': 'yes', 'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+     latest  tags: {'damage:event': '2024WayanadLandslide', 'damage:event:wikidata': 'Q128098219', 'damage:type': 'landslide', 'destroyed': 'yes', 'destroyed:highway': 'yes', 'highway': 'track', 'import': 'yes', 'source': 'digitalglobe', 'surface': 'unpaved'}
+way 1426730512 [L1 corridor] created 2025-09-02T21:32:05Z v1 latest 2025-09-02T21:32:05Z <<< CREATED AFTER 2024-07-29
+     created tags: {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+     latest  tags: {'alt_name': 'Hill Highway', 'highway': 'primary', 'lanes': '2', 'maxspeed': '45', 'maxspeed:bus': '40', 'maxspeed:hgv': '40', 'maxspeed:motorcycle': '45', 'name': 'Kalpetta - Meppadi Road', 'note': 'Speed limits as per Kerala Govt Transport Dept notification no.20/2014/Tran dt 28/02/2014', 'ref': 'SH59', 'sidewalk': 'no', 'surface': 'asphalt'}
+
+Node histories (12 nodes: alternate-path way junctions, waterway-crossing edge ends, Bailey ends):
+  node 3842228242 created 2015-11-18T08:25:56Z v1 latest 2015-11-18T08:25:56Z changes []
+  node 3842230421 created 2015-11-18T08:25:57Z v2 latest 2024-08-04T14:43:39Z changes [(2, '2024-08-04T14:43:39Z', 'position')] <<< changed after 2024-07-29
+  node 3842230570 created 2015-11-18T08:25:58Z v2 latest 2024-08-04T12:55:14Z changes [(2, '2024-08-04T12:55:14Z', 'position')] <<< changed after 2024-07-29
+  node 3842230578 created 2015-11-18T08:25:58Z v1 latest 2015-11-18T08:25:58Z changes []
+  node 3842230604 created 2015-11-18T08:25:58Z v2 latest 2024-08-04T12:55:14Z changes [(2, '2024-08-04T12:55:14Z', 'position')] <<< changed after 2024-07-29
+  node 5883092441 created 2018-09-04T23:23:43Z v1 latest 2018-09-04T23:23:43Z changes []
+  node 5883092475 created 2018-09-04T23:23:43Z v1 latest 2018-09-04T23:23:43Z changes []
+  node 5883092476 created 2018-09-04T23:23:43Z v1 latest 2018-09-04T23:23:43Z changes []
+  node 5883092569 created 2018-09-04T23:23:45Z v1 latest 2018-09-04T23:23:45Z changes []
+  node 7428737122 created 2020-04-21T07:15:09Z v1 latest 2020-04-21T07:15:09Z changes []
+  node 7428737125 created 2020-04-21T07:15:09Z v1 latest 2020-04-21T07:15:09Z changes []
+  node 7428737126 created 2020-04-21T07:15:09Z v1 latest 2020-04-21T07:15:09Z changes []

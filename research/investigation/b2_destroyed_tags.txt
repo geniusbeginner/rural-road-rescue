@@ -1,0 +1,7 @@
+ways in extract: 19272; with destroyed/damage/lifecycle keys: 4
+key counts: {'destroyed:highway': 4, 'damage:event': 2, 'damage:type': 2, 'destroyed': 2}
+damage:event values: {None: 2, '2024WayanadLandslide': 2}
+  way 794270379 in_graph=True highway=residential bridge=yes {'destroyed:highway': 'residential'}
+  way 794270381 in_graph=True highway=track bridge=yes {'damage:event': '2024WayanadLandslide', 'damage:type': 'landslide', 'destroyed': 'yes', 'destroyed:highway': 'yes'}
+  way 1347557909 in_graph=True highway=residential bridge=- {'destroyed:highway': 'residential'}
+  way 1347557913 in_graph=True highway=track bridge=- {'damage:event': '2024WayanadLandslide', 'damage:type': 'landslide', 'destroyed': 'yes', 'destroyed:highway': 'yes'}

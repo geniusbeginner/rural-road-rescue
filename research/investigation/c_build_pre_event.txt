@@ -1,0 +1,80 @@
+=== date sanity checks on the pre-event extract ===
+  way 1347557913 (created 2024-12-31) present: False
+  way 1426730512 (created 2025-09-02) present: False
+  way 380928388 tags: {'layer': '1', 'highway': 'tertiary', 'bridge': 'yes'}
+  way 794270381 tags: {'surface': 'unpaved', 'source': 'digitalglobe', 'layer': '1', 'import': 'yes', 'highway': 'track', 'bridge': 'yes'}
+Weighted graph: 335165 nodes, 339421 edges
+Speed assignment source (by way): {'assumed': 17851, 'osm_maxspeed_tag': 240}
+[pre-event] 335165 nodes, 339421 edges, 128 components, largest [324740, 2813, 1279]
+[villages (fixed 142)] snapped 142/142; snap node differs from 2026 graph: 7
+    Meppadi                        2026 node 12465388885 (5 m) -> pre-event node 5870049105 (5 m)
+    Panamaram                      2026 node 12484970623 (3 m) -> pre-event node 2005926717 (4 m)
+    Pachilakkadu                   2026 node 12514354766 (10 m) -> pre-event node 5831388315 (20 m)
+    Nadakkal                       2026 node 12513929881 (24 m) -> pre-event node 2642202116 (28 m)
+    Pulinjal                       2026 node 12351173195 (5 m) -> pre-event node 5831554876 (8 m)
+    Thaloor                        2026 node 12498671831 (9 m) -> pre-event node 411458549 (35 m)
+    Kottathara                     2026 node 3903375081 (2 m) -> pre-event node 3903375082 (5 m)
+[facilities curated 34 (fixed)] snapped 34/34; snap node differs from 2026 graph: 0
+[facilities buffer ring 31 (fixed)] snapped 31/31; snap node differs from 2026 graph: 1
+    PHC Adivaram                   2026 node 290210824 (69 m) -> pre-event node 6732240573 (63 m)
+
+=== COMPLETENESS: edges by highway class, pre-event (2024-07-29) vs 2026-09-16 ===
+
+WHOLE DISTRICT (both ends inside)
+  class                pre     2026    diff  pre/2026
+  residential        79009    76259    2750     1.036
+  unclassified       66047    60202    5845     1.097
+  secondary          10612    20903  -10291     0.508
+  track              13401    17605   -4204     0.761
+  tertiary           19894    14473    5421     1.375
+  service             5717     6166    -449     0.927
+  primary             4360     6044   -1684     0.721
+  living_street       1134     2100    -966     0.540
+  trunk               1668     1716     -48     0.972
+  road                 426      495     -69     0.861
+  primary_link           6        6       0     1.000
+  trunk_link             1        4      -3     0.250
+  secondary_link        15        0      15       nan
+  tertiary_link          3        0       3       nan
+  TOTAL             202293   205973   -3680     0.982
+
+WITHIN 3 km OF 11.4992,76.1601
+  class                pre     2026    diff  pre/2026
+  track               1165     1699    -534     0.686
+  residential          973     1048     -75     0.928
+  unclassified         984      726     258     1.355
+  tertiary             250      251      -1     0.996
+  primary              181      188      -7     0.963
+  service               67       73      -6     0.918
+  TOTAL               3620     3985    -365     0.908
+
+2026 Level-2 enclave: 3894 nodes, 183 ways; ways absent from pre-event graph: 28
+  way 1304695397: created 2024-07-30T17:42:30Z (first highway tag track, first version with highway at 2024-07-30T17:42:30Z); 2026 tags {'highway': 'track'}
+  way 1304695877: created 2024-07-30T17:45:06Z (first highway tag track, first version with highway at 2024-07-30T17:45:06Z); 2026 tags {'highway': 'track'}
+  way 1304695878: created 2024-07-30T17:45:06Z (first highway tag track, first version with highway at 2024-07-30T17:45:06Z); 2026 tags {'highway': 'track'}
+  way 1304758392: created 2024-07-31T03:02:22Z (first highway tag footway, first version with highway at 2024-07-31T03:02:22Z); 2026 tags {'highway': 'track'}
+  way 1304812836: created 2024-07-31T11:02:54Z (first highway tag path, first version with highway at 2024-07-31T11:02:54Z); 2026 tags {'highway': 'track'}
+  way 1304812838: created 2024-07-31T11:02:54Z (first highway tag path, first version with highway at 2024-07-31T11:02:54Z); 2026 tags {'highway': 'track'}
+  way 1304866455: created 2024-07-31T15:42:00Z (first highway tag residential, first version with highway at 2024-07-31T15:42:00Z); 2026 tags {'highway': 'residential'}
+  way 1304866510: created 2024-07-31T15:42:00Z (first highway tag residential, first version with highway at 2024-07-31T15:42:00Z); 2026 tags {'highway': 'residential'}
+  way 1305389770: created 2024-08-03T11:29:01Z (first highway tag track, first version with highway at 2024-08-03T11:29:01Z); 2026 tags {'highway': 'track'}
+  way 1305389771: created 2024-08-03T11:29:01Z (first highway tag track, first version with highway at 2024-08-03T11:29:01Z); 2026 tags {'highway': 'track'}
+  way 1305391730: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391731: created 2024-08-03T11:47:37Z (first highway tag residential, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'residential'}
+  way 1305391732: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391733: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391734: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391735: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391736: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391737: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391738: created 2024-08-03T11:47:37Z (first highway tag residential, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'residential'}
+  way 1305391739: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391740: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'track'}
+  way 1305391741: created 2024-08-03T11:47:37Z (first highway tag track, first version with highway at 2024-08-03T11:47:37Z); 2026 tags {'highway': 'residential'}
+  way 1305881543: created 2024-08-06T06:37:03Z (first highway tag residential, first version with highway at 2024-08-06T06:37:03Z); 2026 tags {'highway': 'residential'}
+  way 1340091354: created 2024-12-04T14:36:29Z (first highway tag unclassified, first version with highway at 2024-12-04T14:36:29Z); 2026 tags {'highway': 'unclassified'}
+  way 1340091355: created 2024-12-04T14:36:29Z (first highway tag unclassified, first version with highway at 2024-12-04T14:36:29Z); 2026 tags {'highway': 'unclassified'}
+  way 1347557909: created 2024-12-31T11:33:54Z (first highway tag track, first version with highway at 2024-12-31T11:33:54Z); 2026 tags {'highway': 'residential'}
+  way 1347557913: created 2024-12-31T11:33:54Z (first highway tag track, first version with highway at 2024-12-31T11:33:54Z); 2026 tags {'highway': 'track'}
+  way 1366528036: created 2025-03-12T10:34:48Z (first highway tag residential, first version with highway at 2025-03-12T10:34:48Z); 2026 tags {'highway': 'residential'}
+Enclave-area ways created after 2024-07-29T00:00:00Z: 28 -> [1304695397, 1304695877, 1304695878, 1304758392, 1304812836, 1304812838, 1304866455, 1304866510, 1305389770, 1305389771, 1305391730, 1305391731, 1305391732, 1305391733, 1305391734, 1305391735, 1305391736, 1305391737, 1305391738, 1305391739, 1305391740, 1305391741, 1305881543, 1340091354, 1340091355, 1347557909, 1347557913, 1366528036]

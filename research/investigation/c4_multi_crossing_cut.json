@@ -1,0 +1,144 @@
+{
+ "PRE 2024-07-29": {
+  "combos": [
+   {
+    "removed": [],
+    "connected": true,
+    "path": "2002 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)"
+    ],
+    "connected": true,
+    "path": "5055 m"
+   },
+   {
+    "removed": [
+     "794270381 (track bridge)"
+    ],
+    "connected": true,
+    "path": "2002 m"
+   },
+   {
+    "removed": [
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "2002 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270381 (track bridge)"
+    ],
+    "connected": false,
+    "path": ""
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "5055 m"
+   },
+   {
+    "removed": [
+     "794270381 (track bridge)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "2002 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270381 (track bridge)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": false,
+    "path": ""
+   }
+  ],
+  "edge_connectivity": 1,
+  "min_cut": [
+   [
+    5883092633,
+    3842228221,
+    380928408
+   ]
+  ]
+ },
+ "NOW 2026-09-16": {
+  "combos": [
+   {
+    "removed": [],
+    "connected": true,
+    "path": "1997 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)"
+    ],
+    "connected": true,
+    "path": "5243 m"
+   },
+   {
+    "removed": [
+     "794270381 (track bridge)"
+    ],
+    "connected": true,
+    "path": "1997 m"
+   },
+   {
+    "removed": [
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "1997 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270381 (track bridge)"
+    ],
+    "connected": false,
+    "path": ""
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "5243 m"
+   },
+   {
+    "removed": [
+     "794270381 (track bridge)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": true,
+    "path": "1997 m"
+   },
+   {
+    "removed": [
+     "380928388 (failed bridge / Bailey)",
+     "794270381 (track bridge)",
+     "794270379 (residential bridge)"
+    ],
+    "connected": false,
+    "path": ""
+   }
+  ],
+  "edge_connectivity": 1,
+  "min_cut": [
+   [
+    6894943729,
+    3842228224,
+    380928408
+   ]
+  ]
+ }
+}

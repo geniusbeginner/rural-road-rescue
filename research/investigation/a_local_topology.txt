@@ -1,0 +1,168 @@
+Level-2 enclave: 3894 nodes (other side 331201)
+Chooralmala snap node 3842230572 in enclave: True; Mundakai snap node 3842228221 in enclave: True
+Bailey Bridge edges in graph: [(3842230570, 3842230578)]
+Enclave edges with an endpoint within 1500 m of (11.4992, 76.1601): 1697 (ways: 103)
+  overpass attempt 1: HTTP 504
+  overpass attempt 2: HTTP 504
+  overpass attempt 3: HTTP 504
+Waterway ways in bbox: 34 ({'river': 1, 'stream': 33})
+
+Edges crossing a waterway: 21
+  way 30778557 edge 3842230814-3842230819 13.5 m  highway=primary bridge=- culvert=- ford=- access=- tracktype=- layer=- name=Kalpetta - Meppadi Road  crosses=1304954345:stream:vellaarimala thodu
+  way 30778557 edge 3842230873-3842230875 30.4 m  highway=primary bridge=- culvert=- ford=- access=- tracktype=- layer=- name=Kalpetta - Meppadi Road  crosses=1214828091:stream:chooralmala thodu
+  way 380928388 edge 3842230578-3842230570 35.4 m  highway=tertiary bridge=yes culvert=- ford=- access=permissive tracktype=- layer=1 name=Bailey Bridge  crosses=794270372:stream:Punnappuzha
+  way 380928392 edge 3842230859-11330468693 13.2 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230865-11330468693 13.8 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230870-12086448869 1.0 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230871-12086448869 11.4 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230872-12086448870 17.0 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230881-12086448870 5.4 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230881-3842230885 8.5 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928392 edge 3842230885-3842230886 32.4 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1222410899:stream:vellaarimala thodu
+  way 380928398 edge 3842230818-5880623011 7.4 m  highway=unclassified bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221678884:stream:vellaarimala thodu
+  way 380928398 edge 3842230818-3842230841 49.0 m  highway=unclassified bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221678884:stream:vellaarimala thodu
+  way 622581769 edge 11330464621-5880622506 7.8 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221680289:stream:chooralmala thodu
+  way 622581769 edge 11330464621-5880622508 46.6 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221680289:stream:chooralmala thodu
+  way 622581769 edge 5880622384-5880622485 20.7 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221680289:stream:chooralmala thodu
+  way 622581769 edge 5880622485-5880622487 11.0 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221680289:stream:chooralmala thodu
+  way 622581769 edge 5880622508-5880622509 77.1 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=- name=-  crosses=1221680289:stream:chooralmala thodu
+  way 794270381 edge 7428737126-7428737125 9.1 m  highway=track bridge=yes culvert=- ford=- access=- tracktype=- layer=1 name=-  crosses=794270376:stream:Punnappuzha
+  way 794678801 edge 5880623674-5880623675 8.5 m  highway=track bridge=- culvert=- ford=- access=- tracktype=- layer=-1 name=-  crosses=794678799:stream:poonapuzha
+  way 794678803 edge 3842230653-7432812463 9.0 m  highway=tertiary bridge=yes culvert=- ford=- access=- tracktype=- layer=1 name=-  crosses=794678799:stream:poonapuzha
+
+All ways within 1500 m in enclave (103):
+  way 30778557: 91 edges  highway=primary surface=asphalt name=Kalpetta - Meppadi Road
+  way 380928381: 28 edges  highway=tertiary access=permit
+  way 380928384: 16 edges  highway=unclassified
+  way 380928388: 1 edges  highway=tertiary bridge=yes access=permissive surface=metal layer=1 name=Bailey Bridge
+  way 380928392: 23 edges  highway=track motor_vehicle=yes
+  way 380928396: 35 edges  highway=unclassified
+  way 380928398: 30 edges  highway=unclassified
+  way 380928400: 38 edges  highway=tertiary
+  way 380928406: 59 edges  highway=unclassified
+  way 380928408: 77 edges  highway=tertiary access=permit
+  way 622581764: 38 edges  highway=residential
+  way 622581765: 6 edges  highway=residential
+  way 622581766: 14 edges  highway=residential
+  way 622581767: 11 edges  highway=service
+  way 622581768: 16 edges  highway=residential surface=unpaved
+  way 622581769: 56 edges  highway=track surface=unpaved
+  way 622581770: 11 edges  highway=service
+  way 622581771: 3 edges  highway=residential
+  way 622581772: 3 edges  highway=track surface=unpaved
+  way 622581773: 2 edges  highway=track surface=unpaved
+  way 622581778: 10 edges  highway=residential
+  way 622581782: 6 edges  highway=residential
+  way 622581785: 5 edges  highway=residential
+  way 622581788: 19 edges  highway=track surface=unpaved
+  way 622581791: 10 edges  highway=residential surface=unpaved
+  way 622581792: 6 edges  highway=residential
+  way 622581793: 16 edges  highway=residential
+  way 622581795: 12 edges  highway=track surface=unpaved
+  way 622581797: 2 edges  highway=residential
+  way 622581798: 67 edges  highway=track surface=unpaved
+  way 622581799: 22 edges  highway=residential
+  way 622581802: 46 edges  highway=residential surface=unpaved
+  way 622581803: 13 edges  highway=residential
+  way 622581804: 8 edges  highway=residential
+  way 622581805: 6 edges  highway=service
+  way 622913206: 73 edges  highway=residential
+  way 622913207: 4 edges  highway=residential
+  way 622913208: 12 edges  highway=residential
+  way 622913214: 18 edges  highway=residential
+  way 622913215: 25 edges  highway=track surface=unpaved
+  way 622913221: 33 edges  highway=track surface=unpaved
+  way 622913223: 14 edges  highway=residential
+  way 622913225: 5 edges  highway=residential
+  way 622913227: 18 edges  highway=residential
+  way 622913228: 1 edges  highway=residential
+  way 622913229: 1 edges  highway=residential
+  way 622913230: 5 edges  highway=track surface=unpaved
+  way 622913245: 12 edges  highway=residential
+  way 622913246: 3 edges  highway=residential
+  way 622913250: 6 edges  highway=track surface=unpaved
+  way 623473774: 4 edges  highway=residential
+  way 794270380: 5 edges  highway=track surface=unpaved
+  way 794270381: 1 edges  highway=track bridge=yes surface=unpaved layer=1
+  way 794678800: 25 edges  highway=track surface=unpaved
+  way 794678801: 1 edges  highway=track surface=unpaved layer=-1 tunnel=yes
+  way 794678802: 89 edges  highway=tertiary access=permit
+  way 794678803: 1 edges  highway=tertiary bridge=yes layer=1
+  way 932269939: 91 edges  highway=unclassified
+  way 932271080: 5 edges  highway=unclassified
+  way 1220183160: 3 edges  highway=unclassified
+  way 1220185761: 2 edges  highway=residential surface=unpaved
+  way 1220185764: 10 edges  highway=unclassified
+  way 1220185770: 1 edges  highway=unclassified
+  way 1220186547: 2 edges  highway=residential surface=unpaved
+  way 1220186548: 12 edges  highway=residential surface=unpaved
+  way 1220186549: 1 edges  highway=residential surface=unpaved
+  way 1220186551: 2 edges  highway=residential surface=unpaved
+  way 1220186552: 2 edges  highway=residential surface=unpaved
+  way 1220186553: 4 edges  highway=residential surface=unpaved
+  way 1220186554: 4 edges  highway=residential surface=unpaved
+  way 1220187507: 6 edges  highway=residential surface=unpaved
+  way 1220187508: 3 edges  highway=track
+  way 1220187509: 4 edges  highway=unclassified
+  way 1220187510: 18 edges  highway=residential surface=unpaved
+  way 1220187511: 3 edges  highway=residential surface=unpaved
+  way 1220187512: 8 edges  highway=residential surface=unpaved
+  way 1220187513: 7 edges  highway=residential surface=unpaved
+  way 1220187514: 3 edges  highway=residential surface=unpaved
+  way 1220190200: 18 edges  highway=residential surface=unpaved
+  way 1220190201: 15 edges  highway=residential surface=unpaved
+  way 1220190202: 1 edges  highway=residential surface=unpaved
+  way 1220190203: 40 edges  highway=residential surface=unpaved
+  way 1220190204: 3 edges  highway=residential surface=unpaved
+  way 1220190205: 5 edges  highway=residential surface=unpaved
+  way 1220190206: 6 edges  highway=residential surface=unpaved
+  way 1220190207: 2 edges  highway=residential surface=unpaved
+  way 1220190208: 2 edges  highway=residential surface=unpaved
+  way 1220191385: 69 edges  highway=unclassified
+  way 1220191386: 29 edges  highway=track
+  way 1220191387: 50 edges  highway=track
+  way 1220191388: 15 edges  highway=track
+  way 1220191389: 12 edges  highway=track
+  way 1220191391: 3 edges  highway=unclassified
+  way 1304695397: 16 edges  highway=track
+  way 1304695877: 12 edges  highway=track
+  way 1304695878: 7 edges  highway=track
+  way 1304758392: 2 edges  highway=track surface=unpaved
+  way 1304866455: 15 edges  highway=residential
+  way 1304866510: 4 edges  highway=residential
+  way 1305881543: 6 edges  highway=residential
+  way 1340091354: 6 edges  highway=unclassified
+  way 1340091355: 5 edges  highway=unclassified
+  way 1347557913: 1 edges  highway=track surface=unpaved
+
+Waterways crossed by the Bailey Bridge edge: [(794270372, {'name': 'Punnappuzha', 'waterway': 'stream'})]
+River ways used for bank split: [794270372, 794270374, 794270376] (names {'Punnappuzha'}); disc split into 1 pieces (areas [1075.05] x1e-6 deg^2)
+  paper coordinate 11.4992,76.1601              piece [0]  (~4 m from river line)
+  Chooralmala settlement point                  piece [0]  (~19 m from river line)
+  Chooralmala snap node 3842230572              piece [0]  (~22 m from river line)
+  Mundakai settlement point                     piece [0]  (~153 m from river line)
+  Mundakai snap node 3842228221                 piece [0]  (~147 m from river line)
+  Bailey end node 3842230570                    piece [0]  (~16 m from river line)
+  Bailey end node 3842230578                    piece [0]  (~18 m from river line)
+Paper coordinate -> Chooralmala snap node 3842230572: 27 m
+Paper coordinate -> Mundakai snap node 3842228221: 1505 m
+
+[with bridge] Chooralmala->Mundakai connected: True
+  shortest by length_m: 91 edges, 1997 m, 3.42 min
+  shortest by time_min: 91 edges, 1997 m, 3.42 min
+  edge connectivity: 1; a minimum edge cut: [((3842228224, 6894943729), 380928408)]
+
+[without bridge] Chooralmala->Mundakai connected: True
+  shortest by length_m: 209 edges, 5243 m, 16.00 min
+  shortest by time_min: 209 edges, 5243 m, 16.00 min
+  edge connectivity: 1; a minimum edge cut: [((3842228224, 6894943729), 380928408)]
+
+Alternate path (shortest by length, bridge removed): 209 edges; per-way runs:
+  way 30778557: 5 edges, 94 m, start (11.4992088, 76.1598506), {'highway': 'primary', 'surface': 'asphalt', 'name': 'Kalpetta - Meppadi Road'}
+  way 380928406: 66 edges, 2220 m, start (11.4999988, 76.1595541), {'highway': 'unclassified'}
+  way 622913247: 1 edges, 13 m, start (11.4947577, 76.1455675), {'highway': 'track', 'surface': 'unpaved'}
+  way 622913215: 104 edges, 2245 m, start (11.4947151, 76.1454593), {'highway': 'track', 'surface': 'unpaved'}  CROSSES ['794270375:stream:']
+  way 794270381: 1 edges, 9 m, start (11.4894888, 76.1546136), {'highway': 'track', 'bridge': 'yes', 'surface': 'unpaved', 'layer': '1'}  CROSSES ['794270376:stream:Punnappuzha']
+  way 1347557913: 1 edges, 23 m, start (11.4894908, 76.1546975), {'highway': 'track', 'surface': 'unpaved'}
+  way 794270380: 5 edges, 128 m, start (11.4894957, 76.1549108), {'highway': 'track', 'surface': 'unpaved'}
+  way 380928408: 26 edges, 510 m, start (11.4900185, 76.155845), {'highway': 'tertiary', 'access': 'permit'}
