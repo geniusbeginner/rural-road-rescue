@@ -16,7 +16,7 @@ Checked 2026-09-28. **How the evidence was gathered:** "Excerpt" lines are verba
 | **AccessGrid AI**, *not named* | Repo created 2026-09-19, 0 stars, no licence | Yes: "simulates road closures" | Yes (preset flood/hazmat scenarios) | **Yes**: Mohali/Chandigarh/Panchkula (urban) | Yes (optional raster, **"synthetic fallback"**) | Yes (hospital access) | Planners / emergency responders | **Medium-high** (same idea, urban, very new) |
 | **AccessMod 5** (UNIGE / WHO), *not named* | Yes: last commit 2026-06-05 | COULD NOT VERIFY | COULD NOT VERIFY | Generic | Yes ("catchments of peoples") | Yes | Health planners | **Medium** |
 | **GOSTnets** (World Bank), *not named* | Yes: last commit 2026-03-03 | Library only; COULD NOT VERIFY | No | Generic (OSM) | COULD NOT VERIFY | COULD NOT VERIFY | Analysts (Python) | **Low-medium** (building block) |
-| **snail / open-gira** (Oxford nismod), *not named* | Yes: last commits 2026-09-08 / 2026-07-24 | COULD NOT VERIFY | Implied by "risk" in description; COULD NOT VERIFY | Generic / global | COULD NOT VERIFY | COULD NOT VERIFY | Researchers | **Low-medium** |
+| **snail / open-gira** (GitHub org "nismod"), *not named* | Yes: last commits 2026-09-08 / 2026-07-24 | COULD NOT VERIFY | Implied by "risk" in description; COULD NOT VERIFY | Generic / global | COULD NOT VERIFY | COULD NOT VERIFY | Researchers | **Low-medium** |
 
 Academic work that overlaps in method is listed at the bottom.
 

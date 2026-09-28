@@ -43,7 +43,7 @@ Checked 2026-09-28. Excerpts are verbatim from raw page or PDF text. A source ma
 - **Secondary (AGU Landslide Blog, https://blogs.agu.org/landslideblog/2020/08/14/pettimudi-landslide/):** "Drone footage taken today shows a clear landslide close by the bridge … Obviously not confirmed this is what it hit, but given the bridge parapet has been wiped out it would fit." The blog author flags this as unconfirmed.
 - **Search snippet only:** "the only one road connecting Pettimudi to the world outside was damaged". Not verified on a page.
 
-## 5. Kavalappara, Pothukal, Malappuram (Nilambur), 8 August 2019
+## 5. Kavalappara, Pothukal, Malappuram, 8 August 2019
 - **Reported:** communication cut off; bridge damage.
 - **Excerpt (International Consortium on Landslides, https://www.landslides.org/report/kavalappara-landslide/):** "over 39 houses and a walkover bridge were completely washed away". Also: "69 casualties, 39 completely damaged houses along with roads, utilities and other infrastructure damages were recorded during our survey."
 - **Search snippet only:** "At 12 noon, the flood level reached more than 2 m above the bridge at Bhoodanam in the Puthukkad area." Also: "communication was totally cut off". Not verified on a page.
