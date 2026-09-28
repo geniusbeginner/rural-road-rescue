@@ -58,4 +58,4 @@ Checked 2026-09-28. **No samples were downloaded for any of these sources**; the
 - **Excerpts:** "IMD New High Spatial Resolution (0.25X0.25 degree) Long Period (1901-2024) Daily Gridded Rainfall Data Set Over India." "Data is arranged in 135x129 grid points." "The yearly data file consists of 365/366 records corresponding to non leap/ leap years." "Should you refer to our product in your paper/presentation, please cite Pai et al. (2014)."
 - **Download mechanism (raw HTML):** `<form class="form-inline" name="RF25" action="RF25.php" method="post">` with a year `<select>` and a "Download" button. There's no login or registration field on the page, so **it appears downloadable without a login**; I didn't submit the form.
 - **Licence:** no licence text found; only the citation request.
-- **Resolution note (inference):** 0.25° is about 27 km. Wayanad (about 2,130 km²) would be covered by only a few grid cells.
+- **Resolution note (inference):** 0.25° of latitude is about 27.8 km (0.25 × 111 km), so a district-scale area would be covered by only a handful of grid cells. I didn't count the cells over Wayanad.
