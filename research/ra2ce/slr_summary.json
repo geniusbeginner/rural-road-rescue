@@ -1,0 +1,255 @@
+{
+ "links": 32122,
+ "detour_counts": {
+  "1": 19755,
+  "0": 12367
+ },
+ "share_detour0_pct": 38.5,
+ "sh59_chain_lid24382": [
+  {
+   "lid": "24382",
+   "highway": "primary",
+   "length": 43.0,
+   "detour": 0,
+   "alt_length": NaN,
+   "diff_length": NaN
+  }
+ ],
+ "adjacent_sh59_lid24391": [
+  {
+   "lid": "24391",
+   "highway": "primary",
+   "length": 686.0,
+   "detour": 1,
+   "alt_length": 4225.0,
+   "diff_length": 3539.0
+  }
+ ],
+ "bailey_chain_lid30621": [
+  {
+   "lid": "30621",
+   "highway": "tertiary",
+   "length": 178.0,
+   "detour": 1,
+   "alt_length": 6032.0,
+   "diff_length": 5854.0
+  }
+ ],
+ "detour0_primary_trunk": [
+  {
+   "lid": "5071",
+   "highway": "trunk",
+   "length": 24076.0
+  },
+  {
+   "lid": "15925",
+   "highway": "primary",
+   "length": 16222.0
+  },
+  {
+   "lid": "12881",
+   "highway": "primary",
+   "length": 13643.0
+  },
+  {
+   "lid": "29893",
+   "highway": "primary",
+   "length": 7648.0
+  },
+  {
+   "lid": "11847",
+   "highway": "primary",
+   "length": 5626.0
+  },
+  {
+   "lid": "29350",
+   "highway": "primary",
+   "length": 4950.0
+  },
+  {
+   "lid": "4693",
+   "highway": "primary",
+   "length": 3304.0
+  },
+  {
+   "lid": "16940",
+   "highway": "primary",
+   "length": 2975.0
+  },
+  {
+   "lid": "17864",
+   "highway": "trunk",
+   "length": 2841.0
+  },
+  {
+   "lid": "9606",
+   "highway": "trunk",
+   "length": 1728.0
+  },
+  {
+   "lid": "28207",
+   "highway": "primary",
+   "length": 1265.0
+  },
+  {
+   "lid": "7612",
+   "highway": "primary",
+   "length": 1239.0
+  },
+  {
+   "lid": "8402",
+   "highway": "primary",
+   "length": 1171.0
+  },
+  {
+   "lid": "7613",
+   "highway": "primary",
+   "length": 1133.0
+  },
+  {
+   "lid": "18944",
+   "highway": "primary",
+   "length": 952.0
+  },
+  {
+   "lid": "28198",
+   "highway": "primary",
+   "length": 892.0
+  },
+  {
+   "lid": "17173",
+   "highway": "primary",
+   "length": 875.0
+  },
+  {
+   "lid": "32707",
+   "highway": "primary",
+   "length": 861.0
+  },
+  {
+   "lid": "16759",
+   "highway": "primary",
+   "length": 832.0
+  },
+  {
+   "lid": "10999",
+   "highway": "primary",
+   "length": 753.0
+  },
+  {
+   "lid": "7606",
+   "highway": "primary",
+   "length": 752.0
+  },
+  {
+   "lid": "28370",
+   "highway": "primary",
+   "length": 712.0
+  },
+  {
+   "lid": "1983",
+   "highway": "primary",
+   "length": 633.0
+  },
+  {
+   "lid": "5330",
+   "highway": "trunk",
+   "length": 592.0
+  },
+  {
+   "lid": "21903",
+   "highway": "primary",
+   "length": 505.0
+  },
+  {
+   "lid": "1369",
+   "highway": "primary",
+   "length": 440.0
+  },
+  {
+   "lid": "3010",
+   "highway": "primary",
+   "length": 436.0
+  },
+  {
+   "lid": "24379",
+   "highway": "primary",
+   "length": 372.0
+  },
+  {
+   "lid": "17408",
+   "highway": "primary",
+   "length": 370.0
+  },
+  {
+   "lid": "1368",
+   "highway": "primary",
+   "length": 333.0
+  },
+  {
+   "lid": "8403",
+   "highway": "primary",
+   "length": 268.0
+  },
+  {
+   "lid": "23345",
+   "highway": "primary",
+   "length": 241.0
+  },
+  {
+   "lid": "17340",
+   "highway": "primary",
+   "length": 180.0
+  },
+  {
+   "lid": "492",
+   "highway": "primary",
+   "length": 166.0
+  },
+  {
+   "lid": "24380",
+   "highway": "primary",
+   "length": 137.0
+  },
+  {
+   "lid": "493",
+   "highway": "primary",
+   "length": 95.0
+  },
+  {
+   "lid": "16760",
+   "highway": "primary",
+   "length": 49.0
+  },
+  {
+   "lid": "24382",
+   "highway": "primary",
+   "length": 43.0
+  },
+  {
+   "lid": "30712",
+   "highway": "primary",
+   "length": 43.0
+  },
+  {
+   "lid": "16695",
+   "highway": "primary",
+   "length": 30.0
+  },
+  {
+   "lid": "16696",
+   "highway": "primary",
+   "length": 22.0
+  },
+  {
+   "lid": "29506",
+   "highway": "primary",
+   "length": 19.0
+  },
+  {
+   "lid": "20337",
+   "highway": "primary",
+   "length": 4.0
+  }
+ ]
+}

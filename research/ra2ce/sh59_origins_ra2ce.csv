@@ -1,0 +1,143 @@
+o_id,POP,category,EV1_ma,EV1_ma_AD1,o_name
+O_0,1.0,None,0,access,Kalpetta
+O_1,1.0,None,0,access,Periya
+O_2,1.0,None,0,access,Bavali
+O_3,1.0,None,0,access,Vythiri
+O_4,1.0,None,0,access,Meppadi
+O_5,1.0,None,0,access,Sultan Bathery
+O_6,1.0,None,0,access,Vaduvanchal
+O_7,1.0,None,0,access,Makkiyad
+O_8,1.0,None,0,access,Vellmunda
+O_9,1.0,None,0,access,Mananthavady
+O_10,1.0,None,0,access,Naalam Mile
+O_11,1.0,None,0,access,Pallikkal
+O_12,1.0,None,0,access,Kammom
+O_13,1.0,None,0,access,Kallody
+O_14,1.0,None,0,access,Mazhuvannur
+O_15,1.0,None,0,access,Kellur
+O_16,1.0,None,0,access,Peechamcode
+O_17,1.0,None,0,access,Ancham Mile
+O_18,1.0,None,0,access,Pozhuthana
+O_19,1.0,None,0,access,Thariode
+O_20,1.0,None,0,access,Kaavumannam
+O_21,1.0,None,0,access,Vengappally
+O_22,1.0,None,0,access,Tholpetty
+O_23,1.0,None,0,access,Dwaraka
+O_24,1.0,None,0,access,Meenangadi
+O_25,1.0,None,0,access,Eachome
+O_26,1.0,None,0,access,Tharuvana
+O_27,1.0,None,0,access,Thonichal
+O_28,1.0,None,0,access,Kattikkulam
+O_29,1.0,None,0,access,Anaappara
+O_30,1.0,None,0,access,Pannichal
+O_31,1.0,None,0,access,Orappu
+O_32,1.0,None,0,access,Ellumannam
+O_33,1.0,None,0,access,Veettichal
+O_34,1.0,None,0,access,54
+O_35,1.0,None,0,access,Ancham Peedika
+O_36,1.0,None,0,access,Thettamala
+O_37,1.0,None,0,access,Chettapalam
+O_38,1.0,None,0,access,Ondayangadi
+O_39,1.0,None,0,access,Thrissilery
+O_40,1.0,None,0,access,Appapara
+O_41,1.0,None,0,access,Thirunelli
+O_42,1.0,None,0,access,Thalappuzha
+O_43,1.0,None,0,access,Panamaram
+O_44,1.0,None,0,access,Koyilery
+O_45,1.0,None,0,access,Cherukattoor
+O_46,1.0,None,0,access,Kappunchal
+O_47,1.0,None,0,access,Anjukunnu
+O_48,1.0,None,0,access,Aaraam Mile (6th mile)
+O_49,1.0,None,0,access,Vilambukandam
+O_50,1.0,None,0,access,Pachilakkadu
+O_51,1.0,None,0,access,Varummal kadavu
+O_52,1.0,None,0,access,Peruvaka
+O_53,1.0,None,0,access,Boy's Town
+O_54,1.0,None,0,access,Kunjome
+O_55,1.0,None,0,access,Payyampalli
+O_56,1.0,None,0,access,Kammana
+O_57,1.0,None,0,access,Kambalakkad
+O_58,1.0,None,0,access,Nadakkal
+O_59,1.0,None,0,access,Kokkadavu
+O_60,1.0,None,0,access,Arattuthara
+O_61,1.0,None,0,access,Muthireri
+O_62,1.0,None,0,access,Pathirachal
+O_63,1.0,None,0,access,Pulinjal
+O_64,1.0,None,0,access,Changadakkadavu
+O_65,1.0,None,0,access,Thannikkal
+O_66,1.0,None,0,access,Moolithodu
+O_67,1.0,None,0,access,Puthusseri
+O_68,1.0,None,0,access,Kanhirangad
+O_69,1.0,None,0,access,Palvelicham
+O_70,1.0,None,0,access,Kundala
+O_71,1.0,None,0,access,Pulikkad
+O_72,1.0,None,0,access,Pandikkadavu
+O_73,1.0,None,0,access,Choottakadavu
+O_74,1.0,None,0,access,Kaniyaram
+O_75,1.0,None,0,access,Koolivayal
+O_76,1.0,None,0,access,Porur
+O_77,1.0,None,0,access,Payingattiri
+O_78,1.0,None,0,access,Kuzhinilam
+O_79,1.0,None,0,access,Pilacheri
+O_80,1.0,None,0,access,Ambukuthy
+O_81,1.0,None,0,access,Pulpally
+O_82,1.0,None,0,access,Thonichal
+O_83,1.0,None,0,access,Muttil
+O_84,1.0,None,0,access,Kainatti
+O_85,1.0,None,0,access,Kappamkolly
+O_86,1.0,None,0,no access,Chooralmala
+O_87,1.0,None,0,no access,Kalladi
+O_88,1.0,None,0,access,Nellimunda
+O_89,1.0,None,0,access,Chundale
+O_90,1.0,None,0,access,Nedumkarana
+O_91,1.0,None,0,access,Thinapuram
+O_92,1.0,None,0,access,Padinjarethara
+O_93,1.0,None,0,access,Ambalavayal
+O_94,1.0,None,0,access,Muthanga
+O_95,1.0,None,0,access,Lakkidi
+O_96,1.0,None,0,access,Padichira
+O_97,1.0,None,0,access,Puzhavayal
+O_98,1.0,None,0,access,Cherakkara
+O_99,1.0,None,0,access,SJLP School Pilakkavu
+O_100,1.0,None,0,access,Jessy
+O_101,1.0,None,0,access,Karyambadi
+O_102,1.0,None,0,access,Kenichira
+O_103,1.0,None,0,access,Koliyadi
+O_104,1.0,None,0,access,Thaloor
+O_105,1.0,None,0,access,Korome
+O_106,1.0,None,0,access,Rippon 52
+O_107,1.0,None,0,access,Kallumukku
+O_108,1.0,None,0,access,Kabanigiri
+O_109,1.0,None,0,access,Nambikolly
+O_110,1.0,None,0,access,Paplassery
+O_111,1.0,None,0,access,Kattimoola
+O_112,1.0,None,0,access,palakuly
+O_113,1.0,None,0,access,godavari colony
+O_114,1.0,None,0,access,Pookode
+O_115,1.0,None,0,access,Melmury
+O_116,1.0,None,0,access,ST colony puthiyadam
+O_117,1.0,None,0,access,ambalakolly st colony
+O_118,1.0,None,0,access,edmana scheduled tribes colony 1
+O_119,1.0,None,0,access,Edamana st colony 2
+O_120,1.0,None,0,access,kolymannu
+O_121,1.0,None,0,access,Choyimoola
+O_122,1.0,None,0,access,Alattil
+O_123,1.0,None,0,access,Kalluvettumthazhe
+O_124,1.0,None,0,access,Mavilamthodu
+O_125,1.0,None,0,access,Kappiset
+O_126,1.0,None,0,access,Pinangode
+O_127,1.0,None,0,access,Kottoor
+O_128,1.0,None,0,no access,Mundakai
+O_129,1.0,None,0,access,Moonanakuzhy
+O_130,1.0,None,0,access,Churuli
+O_131,1.0,None,0,access,Cheeral
+O_132,1.0,None,0,access,Kottathara
+O_133,1.0,None,0,access,Venniyodu
+O_134,1.0,None,0,access,Nadavayal
+O_135,1.0,None,0,access,Kaniyambetta
+O_136,1.0,None,0,access,Chulliyode
+O_137,1.0,None,0,access,Madakkara
+O_138,1.0,None,0,access,Pazhoor
+O_139,1.0,None,0,access,ponnada
+O_140,1.0,None,0,access,Pakkom
+O_141,1.0,None,0,access,Pariyaram

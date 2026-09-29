@@ -1,0 +1,26 @@
+{
+ "Kalladi": {
+  "ours_len_m": 8304,
+  "ra2ce_len_m": 8284.0,
+  "diff_m": -20,
+  "diff_pct": -0.24,
+  "ours_time_min": 11.7,
+  "ours_reaches_any_facility_after_cut": false
+ },
+ "Chooralmala": {
+  "ours_len_m": 12810,
+  "ra2ce_len_m": 12785.0,
+  "diff_m": -25,
+  "diff_pct": -0.2,
+  "ours_time_min": 17.7,
+  "ours_reaches_any_facility_after_cut": false
+ },
+ "Mundakai": {
+  "ours_len_m": 14807,
+  "ra2ce_len_m": 14777.0,
+  "diff_m": -30,
+  "diff_pct": -0.2,
+  "ours_time_min": 21.1,
+  "ours_reaches_any_facility_after_cut": false
+ }
+}

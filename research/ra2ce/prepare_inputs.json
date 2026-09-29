@@ -1,0 +1,41 @@
+{
+ "graph_nodes": 343373,
+ "graph_edges": 347948,
+ "chains": 33018,
+ "sh59_chain": [
+  {
+   "lid": 24382,
+   "highway": "primary",
+   "way_ids": "380928374",
+   "our_len_m": 42.8
+  }
+ ],
+ "bailey_chain": [
+  {
+   "lid": 30621,
+   "highway": "tertiary",
+   "way_ids": "30778557,380928381,380928388",
+   "our_len_m": 178.4
+  }
+ ],
+ "origins": 142,
+ "destinations": 34,
+ "hazard": {
+  "sh59": {
+   "file": "research\\ra2ce\\work\\hazard_sh59.tif",
+   "center": [
+    11.52444515,
+    76.1372773
+   ],
+   "cell_deg": 0.0001
+  },
+  "bailey": {
+   "file": "research\\ra2ce\\work\\hazard_bailey.tif",
+   "center": [
+    11.49920405,
+    76.1600773
+   ],
+   "cell_deg": 0.0001
+  }
+ }
+}
