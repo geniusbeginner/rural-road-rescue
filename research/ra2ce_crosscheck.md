@@ -1,8 +1,8 @@
 # RA2CE cross-check
 
-Run 2026-09-29 on branch `ra2ce-crosscheck`: 11:20–12:10 UTC, about 50 of the 90-minute budget. RA2CE 1.2.2 from PyPI, in an isolated venv at `C:\Users\avant\.venvs\ra2ce`; the pipeline's own environment was not touched. Code is in `scripts/ra2ce_crosscheck/`; small outputs are in `research/ra2ce/`; RA2CE's working folders (857 MB) are gitignored in `research/ra2ce/work/`.
+Run 2026-09-29 on branch `ra2ce-crosscheck`: 11:20–12:05 UTC, about 45 of the 90-minute budget. RA2CE 1.2.2 from PyPI, in an isolated venv at `C:\Users\avant\.venvs\ra2ce`; the pipeline's own environment was not touched. Code is in `scripts/ra2ce_crosscheck/`; small outputs are in `research/ra2ce/`; RA2CE's working folders (857 MB) are gitignored in `research/ra2ce/work/`.
 
-Line numbers below refer to the installed RA2CE 1.2.2. The GitHub links point to `master`, where line numbers may differ.
+Line numbers refer to the installed RA2CE 1.2.2. The links in the Summary are pinned to GitHub tag `v1.2.2`, where the cited files are byte-identical. Later sections link to `master`, where the same files are identical as of 2026-09-29.
 
 ## Summary
 
@@ -11,10 +11,28 @@ Line numbers below refer to the installed RA2CE 1.2.2. The GitHub links point to
 - **Same nearest facility, same distances.** Before the disruption, RA2CE routes all three to Community Health Center Meppadi, as we do, with lengths 20–30 m (0.2%) shorter than ours.
 - **Found without being told where to look, but not singled out.** RA2CE's whole-network single-link redundancy analysis gives the SH59 link `detour = 0`. So does **38.5% of all links (12,367 of 32,122)**, including 43 primary or trunk links. It has no consequence-based ranking, so it doesn't pick this corridor out.
 - **The Bailey Bridge ambiguity reproduces exactly.** With tracks included, disrupting the Bailey chain leaves every village with access (Mundakai reroutes +1,223 m). With tracks excluded, **Mundakai alone** loses access. That's our "depends on whether tracks count as roads" result.
-- **Product differences found in the code:**
-  1. RA2CE's isolation and closest-destination analyses have **no direct link-removal input**. Links are disrupted only through a hazard raster.
-  2. Those analyses **never disrupt links tagged `bridge=yes`**.
-  3. "Isolated" means **outside the largest connected component**, not "no route to a facility".
+### How this project differs from RA2CE (for "how is this different from existing tools?")
+
+All links point to the RA2CE **v1.2.2** release tag. The cited files at that tag are byte-identical to the installed package the results came from, and all three points below also hold on `master` as of 2026-09-29.
+
+1. **RA2CE can disrupt a link only through a hazard map; there's no direct "remove this link" test.**
+   - Its isolation analysis loops over hazard scenarios and disrupts only edges whose hazard value exceeds the threshold: [`multi_link_isolated_locations.py` L174](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/multi_link_isolated_locations.py#L174) and [L182–L195](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/multi_link_isolated_locations.py#L182-L195).
+   - Its facility-access analysis does the same: [`origin_closest_destination.py` L179](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/origin_closest_destination.py#L179) and [L198–L206](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/origin_closest_destination.py#L198-L206).
+   - The analysis settings ([`AnalysisSectionLosses`, L79–L185](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/analysis_config_data/analysis_config_data.py#L79-L185)) have no field for a list of links to remove.
+   - The one no-hazard link test, `SINGLE_LINK_REDUNDANCY` ([`analysis_losses_enum.py` L7](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/analysis_config_data/enums/analysis_losses_enum.py#L7)), reports only whether each link has a detour, with no villages or facilities.
+   - **Ours:** we remove the link from the road network directly and recompute every village's reachability to every facility. To reproduce our SH59 test in RA2CE we had to build a synthetic hazard map.
+
+2. **RA2CE never disrupts a link tagged `bridge=yes` in these analyses.**
+   - Isolation analysis: [`multi_link_isolated_locations.py` L190–L193](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/multi_link_isolated_locations.py#L190-L193).
+   - Facility-access analysis: [`origin_closest_destination.py` L198–L199](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/origin_closest_destination.py#L198-L199).
+   - Both require `("bridge" not in e[-1]) or (e[-1]["bridge"] != "yes")` before an edge can be disrupted.
+   - **Consequence:** with OSM's tags as they are, RA2CE could not fail the Bailey Bridge (the 2024 failure site), or the Meenakshi and Kalladi bridges inside the SH59 corridor. The Meenakshi Bridge is the site of the July 2026 blockage. **Ours:** bridges are treated like any other road link; they're often exactly the links that fail.
+
+3. **RA2CE's isolation analysis doesn't consider health facilities or population.**
+   - "Isolated" means **outside the largest connected piece of the network** after disruption: [`remove_edges_from_largest_component`, L65–L87](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/multi_link_isolated_locations.py#L65-L87), applied at [L201](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/analysis/losses/multi_link_isolated_locations.py#L201). The module never mentions a destination.
+   - Population is whatever number the user puts in a column ([`origins_destinations.py` L61](https://github.com/Deltares/ra2ce/blob/v1.2.2/ra2ce/network/origins_destinations.py#L61)).
+   - **Be precise if challenged:** RA2CE's separate closest-destination analysis *does* compute loss of access to facilities; that's the mode that confirmed our SH59 result. But it inherits points 1 and 2 (hazard-only disruption, bridges exempt), and neither mode attributes Census population.
+   - **Ours:** isolation means "no road route to any curated health facility", and population comes from Census 2011 revenue-village totals with a no-double-counting rule.
 
 ## 1. Setup
 
@@ -129,4 +147,4 @@ Travel time is not compared, because RA2CE's speeds differ from ours. Our times 
 - RA2CE's `MULTI_LINK_ISOLATED_LOCATIONS` was **not run**. Its isolation definition and hazard requirement were established from the code only. I didn't test whether its largest-component rule would falsely flag the old boundary-clipped Thaloor fragment on an unbuffered network.
 - **Travel times were not compared;** only lengths were, because of the speed difference.
 - `single_link_redundancy` was run only on V0, not V1.
-- The RA2CE version is the latest on PyPI (1.2.2, which is newer than the latest GitHub release tag, v1.2.1). I didn't try `master`.
+- The RA2CE version is 1.2.2, the latest on PyPI and matching GitHub tag `v1.2.2`. The GitHub releases list showed v1.2.1 as its latest *release*, but the `v1.2.2` tag exists, and the cited files are identical there and on `master`. I didn't run `master`.
