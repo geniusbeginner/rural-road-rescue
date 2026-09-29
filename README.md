@@ -46,6 +46,15 @@ python scripts/enclave_analysis.py
 
 `.pkl` graphs are not in the repository; the steps above regenerate them. `scripts/buffered_extract.py` re-downloads the 10 km extract from Overpass with the snapshot date pinned; it is only needed if the committed extract is missing. `python scripts/facility_curation.py` prints the facility list and every manual decision (`--write` rewrites `data/health_facilities_final.json`).
 
+### Frontend (`rural-road-rescue.html`)
+
+```
+python frontend/build_frontend.py   # rebuilds rural-road-rescue.html from the committed JSON; asserts every displayed number
+python frontend/test_frontend.py    # click-through test, desktop + phone; screenshots to frontend/test_shots/ (gitignored)
+```
+
+The build needs files that are not committed: `data/graph_buf10km.pkl` (from `build_buffered_graph.py`) and the road-definition extracts `research/investigation/raw/f_{pre,now}_V{0,1,2}.json`. `scripts/investigation/f_variants.py` writes those extracts; the pre-event ones come from the 2024-07-29 extract written by `c_pre_event_extract.py`. The test needs `playwright` and uses system Chrome, `$CHROME_PATH`, or Playwright's Chromium. It exits 1 if it finds any problem: layout overlap or overflow, blocked taps, unfilled narration, text below 4.5:1 contrast on its rendered background, a slow load fade, or console errors.
+
 ## Data sources and licences
 
 - OpenStreetMap roads, places, health POIs and boundary, via Overpass (ODbL). © OpenStreetMap contributors.
@@ -75,4 +84,4 @@ Some exploration-only files are ignored and were removed from the git history to
 - Travel speeds are assumed from road class where OSM has no `maxspeed` tag; times are estimates.
 - Whether the failed 2024 bridge is a single point of failure depends on whether an unpaved track counts as a usable road. The analysis identifies the corridor, not that bridge (1.1–3.3 km away).
 - The facility list is curated, not an official complete list.
-- On phones, the demo's detail panel is long, and one map label collides with a travel-time chip. Both are left for the frontend rebuild.
+- On phones, the v1 demo's (`rural-road-map-v1.html`) detail panel is long, and one map label collides with a travel-time chip. `rural-road-rescue.html` replaces it; v1 is kept unchanged.

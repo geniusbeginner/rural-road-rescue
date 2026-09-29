@@ -19,3 +19,6 @@ data/osm/wayanad_highways_lines.geojson
 data/osm/wayanad_roads_topology_buf5km.json
 
 # Raw pre-event (2024-07-29) extract and intermediates: research/investigation/raw/ has its own .gitignore
+
+# Screenshots written by frontend/test_frontend.py
+frontend/test_shots/
