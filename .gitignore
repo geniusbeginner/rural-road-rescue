@@ -15,4 +15,7 @@ data/osm/osm_wayanad_roads_filtered.geojson
 data/osm/wayanad_highways.json
 data/osm/wayanad_highways_lines.geojson
 
+# Derived: build_buffered_graph.py regenerates it (byte-identical) from the 10 km extract
+data/osm/wayanad_roads_topology_buf5km.json
+
 # Raw pre-event (2024-07-29) extract and intermediates: research/investigation/raw/ has its own .gitignore

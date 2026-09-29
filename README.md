@@ -58,6 +58,7 @@ python scripts/enclave_analysis.py
 Some exploration-only files are ignored and were removed from the git history to keep the repository small. No script reads them.
 
 - `data/pmgsy/` (about 109 MB): the PMGSY GeoSadak road layer for Kerala (`Road_DRRP_Kerala.zip`, its extracted `Road_DRRP.shp/.dbf/.shx/.prj`, and `pmgsy_wayanad_roads.geojson`). This was a manual download from https://geosadak-pmgsy.nic.in/OpenData, which was unreachable in September 2026. A 2022 community mirror is at https://github.com/datameet/pmgsy-geosadak (`data/Road_DRRP/Kerala.zip`); it is not byte-identical to the copy used here. There is no script to regenerate it.
+- `data/osm/wayanad_roads_topology_buf5km.json` (24 MB): regenerate it by running `python scripts/build_buffered_graph.py`, which derives it from the committed 10 km extract (verified byte-identical).
 - `data/osm/osm_wayanad_roads*.geojson`, `data/osm/wayanad_highways*.json` (about 82 MB): early OSM exports from the first feasibility check. They were superseded by `data/osm/wayanad_roads_topology.json`.
 
 ## Research writeups (`research/`)
