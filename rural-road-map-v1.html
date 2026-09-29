@@ -298,7 +298,7 @@
   }
   .ba-buttons button[aria-pressed="true"]{ background:var(--confirmed); color:#fff; }
 
-  .village-list{ display:flex; flex-direction:column; gap:6px; margin-bottom:6px; }
+  .village-list{ display:flex; flex-direction:column; gap:6px; margin-bottom:14px; }
   .village-row{
     display:flex; align-items:center; justify-content:space-between; gap:8px;
     font-size:12.5px; padding:6px 8px; border-radius:6px; background:var(--bg);
@@ -332,6 +332,8 @@
     right:16px;
     bottom:16px;
     width:250px;
+    max-height:calc(100% - 188px); /* stay below the 16px + 144px locator inset */
+    overflow-y:auto;
     max-width:calc(100vw - 32px);
   }
   .caveats .head{
@@ -368,7 +370,7 @@
   @media (max-width: 720px){
     .brand h1{ font-size:16px; white-space:normal; }
     .detail{ width:auto; right:16px; bottom:180px; max-height:38vh; }
-    .caveats{ width:auto; }
+    .caveats{ width:auto; max-height:148px; } /* fits the band below .detail (bottom:180px) */
     .locator{ display:none; }
   }
 </style>
@@ -651,6 +653,14 @@ const DATA = {"primary_finding": {"id": "chooralmala", "label": "Chooralmala / K
         <div class="case-eyebrow" id="panel-confirmed-accent"><span class="dot"></span>Confirmed disconnection</div>
         <h2>${cf.label}</h2>
         <p class="summary">${cf.summary}</p>
+        <div class="ba-switch">
+          <span class="lbl">Segment state</span>
+          <div class="ba-buttons" role="group" aria-label="Before / after toggle">
+            <button type="button" data-ba="before" aria-pressed="${baState==='before'}">Before</button>
+            <button type="button" data-ba="after" aria-pressed="${baState==='after'}">After</button>
+          </div>
+        </div>
+        <div class="village-list">${rows}</div>
         <div class="callout">
           <div class="callout-head">Validated against two real events</div>
           ${cf.validation_events.map(e => `<div class="callout-row"><span class="callout-date">${e.date}</span><span>${e.text}</span></div>`).join('')}
@@ -662,14 +672,6 @@ const DATA = {"primary_finding": {"id": "chooralmala", "label": "Chooralmala / K
           <div class="stat"><div class="k">Revenue village</div><div class="v" style="font-family:'IBM Plex Sans';font-size:13px;">${cf.revenue_village}</div></div>
         </div>
         <p class="footnote">* ${cf.population_source}</p>
-        <div class="ba-switch">
-          <span class="lbl">Segment state</span>
-          <div class="ba-buttons" role="group" aria-label="Before / after toggle">
-            <button type="button" data-ba="before" aria-pressed="${baState==='before'}">Before</button>
-            <button type="button" data-ba="after" aria-pressed="${baState==='after'}">After</button>
-          </div>
-        </div>
-        <div class="village-list">${rows}</div>
         <div class="legend">
           <div class="legend-item"><span class="legend-swatch" style="background:var(--road-strong)"></span>Primary / secondary road</div>
           <div class="legend-item"><span class="legend-swatch" style="background:var(--confirmed)"></span>Isolated cluster</div>
