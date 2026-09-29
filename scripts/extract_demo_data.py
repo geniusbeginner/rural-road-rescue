@@ -107,11 +107,42 @@ def main():
             "id": "chooralmala",
             "label": "Chooralmala / Kalladi / Mundakai",
             "verdict": "confirmed_disconnection",
-            "summary": "Removing this edge severs Chooralmala, Kalladi, and Mundakai from their nearest health facility entirely -- before/after travel time goes from 11.7-21.1 min to unreachable.",
+            "case_subtitle": "Vellarimala Network Vulnerability",
+            "summary": ("Topology-only analysis identifies this stretch of road (SH59, Kalpetta–Meppadi) as the sole route "
+                        "connecting Kalladi, Chooralmala and Mundakai (Vellarimala revenue village, population 7,548) to any "
+                        "health facility. Cut it, and all three become unreachable from every health facility in our curated "
+                        "dataset (34 facilities at PHC, CHC, Taluk and District Hospital level). This finding holds across "
+                        "three different definitions of what counts as a road, and in both a 2024 and a 2026 snapshot of the network."),
+            "events_context": ("The area this corridor serves has been cut off by real landslides twice. On 30 July 2024, "
+                               "landslides at Mundakkai and Chooralmala killed more than 200 people and washed away the bridge "
+                               "between Chooralmala and Mundakkai, isolating Mundakkai (GSI; Scientific Reports, 2025; DD News). "
+                               "On 7 July 2026, a landslide near the Meenakshi Bridge at Kalladi — inside this corridor — "
+                               "disrupted traffic on the Meppadi–Chooralmala road (ANI, citing the district administration; "
+                               "ETV Bharat, citing KSDMA)."),
+            "scope_note": ("We do not claim to have identified the exact bridge that failed in 2024; that bridge lies further up "
+                           "the valley, beyond this corridor. What the analysis identifies is that this corridor is the area's "
+                           "single point of failure for health access, which is consistent with both events."),
+            "validation_events": [
+                {"date": "30 Jul 2024", "text": "Landslides wash away the Chooralmala–Mundakkai bridge; Mundakkai cut off."},
+                {"date": "7 Jul 2026", "text": "Landslide at Kalladi, inside this corridor, disrupts the Meppadi–Chooralmala road."},
+            ],
+            "sources": [
+                {"label": "GSI First Information Report, Mundakkai–Chooralmala (30.07.2024)",
+                 "url": "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf"},
+                {"label": "Ramesh et al., Scientific Reports 15 (2025), doi:10.1038/s41598-025-07828-3",
+                 "url": "https://www.nature.com/articles/s41598-025-07828-3"},
+                {"label": "DD News, 1 Aug 2024 (archived copy)",
+                 "url": "http://web.archive.org/web/20260421013527/https://ddnews.gov.in/en/wayanad-tragedy-army-erecting-temporary-bailey-bridge-in-chooralmala-toll-risen-to-167/"},
+                {"label": "ANI, 7 Jul 2026",
+                 "url": "https://aninews.in/news/national/general-news/keralam-three-killed-seven-missing-after-landslide-at-kalladi-tunnel-construction20260707175128/"},
+                {"label": "ETV Bharat, 7 Jul 2026",
+                 "url": "https://www.etvbharat.com/en/state/landslide-hits-wayanad-tunnel-project-site-in-kerala-several-trapped-rescue-operation-underway-enn26070702157"},
+            ],
             "bridge_point": [round(bridge_lon, 6), round(bridge_lat, 6)],
             "ways": cho_ways,
             "villages": cho_villages,
             "population": 7548,
+            "population_source": "Census of India 2011, District Census Handbook Part XII-B, Wayanad (Vellarimala, location code 627340)",
             "revenue_village": "Vellarimala",
             "before_time_range": [11.7, 21.1],
             "isolated_component_size": len(isolated_nodes),
@@ -121,15 +152,22 @@ def main():
             "label": "Thaloor",
             "verdict": "artifact_rejected",
             "summary": "In the bridge-tree screening, this edge showed the same headline signal as Chooralmala: isolated_facilities = 0, meaning it appeared to cut its village off from every health facility. It didn't survive the follow-up check. Kept in the demo specifically to show the check that catches this class of false positive.",
-            "rejection_reason": "Both this edge and the confirmed Chooralmala edge scored isolated_facilities = 0 in the fast bridge-tree screen -- on that metric alone they looked equally dramatic. But this isolated component's nearest node sits only 113m from the district boundary polygon, consistent with the road continuing outside the clipped OSM extract rather than actually ending. Chooralmala's isolation was confirmed with a full weighted shortest-path before/after test; this one was rejected before that step.",
+            "rejection_reason": ("Confirmed as a data artifact by re-extracting the road network with a 10 km buffer past the "
+                                 "district boundary (and re-checked at 5 km). In the buffered network, this settlement's road "
+                                 "connects to the wider network: 286 of the 306 road nodes in the apparently isolated section lie "
+                                 "outside the district, and 64 health facilities become reachable — all 34 curated Wayanad "
+                                 "facilities plus 30 outside Wayanad. The apparent isolation was caused by clipping the road data "
+                                 "at the administrative boundary, not a real road failure."),
             "bridge_point": [round(th_lon, 6), round(th_lat, 6)],
             "ways": th_ways,
             "village": th_village,
             "boundary_nearby": [[round(p[0], 6), round(p[1], 6)] for p in nearby_boundary],
-            "distance_to_boundary_m": 113,
+            "distance_to_boundary_m": 0,
+            "distance_source": "buffered-network validation (10 km buffered re-extraction)",
             "isolated_component_size": len(th_isolated),
             "revenue_village": "Nenmeni",
-            "population": 31225,
+            "population": None,
+            "population_note": "Population not attributable (partial revenue village: Thaloor is one of four OSM settlements in Nenmeni).",
         },
         "facilities": [
             {"name": f["name"], "lat": f["lat"], "lon": f["lon"]} for f in facilities
