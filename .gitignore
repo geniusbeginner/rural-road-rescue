@@ -1,4 +1,18 @@
+# Regenerated graphs (rebuilt by checkpoint4b_aggregate.py, build_buffered_graph.py, investigation scripts)
 data/graph_weighted.pkl
 *.pkl
+
+# Python caches
 __pycache__/
 *.pyc
+
+# Exploration-only data, read by no script; removed from history (kept locally, not in the repo).
+# PMGSY GeoSadak road layer - manual download from https://geosadak-pmgsy.nic.in/OpenData (see README)
+data/pmgsy/
+# Early OSM exports from the first feasibility check
+data/osm/osm_wayanad_roads.geojson
+data/osm/osm_wayanad_roads_filtered.geojson
+data/osm/wayanad_highways.json
+data/osm/wayanad_highways_lines.geojson
+
+# Raw pre-event (2024-07-29) extract and intermediates: research/investigation/raw/ has its own .gitignore
