@@ -14,6 +14,7 @@ sys.path.insert(0, "scripts")
 from build_graph import haversine_m
 from checkpoint3_4 import build_weighted_graph, SPEED_KMH
 from checkpoint2 import build_kdtree, snap_point, SNAP_CAP_M
+from snapping import fix_spur_snaps
 
 BUFFERS_KM = [10, 5]
 BUFFER_EDGE_RULE_M = 500  # labelled parameter, approved -- not a finding
@@ -181,6 +182,10 @@ def main():
         ringsnap = resnap(ring, nodes, {}, f"buf{km} facilities (buffer ring, rule-selected)")
         for f, s in zip(ring, ringsnap):
             s["osm"] = f["osm"]
+        villages, spur_changes = fix_spur_snaps(G, villages, {f["node_id"] for f in fac34 + ringsnap if f["snapped"]}, SNAP_CAP_M)
+        print(f"[buf{km} spur-snap fix] {len(spur_changes)} villages re-snapped off dead-end spur tips:")
+        for c in spur_changes:
+            print(f"    {c[0]:28s} node {c[1]} -> {c[2]} ({c[3]})")
         pickle.dump({"G": G, "nodes": nodes, "villages": villages, "facilities34": fac34,
                      "facilities_ring": ringsnap, "buffer_km": km},
                     open(f"data/graph_buf{km}km.pkl", "wb"))
