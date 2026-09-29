@@ -1,17 +1,21 @@
 [pre V1] ways kept 16753/18091 (dropped 1338)
 Weighted graph: 309021 nodes, 312683 edges
 Speed assignment source (by way): {'assumed': 16513, 'osm_maxspeed_tag': 240}
-[pre V1] graph 309021 nodes, 312683 edges, 182 components  (44s)
+[pre V1] graph 309021 nodes, 312683 edges, 182 components  (12s)
+[pre V1] spur-snap fix: 3 villages re-snapped off dead-end spur tips
+    Sultan Bathery               node 5882978585 -> 3251533862 (35 m -> 64 m)
+    Meenangadi                   node 7057388400 -> 2004811052 (53 m -> 66 m)
+    Chundale                     node 12070867707 -> 842388206 (36 m -> 60 m)
 [pre V1] villages snapped 142/142, unsnapped []; facilities snapped 65/65, unsnapped []; villages whose snap moved vs V0: 2
     Melmury                      V0 node 7705108527 (23 m) -> node 5837375210 (24 m)
     Choyimoola                   V0 node 8010432149 (17 m) -> node 8010432147 (32 m)
-[pre V1] bridges: 121501; bridges isolating >=1 village from all 65 facility nodes: 574; distinct enclaves (village sets): 18; villages in facility-free components: []
+[pre V1] bridges: 121501; bridges isolating >=1 village from all 65 facility nodes: 571; distinct enclaves (village sets): 15; villages in facility-free components: []
 
 (i) failed bridge (3842230570, 3842230578): {"edge_present": true, "is_graph_bridge": true, "is_village_isolating_cut": true, "villages": ["Mundakai"], "isolated_nodes": 762, "population_attributed": 0, "revenue_villages_full": {}, "revenue_villages_partial_unattributed": {"Vellarimala": {"population_2011": 7548.0, "settlements_inside": 1, "settlements_total": 3}}}
     without it, Chooralmala->Mundakai connected: False
 (ii) Chooralmala-Mundakai edge connectivity: 1; minimum cut: [[5883092633, 3842228221, 380928408, 'tertiary']]
 (iii) Level-1 edge (3249489501, 5870049103): {"edge_present": true, "is_village_isolating_cut": true, "villages": ["Chooralmala", "Kalladi", "Mundakai"], "isolated_nodes": 2428, "population_attributed": 7548.0}
-(iv) enclaves: 18 (real 17, suspect 1)
+(iv) enclaves: 15 (real 14, suspect 1)
        2428 nodes  138 cuts real    pop    7,548  ['Chooralmala', 'Kalladi', 'Mundakai']
        1990 nodes   88 cuts real    pop        0  ['Chooralmala', 'Mundakai']
        1086 nodes   10 cuts suspect pop        0  ['Bavali']
@@ -27,8 +31,5 @@ Speed assignment source (by way): {'assumed': 16513, 'osm_maxspeed_tag': 240}
           6 nodes    1 cuts real    pop        0  ['Kottathara']
           6 nodes    1 cuts real    pop        0  ['Pilacheri']
           6 nodes    2 cuts real    pop        0  ['Thinapuram']
-          1 nodes    1 cuts real    pop        0  ['Chundale']
-          1 nodes    1 cuts real    pop   23,333  ['Sultan Bathery']
-          1 nodes    1 cuts real    pop        0  ['Meenangadi']
 (v) villages with no route to any facility: 0 (unsnapped 0: []; facility-free components 0: [])
-saved research/investigation/f_variants/pre_V1.json  (total 86s)
+saved research/investigation/f_variants/pre_V1.json  (total 34s)
