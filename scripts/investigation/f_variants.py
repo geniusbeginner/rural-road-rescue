@@ -5,7 +5,8 @@
        'destroyed'/'disused'/'abandoned' with value != 'no'.
 Same code path: filtered raw extract -> checkpoint3_4.build_weighted_graph -> node distance attrs -> 500 m snapping ->
 enclave functions copied verbatim from scripts/enclave_analysis.py (via c_enclave_analysis_pre_event.py).
-Settlements and facilities are fixed (142 OSM settlements, curated 34 + 31 buffer ring). Read-only on data/.
+Settlements and facilities are fixed (142 OSM settlements, curated 34 + 31 buffer ring, read from data/graph_buf10km.pkl,
+so the audited facility list), with the same spur-snap fix as the main pipeline. Read-only on data/.
 Usage: python f_variants.py {pre|now} {V0|V1|V2}"""
 import json
 import math
@@ -22,6 +23,7 @@ sys.path.insert(0, "scripts")
 sys.path.insert(0, "scripts/investigation")
 from checkpoint3_4 import build_weighted_graph
 from checkpoint2 import build_kdtree, snap_point, SNAP_CAP_M
+from snapping import fix_spur_snaps
 from c_enclave_analysis_pre_event import run, flag, edge_info, population, load_crosswalk
 
 SRC = {"pre": "research/investigation/raw/wayanad_roads_topology_buf10km_2024-07-29.json",
@@ -80,6 +82,11 @@ def main(snap, var):
         return out
     villages = snapall(fixed["villages"])
     facs = snapall(fixed["facilities34"] + fixed["facilities_ring"])
+    # Same spur-snap fix as the main pipeline (scripts/build_buffered_graph.py), applied to this variant's graph.
+    villages, spur_changes = fix_spur_snaps(G, villages, {f["node_id"] for f in facs if f["snapped"]}, SNAP_CAP_M)
+    print(f"[{snap} {var}] spur-snap fix: {len(spur_changes)} villages re-snapped off dead-end spur tips")
+    for c in spur_changes:
+        print(f"    {c[0]:28s} node {c[1]} -> {c[2]} ({c[3]})")
     v0snap = None
     if var != "V0":
         v0snap = json.load(open(f"{OUT}/{snap}_V0.json"))["snaps"]

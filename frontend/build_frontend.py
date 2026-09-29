@@ -161,6 +161,11 @@ def main():
     for k, recs in states.items():
         check(any(r["villages"] == CKM for r in recs), f"{k}: Chooralmala/Kalladi/Mundakai enclave missing")
     check(len(states["today|V0"]) == 14, "today V0 should list the 14 atlas enclaves")
+    # The variants run through the same pipeline as the atlas (spur-snap fix, audited facilities), so the
+    # today/V0 variant must reproduce the atlas exactly; this ties the V1/V2 states to the same basis.
+    sig = lambda e: (tuple(e["villages"]), e["nodes"], e["n_cuts"], e["flag"], e.get("population_attributed", e.get("population")))
+    check(sorted(map(sig, fv[("now", "V0")]["iv_enclaves"])) == sorted(map(sig, states["today|V0"])),
+          "f_variants now_V0 does not reproduce data/enclave_atlas.json")
 
     # ---- Kalladi 2026 event: SH59 Level-1 corridor blocked (today snapshot, per road definition)
     kalladi = {}
@@ -259,7 +264,7 @@ def main():
         return {"text": text, "url": url, "who": who, "date": date, "file": path}
     events = [
         {"date": "30 Jul 2024", "title": "Landslides at Mundakkai and Chooralmala", "relation": "The area this corridor serves was cut off; the failed bridge lies beyond the corridor, up the valley.",
-         "quotes": [quote("research/bridge_investigation.md", "Collapse of bridge over Punapuzha, which is the only connective way of Mund akkai to Chooramala and other parts of Wayanad, isolated Mundakkai", "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf", "Geological Survey of India, First Information Report", "30.07.2024"),
+         "quotes": [quote("research/bridge_investigation.md", "Collapse of bridge over Punapuzha, which is the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad, isolated Mundakkai", "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf", "Geological Survey of India, First Information Report", "30.07.2024"),
                     quote("research/bridge_investigation.md", "washed away the bridge near Chooralmala (11.4992° N, 76.1601° E), severing the critical connection between Chooralmala and Mundakkai", "https://www.nature.com/articles/s41598-025-07828-3", "Ramesh et al., Scientific Reports 15", "2025"),
                     quote("research/kalladi_2026_check.md", "As per reports, the rescue team can transport the rescue vehicles, cutters, food and water to Mundakkai only after the completion of the bridge.", "http://web.archive.org/web/20260421013527/https://ddnews.gov.in/en/wayanad-tragedy-army-erecting-temporary-bailey-bridge-in-chooralmala-toll-risen-to-167/", "DD News (archived copy)", "1 Aug 2024")]},
         {"date": "7 Jul 2026", "title": "Landslide at Kalladi, near the Meenakshi Bridge", "relation": "Inside this corridor: the Meenakshi Bridge (OSM way 380928376) is on the SH59 Level 1 stretch.",

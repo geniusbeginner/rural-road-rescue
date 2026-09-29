@@ -92,11 +92,13 @@ Whether the bridge that failed in July 2024 counts as a single weak point **depe
 
 | Snapshot | Var | Enclaves | Real / suspect | Appear | Vanish | Changed size |
 |---|---|---|---|---|---|---|
-| 2024 | V0 | 18 | 18 / 0 | – | – | – |
-| 2024 | V1, V2 | 18 | 17 / 1 | **Bavali** (1,086 nodes, suspect, pop 0) | **Melmury** (V0: 37 nodes) | C+K+M 4,013→2,428; C+M 3,548→1,990; Mundakai 414→763; Choyimoola 9→145 |
-| 2026 | V0 | 17 | 17 / 0 | – | – | – |
-| 2026 | V1 | 17 | 16 / 1 | **Bavali** (1,171 nodes, suspect, pop 0) | **Melmury** | C+K+M 4,536→2,185; C+M 3,894→1,815; Mundakai 752→832; Choyimoola 9→145; Churuli 46→81 |
-| 2026 | V2 | 17 | 16 / 1 | Bavali (1,171, suspect) | Melmury | C+K+M →2,174; C+M →1,804; Mundakai →821; Choyimoola 9→145; Churuli 46→81 |
+| 2024 | V0 | 15 | 15 / 0 | – | – | – |
+| 2024 | V1, V2 | 15 | 14 / 1 | **Bavali** (1,086 nodes, suspect, pop 0) | **Melmury** (V0: 37 nodes) | C+K+M 4,013→2,428; C+M 3,548→1,990; Mundakai 414→763; Choyimoola 9→145 |
+| 2026 | V0 | 14 | 14 / 0 | – | – | – |
+| 2026 | V1 | 14 | 13 / 1 | **Bavali** (1,171 nodes, suspect, pop 0) | **Melmury** | C+K+M 4,536→2,185; C+M 3,894→1,815; Mundakai 752→832; Choyimoola 9→145; Churuli 46→81 |
+| 2026 | V2 | 14 | 13 / 1 | Bavali (1,171, suspect) | Melmury | C+K+M →2,174; C+M →1,804; Mundakai →821; Choyimoola 9→145; Churuli 46→81 |
+
+*Re-run 2026-09-30 through the current pipeline (spur-snap fix, audited facility list), `scripts/investigation/f_variants.py`. The only change from the first run is that the three one-node spur-snap artifacts (Chundale, Meenangadi, Sultan Bathery) are gone in all six variants: 18→15 enclaves in 2024 and 17→14 in 2026. Every other enclave, and results (i)–(iii) and (v), are identical. The 2026 V0 run reproduces `data/enclave_atlas.json` exactly; the frontend build checks this.*
 
 - **Bavali's** outermost cut is edge 5575532300–5870322302 (way 583156293, primary, 17.8 m, at 11.8547, 76.1162). It's flagged suspect by the boundary rule; Bavali is also one of the boundary artifacts removed in the earlier buffer step.
 - **Melmury vanishes** because its snap moves off the track spur it sat on.
@@ -140,7 +142,7 @@ Whether the bridge that failed in July 2024 counts as a single weak point **depe
 **Another motorable route in July 2024?**
 - **No source found reporting that rescue or supply vehicles used another motorable route.**
 - The sources found describe the bridge as the only connection:
-  - GSI: "the only connective way of Mund akkai to Chooramala and other parts of Wayanad"
+  - GSI: "the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad"
   - The News Minute: "it was the only road connecting Mundakkai and Chooralmala"
   - Al Jazeera: "The bridge was the lifeline of the three villages"
 - Access before the Bailey bridge was by ropes and a temporary bridge:

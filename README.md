@@ -4,7 +4,7 @@ Which single road segments, if cut, leave villages with no road route to any hea
 
 The headline result: the SH59 (Kalpetta–Meppadi) corridor at Kalladi is the only road connecting Kalladi, Chooralmala and Mundakai (Vellarimala revenue village, population 7,548 in Census 2011) to any health facility. This holds in a 2024-07-29 and a 2026-09-16 snapshot of the network, and under three definitions of which roads count. The area this corridor serves was cut off in the 30 July 2024 landslides, and the corridor itself was blocked by a landslide on 7 July 2026. The analysis does **not** identify the specific bridge that failed in 2024; see the limitations below.
 
-The interactive demo is `rural-road-map-v1.html` (a single self-contained page; open it in a browser).
+The interactive site is `rural-road-rescue.html` (a single self-contained page; open it in a browser). It covers the map with a timeline and road-definition toggle, the full enclave atlas, how the result was validated, the errors we found and fixed, and the RA2CE comparison. The earlier demo, `rural-road-map-v1.html`, is kept unchanged.
 
 ## Pipeline
 
@@ -22,7 +22,7 @@ The interactive demo is `rural-road-map-v1.html` (a single self-contained page; 
 
 The health-facility list (`data/health_facilities_final.json`, 34 facilities) comes from `facility_curation.py`. That script documents the selection rule, and every manual decision with its reason and source (Kerala eHealth institution list, Wayanad district site, OSM landmark checks). One facility's public/private status is unverified.
 
-The investigation scripts in `scripts/investigation/` (pre-event snapshot, road-definition variants, lifecycle tags) are research tools. They read from `data/` and write only to `research/`.
+The investigation scripts in `scripts/investigation/` (pre-event snapshot, road-definition variants, lifecycle tags) are research tools. They read from `data/` and write only to `research/`. `scripts/ra2ce_crosscheck/` reruns the SH59 result in Deltares' RA2CE 1.2.2 (run in a separate environment; see `research/ra2ce_crosscheck.md`).
 
 ## Reproducing the results
 
@@ -53,7 +53,21 @@ python frontend/build_frontend.py   # rebuilds rural-road-rescue.html from the c
 python frontend/test_frontend.py    # click-through test, desktop + phone; screenshots to frontend/test_shots/ (gitignored)
 ```
 
-The build needs files that are not committed: `data/graph_buf10km.pkl` (from `build_buffered_graph.py`) and the road-definition extracts `research/investigation/raw/f_{pre,now}_V{0,1,2}.json`. `scripts/investigation/f_variants.py` writes those extracts; the pre-event ones come from the 2024-07-29 extract written by `c_pre_event_extract.py`. The test needs `playwright` and uses system Chrome, `$CHROME_PATH`, or Playwright's Chromium. It exits 1 if it finds any problem: layout overlap or overflow, blocked taps, unfilled narration, text below 4.5:1 contrast on its rendered background, a slow load fade, or console errors.
+The build needs files that are not committed: `data/graph_buf10km.pkl` (from `build_buffered_graph.py`) and the road-definition extracts `research/investigation/raw/f_{pre,now}_V{0,1,2}.json`. To regenerate those extracts (about 6 minutes in total), after the pipeline above:
+
+```
+python scripts/investigation/c_pre_event_extract.py   # downloads the 2024-07-29 OSM extract from Overpass (network needed);
+                                                      # compare its hash with research/investigation/pre_event_manifest.json
+python scripts/investigation/f_variants.py pre V0     # run V0 before V1/V2 for each snapshot: V1/V2 compare against it
+python scripts/investigation/f_variants.py pre V1
+python scripts/investigation/f_variants.py pre V2
+python scripts/investigation/f_variants.py now V0
+python scripts/investigation/f_variants.py now V1
+python scripts/investigation/f_variants.py now V2
+python scripts/investigation/f_summarize.py
+```
+
+The build also reads earlier values from git history (`git show` at the commits cited on the page), so it needs a full clone, not a shallow one. The test needs `playwright` and uses system Chrome, `$CHROME_PATH`, or Playwright's Chromium. It exits 1 if it finds any problem: layout overlap or overflow, blocked taps, unfilled narration, text below 4.5:1 contrast on its rendered background, a slow load fade, or console errors.
 
 ## Data sources and licences
 
@@ -77,6 +91,7 @@ Some exploration-only files are ignored and were removed from the git history to
 - `bridge_investigation.md`: why the 2024 failed bridge is not a single-link cut (a two-crossing cut)
 - `followup_validation.md`: sensitivity to road definitions, which bridges failed, lifecycle tags
 - `kalladi_2026_check.md`: the 7 July 2026 Kalladi landslide on the SH59 corridor
+- `ra2ce_crosscheck.md`: the SH59 result rerun in RA2CE 1.2.2, and the three ways RA2CE's method differs (with source line links)
 - `landslide_location_check.md`, `backtest_candidates.md`, `data_sources.md`, `geosadak_layers.md`, `study_2023.md`
 
 ## Known limitations

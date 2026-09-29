@@ -11,7 +11,8 @@ Checked 2026-09-28. Excerpts are verbatim from raw page or PDF text, except the 
 - "The total run-out distance was measured to be more than 6 km along the Punnapuzha River flowing from SW to NE."
 
 **S-B. Geological Survey of India, First Information Report (prepared 30.07.2024).** https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf
-- "Collapse of bridge over Punapuzha, which is the only connective way of Mund akkai to Chooramala and other parts of Wayanad, isolated Mundakkai and thus arised difficulties in rescue operations in this area."
+- "Collapse of bridge over Punapuzha, which is the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad, isolated Mundakkai and thus arised difficulties in rescue operations in this area."
+  - Spelling checked against the PDF's content stream (2026-09-30, SHA-256 a7e5fe6f…5b14): the source reads "Mundakkai" (the earlier "Mund akkai" was a text-extraction artifact: two text runs 0.23 pt apart, not a space) and "Chooramala", a typo in the source, marked [sic].
 - "33 Communication : Roads, bridges and transmission lines damaged. Bridge connecting Mundakkai to Chooralmala washed away."
 - Landslide record: "6 NH/SH/Locality : Mundakkai-Chooralmala-Meppadi road", "7 Latitude : 11027'46"", "8 Longitude : 76008'03"". The degree sign was extracted as "0", so I read these as **11°27'46" N, 76°08'03" E** (my reading). These are the **landslide** record's coordinates, not the bridge's.
 
@@ -30,7 +31,7 @@ Checked 2026-09-28. Excerpts are verbatim from raw page or PDF text, except the 
 **S-F. Deccan Herald (replacement bridge).** https://www.deccanherald.com/india/kerala/rs-35-cr-project-approved-for-new-bridge-at-landslide-hit-chooralmala-3412226
 - "The bridge will be rebuilt with enhanced security features from Chooralmala town to Mundakkai road".
 
-**Alternate road access at the time:** no source I found says there was one. Two sources say explicitly that there wasn't: S-B ("the only connective way of Mundakkai to Chooramala and other parts of Wayanad") and S-D ("the only road connecting Mundakkai and Chooralmala"). S-A says "cutting the only transport route for all the settlements towards the town". I didn't find a source describing any alternative, so the existence of one is **COULD NOT VERIFY**, and the three sources above all say there was none.
+**Alternate road access at the time:** no source I found says there was one. Two sources say explicitly that there wasn't: S-B ("the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad") and S-D ("the only road connecting Mundakkai and Chooralmala"). S-A says "cutting the only transport route for all the settlements towards the town". I didn't find a source describing any alternative, so the existence of one is **COULD NOT VERIFY**, and the three sources above all say there was none.
 
 **Couldn't open:** newsonair.gov.in (connection closed by the remote end); PMC (reCAPTCHA); the Springer *Landslides* paper "Decoding the dynamics of July 2024 Mundakkai-Chooralmala landslide" (not attempted, because Springer redirects to a login elsewhere).
 

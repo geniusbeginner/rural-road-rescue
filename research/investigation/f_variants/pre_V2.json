@@ -57,8 +57,8 @@
     5
    ],
    "Sultan Bathery@11.6631885,76.259553": [
-    5882978585,
-    35
+    3251533862,
+    64
    ],
    "Vaduvanchal@11.5548347,76.2226984": [
     5870600698,
@@ -133,8 +133,8 @@
     17
    ],
    "Meenangadi@11.6594656,76.1668396": [
-    7057388400,
-    53
+    2004811052,
+    66
    ],
    "Eachome@11.6953539,76.0428388": [
     10288032026,
@@ -393,8 +393,8 @@
     77
    ],
    "Chundale@11.5740364,76.0591416": [
-    12070867707,
-    36
+    842388206,
+    60
    ],
    "Nedumkarana@11.5454831,76.17896": [
     5870268835,
@@ -610,13 +610,17 @@
     5870049317,
     14
    ],
+   "Community Health Center Pulpally@11.7942969,76.1651668": [
+    7521515339,
+    43
+   ],
    "Community Health Centre Panamaram@11.7384608,76.0702992": [
     11299153142,
     37
    ],
-   "Community Health Centre Peria@11.8356598,75.8564181": [
-    1998717380,
-    19
+   "Community Health Centre Peria@11.8410438,75.8844915": [
+    5869892690,
+    24
    ],
    "Community Health Centre Porunnanore@11.7510286,76.0048247": [
     2000116964,
@@ -626,17 +630,13 @@
     5870363123,
     81
    ],
-   "Community Health Centre, Meppady@11.6202435,76.2099125": [
-    3903467563,
-    25
-   ],
-   "Community Health Centre, Pulpally@11.782553,76.1622556": [
-    7514649013,
-    54
-   ],
    "District Hospital Mananthavady@11.8003707,76.0012011": [
     2625625949,
     38
+   ],
+   "Family Health  Centre Pozhuthana@11.5875559,76.0217248": [
+    8000297498,
+    62
    ],
    "Family Health Center Chethalayam@11.7481484,76.237039": [
     5869995755,
@@ -646,13 +646,17 @@
     7526598461,
     30
    ],
-   "Family Health Center, Varadhoor@11.6995842,76.1057776": [
-    5870378312,
-    15
-   ],
    "Family Health Center, Vengapally@11.6493678,76.0402035": [
     8000329368,
     12
+   ],
+   "Family Health centre  Edavaka@11.7764224,75.9764867": [
+    5880213898,
+    23
+   ],
+   "Family Health Centre Ambalavayal@11.6202435,76.2099125": [
+    3903467563,
+    25
    ],
    "Family Health Centre Appapara@11.9077131,76.032476": [
     5870276968,
@@ -662,13 +666,13 @@
     8000053269,
     36
    ],
-   "Family Health Centre Noolpuzha@11.6618891,76.3284577": [
-    5292868805,
-    18
+   "Family Health Centre Vellamunda@11.7347107,75.9353061": [
+    5234341223,
+    19
    ],
-   "Family Health centre  Edavaka@11.7764224,75.9764867": [
-    5880213898,
-    23
+   "Government General Hospital@11.633806,76.089468": [
+    290209489,
+    46
    ],
    "Govt. Taluk Head Quarters Hospital, Sulthan Bathery@11.658439,76.2635843": [
     4770518313,
@@ -677,6 +681,10 @@
    "Noolpuzha Family Health Centre@11.6672489,76.3183017": [
     5588185383,
     25
+   ],
+   "Primary Health Center Mullankolly@11.8465258,76.1795472": [
+    4618546924,
+    17
    ],
    "Primary Health Center Pakkom@11.8041975,76.0941921": [
     5883019546,
@@ -702,10 +710,6 @@
     306423616,
     13
    ],
-   "Primary Health Centre Mullankolly@11.8205132,76.1653784": [
-    5870645499,
-    19
-   ],
    "Primary Health Centre Sugandhagiri@11.5506596,76.0029387": [
     8157241398,
     45
@@ -717,10 +721,6 @@
    "Primary Health Centre Vazhavatta@11.6213793,76.1581686": [
     2019274187,
     91
-   ],
-   "Primary Health Centre Vellamunda@11.7049126,75.9559317": [
-    2642614933,
-    37
    ],
    "Primary Health Centre, Kappukunnu@11.6751631,75.9733868": [
     8000047292,
@@ -1321,85 +1321,6 @@
    "population_attributed": 0,
    "partial_unattributed": [
     "Muppainad"
-   ]
-  },
-  {
-   "villages": [
-    "Chundale"
-   ],
-   "nodes": 1,
-   "n_cuts": 1,
-   "flag": "real",
-   "outermost_edge": {
-    "u": 3129716941,
-    "v": 12070867707,
-    "way_id": 1303385757,
-    "highway": "unclassified",
-    "length_m": 101.9,
-    "u_latlon": [
-     11.573484,
-     76.0595363
-    ],
-    "v_latlon": [
-     11.574059,
-     76.0588078
-    ]
-   },
-   "population_attributed": 0,
-   "partial_unattributed": [
-    "Chundale"
-   ]
-  },
-  {
-   "villages": [
-    "Sultan Bathery"
-   ],
-   "nodes": 1,
-   "n_cuts": 1,
-   "flag": "real",
-   "outermost_edge": {
-    "u": 5882978584,
-    "v": 5882978585,
-    "way_id": 622901612,
-    "highway": "residential",
-    "length_m": 33.9,
-    "u_latlon": [
-     11.6626156,
-     76.2596714
-    ],
-    "v_latlon": [
-     11.6629163,
-     76.2597207
-    ]
-   },
-   "population_attributed": 23333.0,
-   "partial_unattributed": []
-  },
-  {
-   "villages": [
-    "Meenangadi"
-   ],
-   "nodes": 1,
-   "n_cuts": 1,
-   "flag": "real",
-   "outermost_edge": {
-    "u": 7057388399,
-    "v": 7057388400,
-    "way_id": 755560629,
-    "highway": "unclassified",
-    "length_m": 43.5,
-    "u_latlon": [
-     11.6599114,
-     76.1674507
-    ],
-    "v_latlon": [
-     11.6595402,
-     76.1673244
-    ]
-   },
-   "population_attributed": 0,
-   "partial_unattributed": [
-    "Purakkadi"
    ]
   }
  ],

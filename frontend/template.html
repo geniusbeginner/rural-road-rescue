@@ -406,9 +406,7 @@ function controls(){
     <span class="dot" aria-hidden="true"></span><span class="dt">${t.date}</span><span class="lb">${t.label}</span>
     ${t.real ? "" : '<span class="rtag">reconstructed scenario, not an independent snapshot</span>'}</button>`).join("");
   $("#roaddef").innerHTML = Object.entries(DEFS).map(([k, d]) => `<button type="button" data-d="${k}" aria-pressed="${S.def === k}" ${S.time === "aftermath" && k !== "V0" ? "disabled" : ""}><b>${k}</b><span>${d.short}</span></button>`).join("");
-  $("#rdnote").textContent = S.time === "aftermath" ? "The reconstruction was computed on V0 (all roads) only."
-    : (S.time === "today" && S.def !== "V0") ? "V1/V2 were computed before the spur-snap fix and facility audit; V0 is the current atlas."
-    : "";
+  $("#rdnote").textContent = S.time === "aftermath" ? "The reconstruction was computed on V0 (all roads) only." : "";
   document.querySelectorAll(".tstop").forEach(b => b.onclick = () => { S.time = b.dataset.t; if (S.time === "aftermath") S.def = "V0"; if (!enclaves().some(e => e.key === S.sel)) S.sel = CKM; render(true); });
   document.querySelectorAll("#roaddef button").forEach(b => b.onclick = () => { if (b.disabled) return; S.def = b.dataset.d; if (!enclaves().some(e => e.key === S.sel)) S.sel = CKM; render(true); });
 }

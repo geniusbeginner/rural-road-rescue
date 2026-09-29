@@ -116,7 +116,8 @@ Output: `b_edit_history.txt`, `b_edit_history.json`, `b2_destroyed_tags.txt` (OS
 No bridge way near the site was created after 2024-07-29. **Changes after the event are tag and node edits only**, apart from way 1347557913, which isn't a bridge.
 
 **Bridges reported damaged or built, July–August 2024**
-- **GSI FIR (30.07.2024)**, https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf: "Collapse of bridge over Punapuzha, which is the only connective way of Mund akkai to Chooramala and other parts of Wayanad, isolated Mundakkai". Also: "Bridge connecting Mundakkai to Chooralmala washed away."
+- **GSI FIR (30.07.2024)**, https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf: "Collapse of bridge over Punapuzha, which is the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad, isolated Mundakkai". Also: "Bridge connecting Mundakkai to Chooralmala washed away."
+  - Spelling checked against the PDF's content stream (2026-09-30, SHA-256 a7e5fe6f…5b14): the source reads "Mundakkai" (the earlier "Mund akkai" was a text-extraction artifact: two text runs 0.23 pt apart, not a space) and "Chooramala", a typo in the source, marked [sic].
 - **Onmanorama, 2024-07-30**, https://www.onmanorama.com/news/kerala/2024/07/30/wayanad-landslide-houses-town-chooralmala-washed-away-live.html: "The rescue mission is yet to reach Mundakkai as the bridge connecting the two villages has been destroyed completely."
 - **DD News, 2024-08-01**, https://ddnews.gov.in/en/wayanad-tragedy-army-erecting-temporary-bailey-bridge-in-chooralmala-toll-risen-to-167/: "the Madras Engineer Group (MEG), an engineering unit of the Indian Army that began work on erecting a temporary Bailey Bridge in landslide affected Chooralmala". *Extracted through WebFetch's summariser because a direct fetch was reset by the server, so treat it as less certain than raw-text excerpts.*
 - **Onmanorama, 2024-08-01**, https://www.onmanorama.com/news/kerala/2024/08/01/wayanad-landslide-army-constructs-bailey-bridge-in-chooralmala.html: "The prefabricated truss bridge is built in the same place where a 100-ft long concrete bridge was blown to smithereens". Also: "Around 3 am on Thursday, the army men started work on another 100-ft footbridge parallel to the Bailey Bridge."
@@ -129,7 +130,7 @@ No bridge way near the site was created after 2024-07-29. **Changes after the ev
 - **Coordinates:** "The flash floods caused by the cascading hazards washed away the bridge near Chooralmala (11.4992° N, 76.1601° E), severing the critical connection between Chooralmala and Mundakkai".
 - **Two bridges: confirmed.** "Two key bridges that connected this area to Meppadi town were washed away by debris, thereby cutting the only transport route for all the settlements towards the town." The paper doesn't name the two bridges. Its "only transport route" refers to "all the settlements towards the town", not specifically to Chooralmala–Mundakkai.
 - **"Only route" for Chooralmala–Mundakkai specifically:**
-  - GSI FIR: "the only connective way of Mund akkai to Chooramala" (URL above).
+  - GSI FIR: "the only connective way of Mundakkai to Chooramala [sic]" (URL above).
   - The News Minute, https://www.thenewsminute.com/kerala/wayanad-landslides-all-you-need-to-know-about-how-the-bailey-bridge-was-built, quoting Maj. Seeta Ashok Shelke: "it was the only road connecting Mundakkai and Chooralmala".
 
 ## C. Pre-event snapshot (OSM as of 2024-07-29)

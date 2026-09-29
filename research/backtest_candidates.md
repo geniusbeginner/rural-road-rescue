@@ -15,7 +15,7 @@ Checked 2026-09-28. Excerpts are verbatim from raw page or PDF text. A source ma
 ## 1. Mundakkai–Chooralmala, Wayanad, 30 July 2024 (inside our study district)
 - **Reported isolated:** Mundakkai; also Attamala and Noolpuzha (connectivity disrupted).
 - **Excerpts:**
-  - GSI FIR (https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf): "Collapse of bridge over Punapuzha, which is the only connective way of Mund akkai to Chooramala and other parts of Wayanad, isolated Mundakkai".
+  - GSI FIR (https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf): "Collapse of bridge over Punapuzha, which is the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad, isolated Mundakkai".
   - Scientific Reports 2025 (https://www.nature.com/articles/s41598-025-07828-3): "washed away the bridge near Chooralmala (11.4992° N, 76.1601° E), severing the critical connection between Chooralmala and Mundakkai"; "indirectly affected the villages of Attamala and Noolpuzha, disrupting their connectivity with the rest of the district".
 - **Full detail:** see `landslide_location_check.md`.
 
