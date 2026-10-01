@@ -73,7 +73,7 @@ The build also reads earlier values from git history (`git show` at the commits 
 
 - OpenStreetMap roads, places, health POIs and boundary, via Overpass (ODbL). © OpenStreetMap contributors.
 - Census of India 2011, District Census Handbook Part XII-B, Wayanad (revenue-village populations).
-- Revenue-village boundaries: `data/village_boundaries/village.shp`. **Source and licence not recorded.**
+- Revenue-village boundaries: `data/village_boundaries/village.shp` is DataMeet's Indian Village Boundaries, Kerala layer (https://github.com/datameet/indian_village_boundaries, file `kl/kl.geojson`, last changed in upstream commit `904948290b60`, 2016-09-20), converted to shapefile. Licence: **Open Database License (ODbL) 1.0**, © DataMeet community contributors. The download wasn't recorded at the time. The source was identified on 2026-10-01 by comparison: all 1,533 features match the upstream file row for row, with identical attributes and geometry (maximum vertex difference 0). Under the ODbL, the derived `data/village_boundaries/wayanad_villages_pop.geojson` and `data/village_crosswalk.csv` are also ODbL, and anything published from them must credit DataMeet. Village codes are from Census 2001 (`CEN_2001`); 8 codes appear twice in the upstream data.
 - PMGSY GeoSadak data (Government Open Data License – India) was used for exploration only, and is not needed to run the pipeline.
 
 ### Files not in this repository
