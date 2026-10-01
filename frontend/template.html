@@ -338,7 +338,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section class="band" id="ra2ce"><div class="wrap">
   <div class="eyebrow">Independent cross-check</div>
   <h2 class="section">Compared with RA2CE, an existing open-source tool</h2>
-  <p class="lede">RA2CE (Deltares) is the closest existing tool. We ran it on the same network and the same villages and facilities.</p>
+  <p class="lede">RA2CE (Deltares) is the closest open-source tool we evaluated. We ran it on the same network and the same villages and facilities.</p>
   <div class="cmp" id="cmp"></div>
   <ol class="diffs" id="diffs"></ol>
   <div class="precise" id="precise"></div>
@@ -365,7 +365,7 @@ const TIMES = [
   {id:"pre", date:"2024-07-29", label:"Pre-event network", real:true},
   {id:"aftermath", date:"Jul–Aug 2024", label:"Disaster aftermath", real:false},
   {id:"kalladi", date:"2026-07-07", label:"Kalladi landslide", real:true},
-  {id:"today", date:"Today", label:"Snapshot 2026-09-16", real:true},
+  {id:"today", date:"2026-09-16", label:"Current snapshot", real:true},
 ];
 const DEFS = {V0:{short:"All roads", long:"all roads"}, V1:{short:"No tracks", long:"no unpaved tracks"}, V2:{short:"No tracks, no destroyed", long:"no tracks and no roads tagged destroyed/disused/abandoned"}};
 const S = {time:"today", def:"V0", sel:CKM, sort:"nodes"};
@@ -398,7 +398,7 @@ function hero(){
     [fmt(e.population), `people in the ${esc(Object.keys(e.full).join(", "))} revenue village (Census 2011)`],
     [e.villages.length, `villages cut off by any one of ${fmt(e.n_cuts)} corridor links`],
     [1, `road corridor (SH59, OSM way ${e.cut.way_id})`],
-    [DATA.events.length, "real landslide events consistent with the finding"],
+    [DATA.events.filter(ev => ev.corridor_blocked).length, `landslide blocked this corridor itself (Kalladi, 7 Jul 2026). In 2024 the area it serves was cut off, but the failed bridge was “${esc(DATA.bridge_2024.cut)}” (bridge investigation); whether it counts as a single weak point “${esc(DATA.bridge_2024.definition)}” (follow-up validation).`],
   ];
   $("#stats").innerHTML = st.map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
 }

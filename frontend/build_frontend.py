@@ -263,14 +263,21 @@ def main():
         check(url in body, f"url not found in {path}: {url}")
         return {"text": text, "url": url, "who": who, "date": date, "file": path}
     events = [
-        {"date": "30 Jul 2024", "title": "Landslides at Mundakkai and Chooralmala", "relation": "The area this corridor serves was cut off; the failed bridge lies beyond the corridor, up the valley.",
+        {"date": "30 Jul 2024", "corridor_blocked": False, "title": "Landslides at Mundakkai and Chooralmala", "relation": "The area this corridor serves was cut off; the failed bridge lies beyond the corridor, up the valley.",
          "quotes": [quote("research/bridge_investigation.md", "Collapse of bridge over Punapuzha, which is the only connective way of Mundakkai to Chooramala [sic] and other parts of Wayanad, isolated Mundakkai", "https://bhusanket.gsi.gov.in/Public_Portal_News_pdf/FIR_Mundakkai-Chooralmala.cleaned.pdf", "Geological Survey of India, First Information Report", "30.07.2024"),
                     quote("research/bridge_investigation.md", "washed away the bridge near Chooralmala (11.4992° N, 76.1601° E), severing the critical connection between Chooralmala and Mundakkai", "https://www.nature.com/articles/s41598-025-07828-3", "Ramesh et al., Scientific Reports 15", "2025"),
                     quote("research/kalladi_2026_check.md", "As per reports, the rescue team can transport the rescue vehicles, cutters, food and water to Mundakkai only after the completion of the bridge.", "http://web.archive.org/web/20260421013527/https://ddnews.gov.in/en/wayanad-tragedy-army-erecting-temporary-bailey-bridge-in-chooralmala-toll-risen-to-167/", "DD News (archived copy)", "1 Aug 2024")]},
-        {"date": "7 Jul 2026", "title": "Landslide at Kalladi, near the Meenakshi Bridge", "relation": "Inside this corridor: the Meenakshi Bridge (OSM way 380928376) is on the SH59 Level 1 stretch.",
+        {"date": "7 Jul 2026", "corridor_blocked": True, "title": "Landslide at Kalladi, near the Meenakshi Bridge", "relation": "Inside this corridor: the Meenakshi Bridge (OSM way 380928376) is on the SH59 Level 1 stretch.",
          "quotes": [quote("research/kalladi_2026_check.md", "According to the district administration, 18 people were caught in the landslide near the Meenakshi Bridge at the Kalladi-Anakkampoyil tunnel construction site, completely disrupting traffic on the Meppadi-Chooralmala road.", "https://aninews.in/news/national/general-news/keralam-three-killed-seven-missing-after-landslide-at-kalladi-tunnel-construction20260707175128/", "ANI", "7 Jul 2026"),
                     quote("research/kalladi_2026_check.md", "Road traffic in the area has been completely disrupted.", "https://www.etvbharat.com/en/state/landslide-hits-wayanad-tunnel-project-site-in-kerala-several-trapped-rescue-operation-underway-enn26070702157", "ETV Bharat", "7 Jul 2026")]},
     ]
+
+    # ---- 2024 bridge relation for the hero stat: verbatim from the research files' own conclusions
+    def verbatim(path, text):
+        check(text in open(ROOT / path, encoding="utf-8").read(), f"phrase not found verbatim in {path}: {text}")
+        return text
+    bridge_2024 = {"cut": verbatim("research/bridge_investigation.md", "a 2-link cut, which a single-link bridge search can't flag by design"),
+                   "definition": verbatim("research/followup_validation.md", "depends on whether unpaved tracks count as roads")}
 
     # ---- RA2CE comparison
     ra_sum, ra_len, ra_slr = load("research/ra2ce/sh59_summary.json"), load("research/ra2ce/sh59_length_comparison.json"), load("research/ra2ce/slr_summary.json")
@@ -362,7 +369,7 @@ def main():
     head = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
     data = {"states": states, "kalladi": kalladi, "aftermath": aftermath, "bailey": bailey, "geoms": geoms.store,
             "context": context, "boundary": boundary, "villages": villages, "facilities": facilities, "markers": markers,
-            "matrix": matrix, "events": events, "ra2ce": ra2ce, "ledger": ledger, "caveats": caveats, "sources": sources,
+            "matrix": matrix, "events": events, "bridge_2024": bridge_2024, "ra2ce": ra2ce, "ledger": ledger, "caveats": caveats, "sources": sources,
             "population_source": demo["primary_finding"]["population_source"],
             "build": {"commit": head, "date": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "assertions": "passed"}}
 

@@ -1,0 +1,17 @@
+# Versions from `pip freeze` of the Python 3.13.2 environment that produced the committed results
+# (pipeline, investigation variants and frontend build re-run 2026-09-30 with these versions).
+# RA2CE (scripts/ra2ce_crosscheck/) runs in its own environment; see research/ra2ce_crosscheck.md.
+
+# Imported directly by scripts/ and frontend/
+geopandas==1.1.4
+networkx==3.6.1
+numpy==2.5.2
+requests==2.34.2
+scipy==1.18.1
+shapely==2.1.2
+playwright==1.62.0          # frontend/test_frontend.py only
+
+# Installed with geopandas; pinned because they affect results (CRS transforms, file reading)
+pandas==3.0.5
+pyogrio==0.13.0
+pyproj==3.8.0
