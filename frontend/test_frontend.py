@@ -7,6 +7,7 @@ and console errors. Writes screenshots (core states, every section, full page) t
 
 Usage (from the repo root, after `python frontend/build_frontend.py`):
     python frontend/test_frontend.py [output_dir]      # default output: frontend/test_shots/ (gitignored)
+    FRONTEND_URL=https://... python frontend/test_frontend.py   # same checks against a deployed copy
 Requires `pip install playwright`. Uses system Chrome if found (or $CHROME_PATH), else Playwright's own Chromium
 (`python -m playwright install chromium`). Exit code is 1 if any problem was found.
 """
@@ -15,7 +16,7 @@ from playwright.sync_api import sync_playwright
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-HTML = (ROOT / "rural-road-rescue.html").as_uri()
+HTML = os.environ.get("FRONTEND_URL") or (ROOT / "rural-road-rescue.html").as_uri()  # FRONTEND_URL: test a deployed copy
 OUT = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "frontend" / "test_shots"
 OUT.mkdir(parents=True, exist_ok=True)
 _DEFAULT_CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
