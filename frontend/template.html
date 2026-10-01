@@ -622,7 +622,7 @@ function ra2ce(){
 function cite(){
   $("#caveats").innerHTML = DATA.caveats.map(c => `<li>${c}</li>`).join("");
   $("#sources").innerHTML = DATA.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")
-    + `<li>Census of India 2011, District Census Handbook Part XII-B, Wayanad (revenue-village populations)</li><li>OpenStreetMap contributors (ODbL): roads, places, health POIs, district boundary</li>`;
+    + `<li>Census of India 2011, District Census Handbook Part XII-B, Wayanad (revenue-village populations)</li><li>OpenStreetMap contributors (ODbL): roads, places, health POIs, district boundary</li><li><a href="https://github.com/datameet/indian_village_boundaries" target="_blank" rel="noopener">DataMeet community, Indian Village Boundaries (ODbL 1.0): revenue-village boundaries</a></li>`;
   $("#buildinfo").textContent = `Built ${DATA.build.date} from commit ${DATA.build.commit}. Every number on this page is checked against committed data at build time (assertions: ${DATA.build.assertions}).`;
   $("#templates").textContent = Object.entries(T).map(([k, v]) => `${k}:\n  ${v}`).join("\n\n");
 }
