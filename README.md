@@ -1,4 +1,4 @@
-# Rural Road Rescue — Wayanad case study
+# The Lifeline — Wayanad case study
 
 Which single road segments, if cut, leave villages with no route in our OSM-derived network to any facility in our curated dataset? This project answers that question for Wayanad district, Kerala, from open data, and checks the answer against real landslide events.
 
