@@ -1,8 +1,8 @@
 # Rural Road Rescue — Wayanad case study
 
-Which single road segments, if cut, leave villages with no road route to any health facility? This project answers that question for Wayanad district, Kerala, from open data, and checks the answer against real landslide events.
+Which single road segments, if cut, leave villages with no route in our OSM-derived network to any facility in our curated dataset? This project answers that question for Wayanad district, Kerala, from open data, and checks the answer against real landslide events.
 
-The headline result: the SH59 (Kalpetta–Meppadi) corridor at Kalladi is the only road connecting Kalladi, Chooralmala and Mundakai (Vellarimala revenue village, population 7,548 in Census 2011) to any health facility. This holds in a 2024-07-29 and a 2026-09-16 snapshot of the network, and under three definitions of which roads count. The area this corridor serves was cut off in the 30 July 2024 landslides, and the corridor itself was blocked by a landslide on 7 July 2026. The analysis does **not** identify the specific bridge that failed in 2024; see the limitations below.
+The headline result: removing any of 141 individual road links along the SH59 (Kalpetta–Meppadi) corridor eliminates access from Kalladi, Chooralmala and Mundakai (Vellarimala revenue village, population 7,548 per Census 2011) to every facility in our curated dataset, leaving no route in our OSM-derived network (138 links in the 2024 snapshot). This holds in a 2024-07-29 and a 2026-09-16 snapshot of the network, and under three definitions of which roads count. The area this corridor serves was cut off in the 30 July 2024 landslides, and the corridor itself was blocked by a landslide on 7 July 2026. The analysis does **not** identify the specific bridge that failed in 2024; see the limitations below.
 
 The interactive site is `rural-road-rescue.html` (a single self-contained page; open it in a browser). It covers the map with a timeline and road-definition toggle, the full enclave atlas, how the result was validated, the errors we found and fixed, and the RA2CE comparison. The earlier demo, `rural-road-map-v1.html`, is kept unchanged.
 

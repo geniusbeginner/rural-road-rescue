@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Rural Road Rescue — Wayanad Case Study</title>
-<meta name="description" content="Which single road links, if cut, leave villages with no route to any health facility? A Wayanad case study, checked against two real landslides and an independent tool.">
+<meta name="description" content="Which single road links, if cut, leave villages with no route in our OSM-derived network to any facility in our curated dataset? A Wayanad case study, checked against two real landslides and an independent tool.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -313,7 +313,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
   <div class="atlas-head">
     <div><div class="eyebrow">Enclave atlas</div>
       <h2 class="section">Every place a single cut can isolate</h2>
-      <p class="lede">An enclave is a set of villages that one road link, if cut, leaves with no route to any curated health facility. Select one to see it on the map.</p></div>
+      <p class="lede">An enclave is a set of villages that one road link, if cut, leaves with no route in our OSM-derived network to any facility in our curated dataset. Select one to see it on the map.</p></div>
     <div class="sorts" role="group" aria-label="Sort enclaves" id="sorts"></div>
   </div>
   <div class="atlas-state" id="atlasstate"></div>
@@ -379,21 +379,23 @@ const flagText = f => f === "real" ? "real (no node outside the district, none w
 
 /* ---------- narration templates (shown verbatim on the page) ---------- */
 const T = {
-  enclave: "{time}, {definition}: cutting the {highway} link on OSM way {way_id} leaves {villages} with no road route to any curated health facility. The cut-off area has {nodes} road nodes; {n_cuts} different single links would each cut it off. Population: {population}. Flag: {flag}.",
+  corridor: "{time}, {definition}: removing any of {n_cuts} individual road links along the SH59 Kalpetta–Meppadi corridor eliminates access from {villages} to every facility in our curated dataset, leaving no route in our OSM-derived network to any of them. The cut-off area has {nodes} road nodes. Population, per Census 2011: {population}. Flag: {flag}. Technical footnote: the outermost of these cuts is the {length_m} m {highway} link on OSM way {way_id}.",
+  enclave: "{time}, {definition}: removing {cut_phrase} leaves {villages} with no route in our OSM-derived network to any facility in our curated dataset. The cut-off area has {nodes} road nodes. Population, per Census 2011: {population}. Flag: {flag}. Technical footnote: the outermost cut is the {length_m} m {highway} link on OSM way {way_id}.",
   bridge_cut: "Under this definition the bridge that failed in 2024 is itself a single point of failure, cutting off {villages} ({nodes} road nodes).",
   bridge_nocut: "Under this definition the bridge that failed in 2024 is not a single point of failure: without it the route runs {alt_m} m via an unpaved track crossing ({track_count} track segments{lifecycle}).",
-  kalladi: "7 July 2026: a landslide near the Meenakshi Bridge blocked the SH59 corridor that this analysis identifies as the only road link for {villages}. Under {definition}, that cut isolates {nodes} road nodes and {population} people.",
+  kalladi: "7 July 2026: a landslide near the Meenakshi Bridge blocked the SH59 corridor that this analysis identifies as the only route in our OSM-derived network from {villages} to any facility in our curated dataset. Under {definition}, that cut isolates {nodes} road nodes and {population} people (per Census 2011).",
   aftermath: "Reconstructed scenario, not an independent snapshot: starting from the 2024-07-29 network and removing {removed}, Chooralmala and Mundakai are {connected}.",
 };
 const fill = (t, o) => t.replace(/\{(\w+)\}/g, (_, k) => o[k]);
+const andJoin = a => a.join(", ").replace(/, ([^,]*)$/, " and $1");
 
 /* ---------- hero ---------- */
 function hero(){
   const e = DATA.states["today|V0"].find(x => x.key === CKM);
-  $("#thesis").innerHTML = `One stretch of the SH59 Kalpetta–Meppadi road is the only route connecting ${esc(e.villages.join(", ").replace(/, ([^,]*)$/, " and $1"))} to any health facility. It held under every road definition we tested, and real landslides hit the area it serves in 2024 and the corridor itself in 2026.`;
+  $("#thesis").innerHTML = `Removing any of ${fmt(e.n_cuts)} individual road links along the SH59 Kalpetta–Meppadi corridor eliminates access from ${esc(andJoin(e.villages))} to every facility in our curated dataset: after any one of those cuts there is no route in our OSM-derived network to any of them. It held under every road definition we tested, and real landslides hit the area it serves in 2024 and the corridor itself in 2026.`;
   const st = [
     [fmt(e.population), `people in the ${esc(Object.keys(e.full).join(", "))} revenue village (Census 2011)`],
-    [e.villages.length, "villages cut off by one link"],
+    [e.villages.length, `villages cut off by any one of ${fmt(e.n_cuts)} corridor links`],
     [1, `road corridor (SH59, OSM way ${e.cut.way_id})`],
     [DATA.events.length, "real landslide events consistent with the finding"],
   ];
@@ -476,7 +478,7 @@ function detail(){
     const k = DATA.kalladi[S.def], ev = DATA.events[1];
     el.innerHTML = `<div><span class="chip event">Real event · 7 Jul 2026</span></div><h3>${esc(ev.title)}</h3>
       <div class="kv"><div class="row"><div class="k">Villages cut off by the SH59 cut</div><div class="v small">${esc(k.villages.join(" · "))}</div></div>
-      <div class="row"><div class="k">Population</div><div class="v">${fmt(k.population)}</div><div class="c">${esc(DATA.population_source)}</div></div>
+      <div class="row"><div class="k">Population (Census 2011)</div><div class="v">${fmt(k.population)}</div><div class="c">${esc(DATA.population_source)}</div></div>
       <div class="row"><div class="k">Road nodes cut off (${S.def})</div><div class="v">${fmt(k.nodes)}</div><div class="c">Level 1 cut, ${esc(DEFS[S.def].long)}</div></div>
       <div class="row"><div class="k">What was reported</div><div class="c">“${esc(ev.quotes[0].text)}” — <a href="${esc(ev.quotes[0].url)}" target="_blank" rel="noopener">${esc(ev.quotes[0].who)}</a></div></div></div>
       <div class="src">${esc(k.source)} · research/kalladi_2026_check.md</div>`;
@@ -517,14 +519,15 @@ function narrate(){
   let out = [];
   if (S.time === "kalladi"){
     const k = DATA.kalladi[S.def];
-    out.push(fill(T.kalladi, {villages:k.villages.join(", "), definition:dl, nodes:fmt(k.nodes), population:fmt(k.population)}));
+    out.push(fill(T.kalladi, {villages:andJoin(k.villages), definition:dl, nodes:fmt(k.nodes), population:fmt(k.population)}));
   } else if (S.time === "aftermath"){
     const a = DATA.aftermath;
     out.push(fill(T.aftermath, {removed:a.removed.join(" and "), connected:a.connected ? "still connected" : "disconnected"}));
   } else {
     const e = selected();
-    out.push(fill(T.enclave, {time:`${tl.date} (${tl.label})`, definition:dl, highway:e.cut.highway, way_id:e.cut.way_id, villages:e.villages.join(", "),
-      nodes:fmt(e.nodes), n_cuts:fmt(e.n_cuts), population:popText(e), flag:flagText(e.flag)}));
+    out.push(fill(e.key === CKM ? T.corridor : T.enclave, {time:`${tl.date} (${tl.label})`, definition:dl, highway:e.cut.highway, way_id:e.cut.way_id,
+      length_m:e.cut.length_m.toFixed(1), villages:andJoin(e.villages), nodes:fmt(e.nodes), n_cuts:fmt(e.n_cuts),
+      cut_phrase:e.n_cuts === 1 ? "one specific road link" : `any one of ${fmt(e.n_cuts)} individual road links`, population:popText(e), flag:flagText(e.flag)}));
     if ([CKM, "Chooralmala|Mundakai", "Mundakai"].includes(e.key)){
       const b = DATA.bailey[baileyKey()];
       if (b.is_cut) out.push(fill(T.bridge_cut, {villages:b.villages.join(", "), nodes:fmt(b.nodes)}));
@@ -545,7 +548,7 @@ function atlasGrid(){
   $("#atlasstate").textContent = `${list.length} enclaves · ${t.date} (${t.label}) · ${S.def}, ${DEFS[S.def].long}. Source: ${list[0].source}`;
   $("#tiles").innerHTML = list.map(e => `<button type="button" class="tile ${e.flag}" data-k="${esc(e.key)}" aria-pressed="${e.key === selected().key}">
     <span class="vn">${esc(e.villages.join(" · "))}</span><span class="nn">${fmt(e.nodes)}<small>road nodes</small></span>
-    <span class="pp">${e.population > 0 ? fmt(e.population) + " people" : "population not attributable"} · ${e.flag}</span></button>`).join("");
+    <span class="pp">${e.population > 0 ? fmt(e.population) + " people (Census 2011)" : "population not attributable"} · ${e.flag}</span></button>`).join("");
   document.querySelectorAll(".tile").forEach(b => b.onclick = () => {
     if (S.time === "kalladi" || S.time === "aftermath") S.time = S.time === "aftermath" ? "pre" : "today";
     S.sel = b.dataset.k; render(true); document.getElementById("explore").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
@@ -582,15 +585,15 @@ function ledger(){
   const pd = Object.entries(kp.partial_detail).map(([rv, d]) => `${esc(rv)} not counted: ${d.inside} of its ${d.total} settlements affected`).join("; ");
   $("#ledger").innerHTML =
     row("Thaloor false positive", "Caught by re-extracting roads 10 km past the district line: the “isolated” road simply continues outside Wayanad.",
-      `<span class="lab">Before · commit ${th.before_commit}</span>Distance to boundary <span class="fig">${th.distance_before} m</span><br>Population <span class="fig">${fmt(th.population_before)}</span> (the whole Nenmeni revenue village)`,
+      `<span class="lab">Before · commit ${th.before_commit}</span>Distance to boundary <span class="fig">${th.distance_before} m</span><br>Population <span class="fig">${fmt(th.population_before)}</span> (the whole Nenmeni revenue village, per Census 2011)`,
       `<span class="lab">After · data/demo_data.json</span>Distance to boundary <span class="fig">${th.distance_after} m</span><br>${fmt(th.component)}-node area, most of it outside the district<br>${esc(th.population_after_note)}`,
       "A real displayed value, later corrected.") +
     row("Spur-snap artifacts", "Caught reviewing the enclave atlas: three towns snapped to the tip of a dead-end spur, creating one-node “enclaves”.",
-      `<span class="lab">Before · commit ${sp.before_commit}</span>${esc(sp.villages.join(", "))} each shown as an enclave<br>Sultan Bathery credited with <span class="fig">${fmt(sp.sultan_population)}</span> people (${sp.sultan_nodes} road node)`,
+      `<span class="lab">Before · commit ${sp.before_commit}</span>${esc(sp.villages.join(", "))} each shown as an enclave<br>Sultan Bathery credited with <span class="fig">${fmt(sp.sultan_population)}</span> people (per Census 2011; ${sp.sultan_nodes} road node)`,
       `<span class="lab">After · data/enclave_atlas.json</span>Re-snapped to the nearest road loop; atlas <span class="fig">${sp.atlas_before} → ${sp.atlas_after}</span> enclaves`,
       "A real displayed value, later corrected.") +
     row("Kalpetta–Panamaram population", "Caught applying the revenue-village rule: one village's population was counted although only one of its five settlements was affected.",
-      `<span class="lab">Reconstructed · data/village_crosswalk.csv</span><span class="fig">${fmt(kp.reconstructed)}</span> = ${Object.entries(kp.revenue_villages).map(([rv, p]) => `${esc(rv)} ${fmt(p)}`).join(" + ")}`,
+      `<span class="lab">Reconstructed · data/village_crosswalk.csv</span><span class="fig">${fmt(kp.reconstructed)}</span> (Census 2011) = ${Object.entries(kp.revenue_villages).map(([rv, p]) => `${esc(rv)} ${fmt(p)}`).join(" + ")}`,
       `<span class="lab">After · rule applied</span><span class="fig">${fmt(kp.attributed)}</span> (${esc(kp.full.join(", "))} only; ${pd})<br>A reroute of +${kp.delta_min[0]} to +${kp.delta_min[1]} min, not a disconnection (data/checkpoint5_results.json)`,
       `<div class="recon-note"><b>Reconstructed figure, not a corrected display.</b> ${fmt(kp.reconstructed)} was never a committed value: it came from an earlier working summary, and is rebuilt here for the first time from two committed revenue-village populations. Unlike Thaloor and Sultan Bathery, it is not a previously displayed number being corrected.</div>`) +
     row("Health facility audit", "Caught when the selection rule could not reproduce the curated list; every entry was re-checked against the Kerala eHealth list and OSM landmarks.",
@@ -605,7 +608,7 @@ function ra2ce(){
   $("#cmp").innerHTML = `<div class="col"><div class="eyebrow">Our analysis</div><h3>Direct link removal</h3><dl>
       <dt>Villages losing all access when SH59 is cut</dt><dd>${esc(e.villages.join(", "))}</dd>
       <dt>Route length before the cut</dt><dd class="num">${lens.map(([v, x]) => `${esc(v)} ${fmt(x.ours_len_m)} m`).join("<br>")}</dd>
-      <dt>Finds the corridor without being told</dt><dd>Yes: every single cut is enumerated, and those that isolate villages from all facilities are singled out.</dd></dl></div>
+      <dt>Finds the corridor without being told</dt><dd>Yes: every single cut is enumerated, and those that isolate villages from every facility in our curated dataset are singled out.</dd></dl></div>
     <div class="col"><div class="eyebrow">RA2CE 1.2.2</div><h3>Forced via a 2 m synthetic hazard cell</h3><dl>
       <dt>Origins with no access</dt><dd>${esc(r.no_access.join(", "))} (${r.no_access.length} of 142)</dd>
       <dt>Route length before the cut</dt><dd class="num">${lens.map(([v, x]) => `${esc(v)} ${fmt(x.ra2ce_len_m)} m`).join("<br>")}</dd>
